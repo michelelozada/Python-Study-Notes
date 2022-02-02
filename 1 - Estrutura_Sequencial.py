@@ -14,8 +14,6 @@ print(f'\n> Resultado da conversão de moedas: R$ {quantidadeReal:.2f} (BRL) = �
 
 
 '''
-A saída gerada: 
-
 - Conversor de Real Brasileiro (BRL) para Libra Esterlina (GBP) -
 Qual o valor da cotação da Libra Esterlina em relação ao Real hoje? £ 1.00 = R$ 7.1292
 Qual o valor que você deseja converter para Libras Esterlinas? R$ 100.00

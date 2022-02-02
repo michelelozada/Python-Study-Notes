@@ -4,7 +4,6 @@ Um menu deve oferecer as opções disponíveis para encomenda e qual a quantidad
 A saída deve apresentar o valor total a pagar de tal encomenda.
 '''
 
-
 print('Panificadora Bela Vista - Auto-atendimento')
 print('--------------------------------------------')
 print('\nConfira abaixo nossas opções para hoje:')
@@ -39,9 +38,7 @@ else:
         else:
           print('> Esta opção é inválida.')
 
-  '''
-A saída gerada: 
-
+'''
 Panificadora Bela Vista - Auto-atendimento
 --------------------------------------------
 
@@ -56,4 +53,4 @@ Digite o número da opção escolhida: 3
 Quantas broas deste sabor deseja encomendar? 4
 
 > Você encomendou 4 broa(s) de fubá, sendo que o valor de seu pedido ficou em R$ 26.00
-  '''
+'''

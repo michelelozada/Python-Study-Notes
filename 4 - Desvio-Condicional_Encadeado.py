@@ -18,3 +18,11 @@ elif(tempo>15 and tempo<=60):
     print('> Tempo de permanência na vaga: {} minutos\n> Valor a ser pago: R$ 14,00'.format(tempo))
 else:
     print('> Tempo de permanência na vaga: {} minutos\n> Valor a ser pago: R$ 28,00'.format(tempo))
+
+'''
+Quanto tempo o carro do cliente permaeneceu na vaga (em minutos)? 35
+
+Estacionamento Central Shopping - Ticket de Saída
+> Tempo de permanência na vaga: 35 minutos
+> Valor a ser pago: R$ 14,00
+'''

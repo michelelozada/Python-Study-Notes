@@ -3,6 +3,7 @@ O edital de um exame de proficiência em inglês definiu que, para ser aprovado,
 8.0 em cada uma das quatro provas a serem aplicadas. Sabendo disso, escreva um algoritmo que, depois de ler as notas obtidas,
 informe se esse candidato foi aprovado no exame (ou não).
 '''
+
 print("Por favor, informe abaixo as notas obtidas pelo candidato.")
 p1 = float(input('- Prova de Listening: Nota '))
 p2 = float(input('- Prova de Speaking: Nota '))
@@ -14,3 +15,14 @@ if (p1>=8.0) and (p2>=8.0) and (p3>=8.0) and (p4>=8.0):
   print('O candidato obteve nota igual ou superior a 8.0 em todas as provas e, portanto, foi aprovado no exame de proficiência em inglês.')
 else:
  print('O candidato obteve nota inferior a 8.0 em pelo menos uma das provas e, portanto, não foi aprovado no exame de proficiência em inglês.')
+
+'''
+Por favor, informe abaixo as notas obtidas pelo candidato.
+- Prova de Listening: Nota 8.6
+- Prova de Speaking: Nota 9.0
+- Prova de Reading and Use of English: Nota 7.5
+- Prova de Writing: Nota 9.5
+
+Resultado final:
+O candidato obteve nota inferior a 8.0 em pelo menos uma das provas e, portanto, não foi aprovado no exame de proficiência em inglês.
+'''

@@ -3,6 +3,7 @@
 aluno='Enzo Marques'
 Lista_notas=[6.5,7.5,8,9,7.5,9.5]
 soma=0
+
 for nota in Lista_notas:
     soma = soma + nota
 media = soma/len(Lista_notas)
