@@ -19,7 +19,7 @@ if (l1 > 0) and (l2 > 0) and (l3 > 0):
         elif (l1 == l2) and (l1 == l3):
             print('\n> Este é um triângulo equilátero, pois todos os seus lados são congruentes.')
         else:
-            print('\n> Este é um triângulo isósecles, pois dois de seus lados apresentam a mesma medida.')
+            print('\n> Este é um triângulo isósceles, pois dois de seus lados apresentam a mesma medida.')
     else:
         print('\n> Ops, estas medidas não formam um triângulo: ao menos um dos valores indicados é maior que os outros dois.')
 else:
@@ -31,5 +31,5 @@ Lado 1: 9
 Lado 2: 4
 Lado 3: 9
 
-> Este é um triângulo isósecles, pois dois de seus lados apresentam a mesma medida.
+> Este é um triângulo isósceles, pois dois de seus lados apresentam a mesma medida.
 '''
