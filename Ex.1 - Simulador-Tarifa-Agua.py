@@ -21,9 +21,8 @@ while True:
     print('3 - Comercial')
     print('4 - Industrial')
 
-    op = int(input('Selecione uma das opções acima: '))
+    op = int(input('Em qual categoria seu imóvel se enquadra? Selecione uma das opções acima: '))
     if (op == 1) or (op == 2) or (op == 3) or (op == 4):
-
       print('\n(B) Definindo o consumo de água:')
       consumo = float(input('Informe seu consumo estimado no mês (em m³): '))
       while True:
@@ -31,61 +30,61 @@ while True:
           categoria = 'residencial'
           fixo = 29.49
           if (consumo == 0):
-            print(f'\n> Independentemente do não-consumo de água, o valor da tarifa fixa para a categoria {categoria} é de R$ {fixo:.2f}.')
+            print(f'\n> Ainda que não haja consumo de água, o valor da tarifa fixa para a categoria {categoria} será de R$ {fixo:.2f}.')
             break
           else:
             if(consumo >= 1 and consumo <=10):
-              total = consumo * 1.96 + fixo
+              faixa = 1.96
             elif(consumo >= 11 and consumo <=25):
-              total = consumo * 9.11  + fixo
+              faixa = 9.11
             elif(consumo >= 26 and consumo <=50):
-              total = consumo * 12.18 + fixo
+              faixa = 12.18
             else:
-              total = consumo * 15.32 + fixo
+              faixa = 15.32
 
         elif(op == 2):
           categoria = 'residencial social'
           fixo = 5.50
           if (consumo == 0):
-            print(f'\n> Independentemente do não-consumo de água, o valor da tarifa fixa para a categoria {categoria} é de R$ {fixo:.2f}.')
+            print(f'\n> InAinda que não haja consumo de água, o valor da tarifa fixa para a categoria {categoria} será de R$ {fixo:.2f}.')
             break
           else:
             if(consumo >= 1 and consumo <=10):
-              total = consumo * 0.37 + fixo
+              faixa = 0.37
             elif(consumo >= 11 and consumo <=25):
-              total = consumo * 2.61  + fixo
+              faixa = 2.61
             elif(consumo >= 26 and consumo <=50):
-              total = consumo * 12.18 + fixo
+              faixa = 12.18
             else:
-              total = consumo * 15.32 + fixo
+              faixa = 15.32
 
         elif(op == 3):
           categoria = 'comercial'
           fixo = 29.49
           if (consumo == 0):
-            print(f'\n> Independentemente do não-consumo de água, o valor da tarifa fixa para a categoria {categoria} é de R$ {fixo:.2f}.')
+            print(f'\n> Ainda que não haja consumo de água, o valor da tarifa fixa para a categoria {categoria} será de R$ {fixo:.2f}.')
             break
           else:
             if(consumo >= 1 and consumo <=10):
-              total = consumo * 4.34 + fixo
+              faixa = 4.34
             elif(consumo >= 11 and consumo <=50):
-              total = consumo * 12.18  + fixo
+              faixa = 12.18
             else:
-              total = consumo * 15.32 + fixo
+              faixa = 15.32
 
         elif(op == 4):
           categoria = 'industrial'
           fixo = 29.49
           if (consumo == 0):
-            print(f'\n> Independentemente do não-consumo de água, o valor da tarifa fixa para a categoria {categoria} é de R$ {fixo:.2f}.')
+            print(f'\n> Ainda que não haja consumo de água, o valor da tarifa fixa para a categoria {categoria} será de R$ {fixo:.2f}.')
             break
           else:
             if(consumo >= 1 and consumo <=10):
-              total = consumo * 4.34 + fixo
+              faixa = 4.34
             else:
-              total = consumo * 12.18 + fixo
+              faixa = 12.18
         print('\n(C) Resultado da simulação:')
-        print(f'Para consumo de {consumo:.2f} m³ de água (referente à categoria {categoria}), o valor estimado a pagar será de R$ {total:.2f}.')
+        print(f'Para consumo de {consumo:.2f} m³ de água (referente à categoria {categoria}), o valor estimado a pagar será de R$ {consumo * faixa + fixo:.2f}.')
         break
       break
     else:
@@ -103,7 +102,7 @@ SIMULADOR DE TARIFA, DE ACORDO COM O CONSUMO DE ÁGUA
 2 - Residencial Social
 3 - Comercial
 4 - Industrial
-Selecione uma das opções acima: 1
+Em qual categoria seu imóvel se enquadra? Selecione uma das opções acima: 1
 
 (B) Definindo o consumo de água:
 Informe seu consumo estimado no mês (em m³): 27
