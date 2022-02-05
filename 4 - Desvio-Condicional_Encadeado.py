@@ -13,11 +13,12 @@ tempo = int(input('Quanto tempo o carro do cliente permaeneceu na vaga (em minut
 
 print('\nEstacionamento Central Shopping - Ticket de Saída')
 if(tempo<=15):
-    print('> Tempo de permanência na vaga: {} minutos\n> Valor a ser pago: R$ 0,00 (tarifa grátis)'.format(tempo))
+    valor = 'Tarifa gratuita'
 elif(tempo>15 and tempo<=60):
-    print('> Tempo de permanência na vaga: {} minutos\n> Valor a ser pago: R$ 14,00'.format(tempo))
+    valor = 'R$ 14,00'
 else:
-    print('> Tempo de permanência na vaga: {} minutos\n> Valor a ser pago: R$ 28,00'.format(tempo))
+    valor = 'R$ 28,00'
+print(f'> Tempo de permanência na vaga: {tempo} minutos\n> Valor a ser pago: {valor}')
 
 '''
 Quanto tempo o carro do cliente permaeneceu na vaga (em minutos)? 35
