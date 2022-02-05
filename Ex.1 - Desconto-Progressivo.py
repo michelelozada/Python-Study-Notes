@@ -23,7 +23,7 @@ O algoritmo abaixo é para registro do vendedor da encomenda feita pelo cliente.
 
 while True:
     item = "Souvenir Código 3021"
-    print('ENCOMENDA DE PRODUTO: ' + item)
+    print('ENCOMENDA DO PRODUTO: ' + item)
     try:
         quantidade = int(input('  Qual a quantidade encomendada (em unidades)? '))
         # definição dos intervalos
@@ -47,7 +47,7 @@ while True:
         abatimento = quantidade * preco * (percentual / 100)
         total = quantidade * preco - abatimento
         print(
-            f'\nREGISTRO DE ENCOMENDA \n  Item escolhido: {item} \n  Quantidade encomendada: {quantidade} unidades \n  Valor do pedido: R$ {quantidade * preco:.2f} \n  Desconto promocional: R$ {abatimento:.2f}\n  Total a pagar: R$ {total:.2f}\n')
+            f'\nREGISTRO DA ENCOMENDA \n  Item escolhido: {item} \n  Quantidade encomendada: {quantidade} unidades \n  Valor do pedido: R$ {quantidade * preco:.2f} \n  Desconto promocional: R$ {abatimento:.2f}\n  Total a pagar: R$ {total:.2f}\n')
         break
         # tratamento de exceções
     except ValueError:
@@ -55,13 +55,13 @@ while True:
         continue
 
 '''
-        ENCOMENDA DE PRODUTO: Souvenir Código 3021
-          Qual a quantidade encomendada (em unidades)? 233
+ENCOMENDA DO PRODUTO: Souvenir Código 3021
+  Qual a quantidade encomendada (em unidades)? 350
 
-        REGISTRO DE ENCOMENDA 
-          Item escolhido: Souvenir Código 3021 
-          Quantidade encomendada: 233 unidades 
-          Valor do pedido: R$ 291.25 
-          Desconto promocional: R$ 11.65
-          Total a pagar: R$ 279.60
+REGISTRO DA ENCOMENDA 
+  Item escolhido: Souvenir Código 3021 
+  Quantidade encomendada: 350 unidades 
+  Valor do pedido: R$ 437.50 
+  Desconto promocional: R$ 52.50
+  Total a pagar: R$ 385.00
 '''
