@@ -1,9 +1,8 @@
 '''
 O que segue abaixo é só uma simulação que criei destes testes aleatórios que encontramos na internet.
-O foco era a utilização dos desvios incondicionais (break and continue), sendo que ainda vou incorporar
-outras funcionalidades na sequência para conferir mais realismo à brincadeira... ;)
+No caso, trata-se de um teste para descobrir se o(a) usuário está preparado(a) para morar sozinho(a).
+Meu foco aqui era a utilização de estruturas while True com os desvios incondicionais (break and continue).
 '''
-
 
 def msg_erro():
   print('\n>> Ops, a resposta digitada foi inválida. Por favor, responda novamente para continuar o teste...\n')
@@ -136,15 +135,15 @@ while True:
 
 print('\n>> Resultado final do teste: ',end='')
 if(soma <= 10):
-  print(f'Você obteve {soma} pontos\n   \nBem, sua pontuação demonstra que possivelmente ainda não chegou a hora de você assumir uma casa ou apê só seu...')
+  print(f'Você obteve {soma} pontos\n Bem, sua pontuação demonstra que possivelmente ainda não chegou a hora de você assumir uma casa ou apê só seu...')
 elif(soma > 10 and soma <= 16):
-  print(f'{soma} pontos.\n   Sua pontuação demonstra que você está com muita vontade de morar sozinho, mas possivelmente ainda precisa adquirir um pouco mais de autonomia (seja emocional ou financeira) para não ter problemas ao encarar este desafio.')
+  print(f'{soma} pontos.\nSua pontuação demonstra que você está com muita vontade de morar sozinho, mas possivelmente ainda precisa adquirir um pouco mais de autonomia (seja emocional ou financeira) para não ter problemas ao encarar este desafio.')
 elif (soma >= 17):
-  print(f'{soma} pontos.\n   Parabéns, sua pontuação demonstra que você tem vários requisitos para logo assumir a sua casa!')
+  print(f'{soma} pontos.\nParabéns, sua pontuação demonstra que você tem vários requisitos para logo assumir a sua casa!')
 
 
   '''
-  Então quer dizer que você quer deixar a casa dos pais e ter o seu próprio cantinho, hein! 
+Então quer dizer que você quer deixar a casa dos pais e ter o seu próprio cantinho, hein! 
 Faça o teste abaixo e descubra se você já está apto a encarar os desafios de ter um lar para chamar de seu! :)
 
 A) Desafios do dia-a-dia:
@@ -172,5 +171,5 @@ Pergunta 9 de 10 - Você lida bem com imprevistos? (s/n) s
 Pergunta 10 de 10 - Você se considera uma pessoa responsável? (s/n) s
 
 >> Resultado final do teste: 14 pontos.
-   Sua pontuação demonstra que você está com muita vontade de morar sozinho, mas possivelmente ainda precisa adquirir um pouco mais de autonomia (seja emocional ou financeira) para não ter problemas ao encarar este des
+Sua pontuação demonstra que você está com muita vontade de morar sozinho, mas possivelmente ainda precisa adquirir um pouco mais de autonomia (seja emocional ou financeira) para não ter problemas ao encarar este desafio.
   '''
