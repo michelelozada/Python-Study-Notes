@@ -1,8 +1,9 @@
 '''
-Para este exercício, procurei os preços de uma loja atacadista de produtos do ramo de lembrancinhas/souvenirs, que
-trabalhasse com o chamado desconto progressivo. Uma das promoções encontradas foi a seguinte:
+Para este exercício, procurei os preços de uma loja de produtos do ramo de lembrancinhas/souvenirs, que trabalhasse com
+o chamado desconto progressivo à medida que a quantidade encomendada aumenta (atacado). Uma das promoções encontradas foi
+a seguinte:
 
-------------------------------------------
+-------------------------------
   ITEM - COD. 3021
   Preço unitário: R$ 1,25
 
@@ -16,7 +17,8 @@ trabalhasse com o chamado desconto progressivo. Uma das promoções encontradas 
   acima de 1000       32%
 
   * Pedido mínimo de 60 unidades
-------------------------------------------
+-------------------------------
+
 O algoritmo abaixo é para registro do vendedor da encomenda feita pelo cliente.
 
 '''

@@ -1,7 +1,8 @@
 '''
-Para este exercício, tentei escrever um algoritmo que simulasse quais os gastos com água junto à uma companhia fornecedora,
-levando em conta o tipo de consumidor e seu consumo. Eu me baseei nos dados de uma tabela real que encontrei na internet com
-as seguintes tarifas em vigor em certa época junto à CASAN (Companhia Catarinense de Água e Saneamento).
+Para este exercício, tentei escrever um algoritmo que simulasse para um consumidor quais os gastos junto a uma companhia
+fornecedora de água, levando em conta o seu perfil e consumo mensal estimado. Eu me baseei nos dados de uma tabela real
+que encontrei na internet com as seguintes tarifas em vigor a certa época junto à CASAN (Companhia Catarinense de Água e
+Saneamento).
 
 Faixa consumo    Residencial   Resid. social  Comercial   Industrial
 --------------------------------------------------------------------
