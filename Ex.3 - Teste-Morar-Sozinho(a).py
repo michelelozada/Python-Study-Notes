@@ -1,7 +1,7 @@
 '''
-O que segue abaixo é só uma simulação que criei destes testes aleatórios que encontramos na internet.
-No caso, trata-se de um teste para descobrir se o(a) usuário está preparado(a) para morar sozinho(a).
-Meu foco aqui era a utilização de estruturas while True com os desvios incondicionais (break and continue).
+O que segue abaixo é só uma simulação que criei destes testes aleatórios que encontramos pela internet.
+No caso, trata-se de um teste para descobrir se o(a) usuário(A) está preparado(a) para morar sozinho(a).
+Meu foco aqui era treinar a utilização de estruturas while True com os desvios incondicionais (break and continue).
 '''
 
 def msg_erro():
@@ -10,10 +10,10 @@ def msg_erro():
 def progresso():
   print('\n>> Seu resultado até aqui:',soma, 'pontos')
 
-soma = 0
-
 print('Então quer dizer que você quer deixar a casa dos pais e ter o seu próprio cantinho, hein! ')
 print('Faça o teste abaixo e descubra se você já está apto a encarar os desafios de ter um lar para chamar de seu! :)')
+
+soma = 0
 
 print('\nA) Desafios do dia-a-dia:')
 while True:
