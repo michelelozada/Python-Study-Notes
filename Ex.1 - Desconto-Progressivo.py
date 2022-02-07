@@ -1,4 +1,4 @@
-'''
+"""
 Para este exercício, procurei os preços de uma loja de produtos do ramo de lembrancinhas/souvenirs, que trabalhasse com
 o chamado desconto progressivo à medida que a quantidade encomendada aumenta (atacado). Uma das promoções encontradas foi
 a seguinte:
@@ -21,13 +21,14 @@ a seguinte:
 
 O algoritmo abaixo é para registro do vendedor da encomenda feita pelo cliente.
 
-'''
+"""
+
 
 while True:
     item = "Souvenir Código 3021"
-    print('ENCOMENDA DO PRODUTO: ' + item)
+    print('\nPRODUTO: ' + item)
     try:
-        quantidade = int(input('  Qual a quantidade encomendada (em unidades)? '))
+        quantidade = int(input('  Qual a quantidade deste produto a ser encomendada (em unidades)? '))
         # definição dos intervalos
         if (quantidade < 60):
             print(f'\n> Aviso: Vendas somente acima de 60 unidades. Por favor, comece novamente.\n')
@@ -50,15 +51,23 @@ while True:
         total = quantidade * preco - abatimento
         print(
             f'\nREGISTRO DA ENCOMENDA \n  Item escolhido: {item} \n  Quantidade encomendada: {quantidade} unidades \n  Valor do pedido: R$ {quantidade * preco:.2f} \n  Desconto promocional: R$ {abatimento:.2f}\n  Total a pagar: R$ {total:.2f}\n')
-        break
+
         # tratamento de exceções
     except ValueError:
         print('\n> Aviso: O valor digitado precisa ser um número. Por gentileza, tente novamente.\n')
         continue
 
-'''
-ENCOMENDA DO PRODUTO: Souvenir Código 3021
-  Qual a quantidade encomendada (em unidades)? 350
+    sair = input('Deseja encerrar o programa? Digite S para sair e qualquer outra tecla para continuar. ')
+    if(sair.upper() == 'S' or sair=='sim'):
+        print('Programa encerrado...')
+        break
+    else:
+        continue
+
+
+"""
+PRODUTO: Souvenir Código 3021
+  Qual a quantidade deste produto a ser encomendada (em unidades)? 350
 
 REGISTRO DA ENCOMENDA 
   Item escolhido: Souvenir Código 3021 
@@ -66,4 +75,7 @@ REGISTRO DA ENCOMENDA
   Valor do pedido: R$ 437.50 
   Desconto promocional: R$ 52.50
   Total a pagar: R$ 385.00
-'''
+
+Deseja encerrar o programa? Digite S para sair e qualquer outra tecla para continuar. s
+Programa encerrado...
+"""
