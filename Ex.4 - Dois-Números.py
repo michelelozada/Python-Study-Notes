@@ -27,7 +27,7 @@ def divisao():
     divisao = n1/n2
     print(' - A divisão entre eles:',divisao)
 
-
+# Programa principal
 while True:
     try:
         n1 = int(input('\n>> Me informe um número inteiro, por favor: '))
@@ -42,8 +42,7 @@ while True:
         print(' - Trata-se de um número par.')
     else:
         print(' - Trata-se de um número ímpar.')
-    print(' - O número que vem antes dele é o', n1 - 1, 'e o número que vem depois é o', n1 + 1,'.')
-
+    print(' - O número que vem antes dele é o', n1 - 1, 'e o número que vem depois é o',n1 + 1)
 
     while True:
         try:
@@ -60,7 +59,7 @@ while True:
         print(' - Trata-se de um número par.')
     else:
         print(' - Trata-se de um número ímpar.')
-    print(' - O número que vem antes dele é o', n2 - 1, 'e o número que vem depois é o', n2 + 1,'.')
+    print(' - O número que vem antes dele é o', n2 - 1, 'e o número que vem depois é o',n2 + 1)
 
 
     print('\n>> Vamos descobrir qual a relação entre estes dois números?')
@@ -69,7 +68,7 @@ while True:
     subtracao()
     multiplicacao()
     divisao()
-    print(' - Ambos são simultaneamante múltiplos do(s) número(s): ',end='')
+    print(' - Ambos são simultaneamante múltiplos do(s) número(s):',end='')
     if (n1 % 2 == 0) and (n2 % 2 == 0):
         print(' 2 ', end='')
     if (n1 % 3 == 0) and (n2 % 3 == 0):
@@ -87,7 +86,7 @@ while True:
     if (n1 % 9 == 0) and (n2 % 9 == 0):
         print(' 9 ', end='')
     if (n1 % 9 != 0) and (n2 % 9 != 0):
-        print('Não há números em comum.')
+        print('não há múltiplos em comum')
     break
 
 """
@@ -96,14 +95,14 @@ Ok, obrigada!
 
 >> Informações sobre o número 270:
  - Trata-se de um número par.
- - O número que vem antes dele é o 269 e o número que vem depois é o 271 .
+ - O número que vem antes dele é o 269 e o número que vem depois é o 271 
 
 >> Agora preciso que você me informe outro número inteiro: 125
 Ok, registrado!
 
 >> Informações sobre o número 125:
  - Trata-se de um número ímpar.
- - O número que vem antes dele é o 124 e o número que vem depois é o 126 .
+ - O número que vem antes dele é o 124 e o número que vem depois é o 126
 
 >> Vamos descobrir qual a relação entre estes dois números?
  - O primeiro número informado (270) é maior que o segundo número (125) por uma diferença de 145 unidade(s)

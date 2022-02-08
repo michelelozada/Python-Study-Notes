@@ -180,6 +180,6 @@ Pergunta 10 de 10 - Você se considera uma pessoa responsável? (s/n) s
 >> Resultado final do teste: 13 pontos.
 Sua pontuação demonstra que você tem muita vontade de morar sozinho, mas ainda precisa se preparar um pouquinho mais - talvez emocional ou financeiramente - para não ter problemas ao encarar este desafio.
 
-(Para encerrar o programa, digite S. Para refazer o teste, digite qualquer outra tecla) n
+(Para encerrar o programa, digite S. Para refazer o teste, digite qualquer outra tecla) S
 Programa encerrado...
 """
