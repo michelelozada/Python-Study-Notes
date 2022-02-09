@@ -1,23 +1,49 @@
 """
-Escreva um algoritmo que apresente o resultado da conversão de um valor, de real para libra esterlina.
-O algoritmo deve receber o valor da cotação da libra e a quantidade em reais a ser convertida.
+Peguei um destes testes bem-humorados de internet para verificar se o usuário é cringe (= pessoas nascidaas entre as décadas de 80 e 90) ou não.
+Pensei nisso, pois precisava de um pretexto para elaborar um pequeno algoritmo utilizando a estrutura sequencial.
 """
 
 
-print('-- Conversor de Real/BRL para Libra Esterlina/GBP --')
+print('Será que você é cringe? Faça o teste abaixo e descubra!\n')
+cont = 0
+q = input('1 - Você é fã de Harry Potter, Disney ou Friends? ')
+if (q.lower() == 's'):
+    cont += 1
+q = input('2 - Você paga suas compras e/ou contas no boleto? ')
+if (q.lower() == 's'):
+    cont += 1
+q = input("3 - Você usa emoji 'chorando de rir' ou 'rsrsrs' para rir na internet? ")
+if (q.lower() == 's'):
+    cont += 1
+q = input("4 - Você teve de pesquisar o que significa cringe no Google? ")
+if (q.lower() == 's'):
+    cont += 1
+q = input("5 - Você é da época das fitas, DVDs e CDs?? ")
+if (q.lower() == 's'):
+    cont += 1
 
-cotacaoLibra = float(input('\nQual o valor da cotação de hoje da Libra em relação ao Real? £ 1.00 = R$ '))
-quantidadeReal = float(input('Qual a quantia em Real que você deseja converter para Libra Esterlina? R$ ' ))
-
-print(f'\n> Resultado da conversão: Na cotação de hoje, você pode comprar £ {quantidadeReal/cotacaoLibra:.4f} (GBP) utilizando a quantia de R$ {quantidadeReal:.2f} (BRL).')
+print('\n>> Resultado:',cont,'pontos')
+if(cont == 2):
+    print('   Apesar de uma ou outra característica em comum, você não é cringe!')
+else:
+    if(cont == 3 or cont == 4):
+        print('   Está passando perto, mas - tecnicamente falando - você não é exatamente cringe!')
+    else:
+        if (cont == 5):
+            print('   OK, agora é oficial: você é Millenial... e é cringe também!')
+        else:
+            print('   Olha: você nem precisava fazer este teste, pois se tem alguém que está longe de ser cringe, é você!')
 
 
 """
--- Conversor de Real/BRL para Libra Esterlina/GBP --
+Será que você é cringe? Faça o teste abaixo e descubra!
 
-Qual o valor da cotação de hoje da Libra em relação ao Real? £ 1.00 = R$ 7.1597
-Qual a quantia em Real que você deseja converter para Libra Esterlina? R$ 500.00
+1 - Você é fã de Harry Potter, Disney ou Friends? s
+2 - Você paga suas compras e/ou contas no boleto? s
+3 - Você usa emoji 'chorando de rir' ou 'rsrsrs' para rir na internet? n
+4 - Você teve de pesquisar o que significa cringe no Google? n
+5 - Você é da época das fitas, DVDs e CDs?? s
 
-> Resultado da conversão: Na cotação de hoje, você pode comprar £ 69.8353 (GBP) utilizando a quantia de R$ 500.00 (BRL).
-
+>> Resultado: 3 pontos
+   Está passando perto, mas - tecnicamente falando - você não é exatamente cringe!
 """
