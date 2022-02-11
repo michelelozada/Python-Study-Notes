@@ -1,11 +1,11 @@
 """
-Escreva um algoritmo que receba 4 notas de um aluno em determinada disciplina, calcule a média delas e informe se este
-aluno foi aprovado ou se ficou para recuperação.
+Escreva um algoritmo que receba 4 notas de um aluno em uma determinada disciplina, calcule a média delas e informe se
+este aluno foi aprovado (a média da escola é 7.0) ou se ficou para recuperação.
 """
 
 count = 1
 sum = 0
-print(':: Cálculo das notas da disciplina de Informática Básica ::')
+print(':: Cálculo das notas da disciplina de Informática Básica ::\n')
 
 while (count < 5):
     n = float(input(f'Qual a nota da {count}ª avaliação? '))
@@ -19,11 +19,12 @@ if (media >= 7.0):
     status='está aprovado'
 else:
     status='ficou para recuperação'
-print(f'\nSTATUS: Este aluno {status} na disciplina Informática Básica.')
+print(f'\nSTATUS: Este aluno {status} na disciplina de Informática Básica.')
 
 
 """
 :: Cálculo das notas da disciplina de Informática Básica ::
+
 Qual a nota da 1ª avaliação? 6.5
 Qual a nota da 2ª avaliação? 7.5
 Qual a nota da 3ª avaliação? 8.0

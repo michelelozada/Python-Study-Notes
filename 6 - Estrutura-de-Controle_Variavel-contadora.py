@@ -1,6 +1,6 @@
 """
 Escreva um algoritmo em que o usuário deve informar dois números, sendo que serão impressos na tela somente os números
-pares compreendidos no intervalo daqueles números fornecidos:
+pares compreendidos neste intervalo dos números fornecidos:
 """
 
 n1 = int(input('Diga um número para marcar o início do intervalo: '))
@@ -14,6 +14,7 @@ while (x <= n2):
     x += 1
 
 """
+Diga um número para marcar o início do intervalo: 50
 Diga o número para fechar o intervalo: 85
 
 Vou imprimir apenas os números pares compreendidos neste intevalo:
