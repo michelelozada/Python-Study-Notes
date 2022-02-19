@@ -1,5 +1,5 @@
 """
-Peguei um destes testes bem-humorados da época do meme sobre ser cringe (= nascidaas entre as décadas de 80 e 90) ou não.
+Peguei um destes testes bem-humorados da época daquele meme sobre ser cringe (= nascidas entre as décadas de 80 e 90) ou não.
 Pensei nisso, pois precisava de um pretexto para elaborar um pequeno algoritmo para usar a estrutura condicional simples.
 """
 
