@@ -1,7 +1,5 @@
 """
-Foi publicada uma lista com os diretores mais influentes de todos os tempos. Portanto, crie uum algoritmo que:
-
-1- Liste os 10 diretores de cinema mais influentes de todos os tempos:
+Foi publicada uma lista com os diretores mais influentes de todos os tempos em Hollywood:
 1. Steven Spielberg*
 2. Stanley Kubrick
 3. Bernardo Bertolucci
@@ -12,18 +10,21 @@ Foi publicada uma lista com os diretores mais influentes de todos os tempos. Por
 8. Tim Burton*
 9. Woody Allen*
 10. Francis Ford Coppola*
-
-2 - Que inclua também os próximos cinco nomes:
 11. George Lucas*
 12. Charles Chaplin
 13. Ingmar Bergman
 14. James Cameron*
 15. Federico Fellini
+(*) Indica os diretores vivos.
 
-3 - Por fim, a lista deve mostar apenas os cinco maiores diretores vivos (são os identificados acima com asteriscos)
+Portanto:
+A - Liste os 10 dos diretores de cinema mais influentes de todos os tempos. Imprima  essa lista na ordem decrescente.
+B - Crie um algoritmo que responda se os cineastas Woody Allen e Fran Capra estão nesta lista.
+C - Inclua neal os diretores subsequentes. Agora a lista deve er impressa na ordem crescente.
+D - Por fim, a lista deve mostar somente os cinco maiores diretores vivos.
 """
-# 1
-maiores_diretores=[
+# A
+maiores_diretores = [
     'Steven Spielberg',
     'Stanley Kubrick',
     'Bernardo Bertolucci',
@@ -36,9 +37,34 @@ maiores_diretores=[
     'Francis Ford Coppola'
 ]
 
-print('1) A lista dos 10 diretores mais influentes de Hollywood:')
-print(maiores_diretores)
-# 2
+print(f'Lista dos 10 diretores mais influentes de Hollywood:\n{maiores_diretores[::-1]}.')
+
+"""
+Output:
+Lista dos 10 diretores mais influentes de Hollywood:
+['Francis Ford Coppola', 'Woody Allen', 'Tim Burton', 'Alfred Hitchcock', 'Martin Scorsese', 'Quentin Tarantino', 
+'Jean-Luc Godard', 'Bernardo Bertolucci', 'Stanley Kubrick', 'Steven Spielberg'].
+"""
+# B
+sim = 'está na lista dos 10 maiores diretores de todos os tempos.'
+nao = 'não está na lista dos 10 maiores diretores de todos os tempos.'
+diretor = input('\nQual o nome do diretor? ')
+
+if diretor in maiores_diretores:
+    print('> %s %s'%(diretor,sim))
+else:
+    print('> %s %s' %(diretor,nao))
+
+"""
+Output:
+Qual o nome do diretor? Woody Allen
+> Woody Allen está na lista dos 10 maiores diretores de todos os tempos.
+
+Qual o nome do diretor? Frank Capra
+> Frank Capra não está na lista dos 10 maiores diretores de todos os tempos.
+"""
+#C
+
 maiores_diretores.extend([
     'George Lucas',
     'Charles Chaplin',
@@ -46,10 +72,16 @@ maiores_diretores.extend([
     'James Cameron',
     'Federico Fellini'
 ])
-print('\n2) A lista dos 15 diretores mais influentes de Hollywood:')
-print(maiores_diretores)
+print(f'\nLista dos 15 diretores mais influentes de Hollywood:\n{maiores_diretores}.')
 
-3#
+"""
+Output:
+Lista dos 15 diretores mais influentes de Hollywood:
+['Steven Spielberg', 'Stanley Kubrick', 'Bernardo Bertolucci', 'Jean-Luc Godard', 'Quentin Tarantino', 'Martin Scorsese', 
+'Alfred Hitchcock', 'Tim Burton', 'Woody Allen', 'Francis Ford Coppola', 'George Lucas', 'Charles Chaplin', 'Ingmar Bergman', 
+'James Cameron', 'Federico Fellini'].
+"""
+#3
 if 'Stanley Kubrick' in maiores_diretores:
     maiores_diretores.remove('Stanley Kubrick')
 if 'Bernardo Bertolucci' in maiores_diretores:
@@ -65,20 +97,10 @@ if 'Ingmar Bergman' in maiores_diretores:
 if 'Federico Fellini' in maiores_diretores:
     maiores_diretores.remove('Federico Fellini')
 
-print('\n3) A lista dos 5 diretores vivos mais influentes de Hollywood:')
-print(maiores_diretores[0:5])
+print(f'\nLista dos 5 diretores vivos mais influentes de Hollywood:\n{maiores_diretores[0:5]}.')
 
 """
 Output:
-1) Os 10 diretores mais influentes de todos os tempos:
-['Steven Spielberg', 'Stanley Kubrick', 'Bernardo Bertolucci', 'Jean-Luc Godard', 'Quentin Tarantino', 'Martin Scorsese',
-'Alfred Hitchcock', 'Tim Burton', 'Woody Allen', 'Francis Ford Coppola']
-
-2) Os 15 diretores mais influentes de todos os tempos:
-['Steven Spielberg', 'Stanley Kubrick', 'Bernardo Bertolucci', 'Jean-Luc Godard', 'Quentin Tarantino', 'Martin Scorsese', 
-'Alfred Hitchcock', 'Tim Burton', 'Woody Allen', 'Francis Ford Coppola', 'George Lucas', 'Charles Chaplin', 'Ingmar Bergman', 
-'James Cameron', 'Federico Fellini']
-
-3) Os  5 diretores vivos mais influentes de todos os tempos:
+Lista dos 5 diretores vivos mais influentes de Hollywood:
 ['Steven Spielberg', 'Quentin Tarantino', 'Martin Scorsese', 'Tim Burton', 'Woody Allen']
 """
