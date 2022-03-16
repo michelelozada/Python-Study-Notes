@@ -1,28 +1,31 @@
 """
 Foi publicada uma lista com os diretores mais influentes de todos os tempos em Hollywood:
-1. Steven Spielberg*
-2. Stanley Kubrick
-3. Bernardo Bertolucci
-4. Jean-Luc Godard
-5. Quentin Tarantino*
-6. Martin Scorsese*
-7. Alfred Hitchcock
-8. Tim Burton*
-9. Woody Allen*
-10. Francis Ford Coppola*
-11. George Lucas*
-12. Charles Chaplin
-13. Ingmar Bergman
-14. James Cameron*
-15. Federico Fellini
+1º. Steven Spielberg*
+2º. Stanley Kubrick
+3º. Bernardo Bertolucci
+4º. Jean-Luc Godard
+5º. Quentin Tarantino*
+6º. Martin Scorsese*
+7º. Alfred Hitchcock
+8º. Tim Burton*
+9º. Woody Allen*
+10º. Francis Ford Coppola*
+11º. George Lucas*
+12º. Charles Chaplin
+13º. Ingmar Bergman
+14º. James Cameron*
+15º. Federico Fellini
 (*) Indica os diretores vivos.
 
 Portanto:
 A - Liste os 10 dos diretores de cinema mais influentes de todos os tempos. Imprima  essa lista na ordem decrescente.
-B - Crie um algoritmo que responda se os cineastas Woody Allen e Fran Capra estão nesta lista.
-C - Inclua neal os diretores subsequentes. Agora a lista deve er impressa na ordem crescente.
+B - Inclua nela os 5 nomes subsequentes. Agora a lista deve ser impressa na ordem crescente.
+B - Crie um algoritmo que responda se os cineastas Woody Allen e Fran Capra estão nesta lista. Se a resposta for positiva,
+deve dizer qual a posição do diretor na lista.
 D - Por fim, a lista deve mostar somente os cinco maiores diretores vivos.
 """
+
+
 # A
 maiores_diretores = [
     'Steven Spielberg',
@@ -45,26 +48,9 @@ Lista dos 10 diretores mais influentes de Hollywood:
 ['Francis Ford Coppola', 'Woody Allen', 'Tim Burton', 'Alfred Hitchcock', 'Martin Scorsese', 'Quentin Tarantino', 
 'Jean-Luc Godard', 'Bernardo Bertolucci', 'Stanley Kubrick', 'Steven Spielberg'].
 """
-# B
-sim = 'está na lista dos 10 maiores diretores de todos os tempos.'
-nao = 'não está na lista dos 10 maiores diretores de todos os tempos.'
-diretor = input('\nQual o nome do diretor? ')
 
-if diretor in maiores_diretores:
-    print('> %s %s'%(diretor,sim))
-else:
-    print('> %s %s' %(diretor,nao))
 
-"""
-Output:
-Qual o nome do diretor? Woody Allen
-> Woody Allen está na lista dos 10 maiores diretores de todos os tempos.
-
-Qual o nome do diretor? Frank Capra
-> Frank Capra não está na lista dos 10 maiores diretores de todos os tempos.
-"""
-#C
-
+#B
 maiores_diretores.extend([
     'George Lucas',
     'Charles Chaplin',
@@ -81,7 +67,31 @@ Lista dos 15 diretores mais influentes de Hollywood:
 'Alfred Hitchcock', 'Tim Burton', 'Woody Allen', 'Francis Ford Coppola', 'George Lucas', 'Charles Chaplin', 'Ingmar Bergman', 
 'James Cameron', 'Federico Fellini'].
 """
-#3
+
+
+# C
+sim = 'está na lista dos 10 maiores diretores de todos os tempos.'
+nao = 'não está na lista dos 10 maiores diretores de todos os tempos.'
+diretor = input('\nQual o nome do diretor? ')
+
+if diretor in maiores_diretores:
+    print('%s %s'%(diretor,sim))
+    print(f'Ele ocupa o índice de nº {maiores_diretores.index(diretor)} na lista.')
+else:
+    print('> %s %s' %(diretor,nao))
+
+"""
+Output:
+Qual o nome do diretor? Woody Allen
+    Woody Allen está na lista dos 10 maiores diretores de todos os tempos.
+    Ele ocupa o índice de nº 8 na lista.
+
+Qual o nome do diretor? Frank Capra
+    Frank Capra não está na lista dos 10 maiores diretores de todos os tempos.
+"""
+
+
+# D
 if 'Stanley Kubrick' in maiores_diretores:
     maiores_diretores.remove('Stanley Kubrick')
 if 'Bernardo Bertolucci' in maiores_diretores:
