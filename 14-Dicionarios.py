@@ -1,4 +1,4 @@
-# 1 - Estrutura inicial
+# 1 - Declaração inicial
 ficha_livro = {
     'Título': 'Harry Potter e a Pedra Filosofal',
     'Título original': 'Harry Potter and the Philosopher\'s Stone',
@@ -19,19 +19,19 @@ print(ficha_livro)
 
 
 # 4 - Número de elementos que este dicionário contém:
-print(len(ficha_livro))  # 5
+print(len(ficha_livro),'elementos')  # 5 elementos
 
 
 # 5 - Consulta do valor associado à chave 'editora':
 print(ficha_livro.get('Editora'))  # Rocco
 
 
-# 6 - Verificação de se as chaves 'Páginas' e 'Capítulos' constam ou não neste dicionários:
+# 6 - Verificação de se as chaves 'Páginas' e 'Capítulos' constam ou não neste dicionário:
 print('Páginas' in ficha_livro)  # True
 print('Capítulos' in ficha_livro) # False
 
 
-# 7 - Adição de uma nova chave e valor
+# 7 - Adição de uma nova chave e respectivo valor
 ficha_livro['Ano de publicação'] = 2000
 print(ficha_livro)
 # {'Título': 'Harry Potter e a Pedra Filosofal', 'Título original': "Harry Potter and the Philosopher's Stone",
@@ -92,7 +92,7 @@ print(novo_dicionario)
 
 
 # 10.5 - Remoção do dicionário do valor e chave associada referente ao número de páginas
-novo_dicionario .pop('Páginas')
-print(novo_dicionario )
+novo_dicionario.pop('Páginas')
+print(novo_dicionario)
 # {'Título': 'Harry Potter e a Pedra Filosofal', 'Título original': "Harry Potter and the Philosopher's Stone",
 # 'Autor(a)': 'Rowling, J.K.', 'Editora': 'Rocco', 'Ano de publicação': 2000, 'Edição': '1ª ed.'}

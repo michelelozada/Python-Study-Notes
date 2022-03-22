@@ -1,4 +1,4 @@
-# 1 - Declaração de uma tupla
+# 1 - Declaração inicial
 livro = (
     'O Hobbit',
     'The Hobbit',
