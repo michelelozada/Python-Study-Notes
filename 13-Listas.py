@@ -2,16 +2,20 @@
 numeros = list(range(21))
 print(numeros) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 
+# 1 - Imprima na tela uma lista de números que vá de 0 a 20.
+multiplos = list(range(1,21,2))
+print(multiplos)
+
 # 2 - Remova da lista o número 0.
 numeros.remove(0)
 print(numeros) # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 
 # 3 - Identifique o primeiro e último elemento da lista.
-primeiro = print(numeros[0]) # primeiro elemnto -> 1
-ultimo = print(numeros[-1]) # último elemento -> 20
+primeiro = print('primeiro elemento:', numeros[0]) # primeiro elemento: 1
+ultimo = print('último elemento:', numeros[-1]) # último elemento: 20
 
 # 4 - Retorne qual o número de elementos que a lista possui.
-numero_elementos = print(len(numeros)) # número de elementos desta lista -> 20
+numero_elementos = print('número de elementos desta lista:',len(numeros)) # número de elementos desta lista: 20
 
 # 5 - Consegue criar duas sublistas ao separar os números pares dos ímpares?
 pares = print(numeros[1::2]) # [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
