@@ -1,21 +1,21 @@
 '''
 Criar funções para cálculo de notas de um aluno, sendo que:
 - A atividade prática deve ter peso de 40%.
-- O exame deve ter peso de 60%.
+- O exame final deve ter peso de 60%.
 - Deve ser informado se o aluno foi aprovado ou não na disciplina (a média da escola é 7).
 '''
 
 
 #### As funções
-def nota_efetiva_pratica(nota_obtida1, peso = 40):
+def nota_efetiva_pratica(nota_obtida1, peso = 0.4):
     global nota_efetiva1
-    nota_efetiva1 = nota_obtida1 * peso/100
+    nota_efetiva1 = nota_obtida1 * peso
 
-def nota_efetiva_exame(nota_obtida2, peso = 60):
+def nota_efetiva_exame(nota_obtida2, peso = 0.6):
     global nota_efetiva2
-    nota_efetiva2 = nota_obtida2 * peso/100
+    nota_efetiva2 = nota_obtida2 * peso
 
-def imprime_resultado(notas):
+def imprime_resultado(notas_finais):
     sum = 0
     cont = 0
     for nota in notas_finais:
