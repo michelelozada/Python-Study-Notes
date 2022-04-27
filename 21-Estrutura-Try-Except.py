@@ -1,5 +1,9 @@
-
 '''
+ *  Estrutura Try Except
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+
+
 1 - Escreva um algoritmo que leia um número. Este número informado pelo usuário deve necessariamente estar compreendido
 no intervalo de 1 a 50 (ambos inclusos). Além disso, você deve usar um tratamento de exceção para evitar que o programa
 seja abortado, caso o usuário digite um valor não-numérico.

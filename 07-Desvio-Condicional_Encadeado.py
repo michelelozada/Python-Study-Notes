@@ -1,4 +1,9 @@
 '''
+ *  Desvio condicional encadeado
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+
+
 O Central Shopping utiliza a seguinte tabela de preços para o estacionamento de veículos dos clientes:
 
 Tempo de permanência  | Preço

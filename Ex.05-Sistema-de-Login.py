@@ -1,7 +1,12 @@
-"""
+'''
+ *  Exercício: Sistema de login
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+
+
 Escreva um algoritmo para simular permissão de acesso a um sistema. Após três tentativas sem sucesso de inclusão de senha,
 o programa deve ser encerrado.
-"""
+'''
 
 
 email = "ana@example.com"

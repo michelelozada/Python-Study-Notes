@@ -1,4 +1,9 @@
 '''
+ *  Operador lógico NOT
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+
+
 Escrever um algoritmo que consulte se um usuário tem direito à gratuidade para uso do transporte coletivo (válido para
 estudantes menores de 18 anos, crianças menores de 6 anos, idosos a partir de 65 anos e profissionais públicos em
 serviço). Utilizar operadores lógicos do tipo NOT.

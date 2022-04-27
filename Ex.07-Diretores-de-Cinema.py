@@ -1,4 +1,9 @@
-"""
+'''
+ *  Exercício: Diretores de cinema
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+
+
 Foi publicada uma lista com os diretores mais influentes de todos os tempos em Hollywood:
 1º. Steven Spielberg
 2º. Stanley Kubrick*
@@ -16,7 +21,7 @@ Foi publicada uma lista com os diretores mais influentes de todos os tempos em H
 14º. James Cameron
 15º. Federico Fellini*
 (*) Indica os diretores já falecidos
-"""
+'''
 
 
 # A - Liste os 10 dos diretores de cinema mais influentes de todos os tempos. Imprima  essa lista na ordem decrescente.

@@ -1,8 +1,13 @@
-"""
+'''
+ *  Exercício: Teste - Morar sozinho
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+
+
 O que segue abaixo é uma simulação que tentei criar destes testes aleatórios que encontramos pela internet afora.
 No caso, trata-se de um teste para descobrir se o(a) usuário(a) está preparado(a) para morar sozinho(a).
 Meu foco aqui era treinar a utilização de estruturas while True com os desvios incondicionais break e continue.
-"""
+'''
 
 def msg_erro():
   print('\n>> Ops, a resposta digitada foi inválida. Por favor, responda novamente para continuar o teste...\n')

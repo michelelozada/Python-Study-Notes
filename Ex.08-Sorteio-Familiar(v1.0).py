@@ -1,4 +1,11 @@
-# Escreva um algoritmo que permita a uma família de 5 integrantes promover um sorteio entre entre eles.
+'''
+ *  Exercício: Sorteio familiar (v1.0)s
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+
+
+Escreva um algoritmo que permita a uma família de 5 integrantes promover um sorteio entre entre eles.
+'''
 
 # Importando a biblioteca random
 import random

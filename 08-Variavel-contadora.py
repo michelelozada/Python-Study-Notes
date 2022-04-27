@@ -1,7 +1,12 @@
-"""
+'''
+ *  Variável contadora
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+
+
 Escreva um algoritmo em que o usuário deve informar dois números, sendo que serão impressos na tela somente os números
 pares compreendidos neste intervalo dos números fornecidos:
-"""
+'''
 
 n1 = int(input('Diga um número para marcar o início do intervalo: '))
 n2 = int(input('Diga o número para fechar o intervalo: '))

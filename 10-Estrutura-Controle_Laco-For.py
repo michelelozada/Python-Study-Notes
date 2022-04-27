@@ -1,4 +1,10 @@
-# Escreva um algoritmo que imprima na tela a tabuada completa de multiplicação
+'''
+ *  Estrutura de controle - Laço For
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+
+
+Escreva um algoritmo que imprima na tela a tabuada completa de multiplicação
 
 n1 = 1
 n2 = 1
@@ -8,7 +14,8 @@ for n1 in range (1,11,1):
     for n2 in range (1,11,1):
         print(n1 ,'x', n2 ,'=', n1*n2)
 
-"""
+'''
+
 TABUADA DE MULTIPLICAÇÃO
 
 Tabuada do 1

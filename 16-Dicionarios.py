@@ -1,3 +1,9 @@
+'''
+ *  Dicionários
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+ '''
+
 # 1 - Declaração inicial
 ficha_livro = {
     'Título': 'Harry Potter e a Pedra Filosofal',

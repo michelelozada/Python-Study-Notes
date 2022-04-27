@@ -1,4 +1,9 @@
-"""
+'''
+ *  Exercício: Simulador de tarifa de água
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+
+
 Para este exercício, tentei escrever um algoritmo que simulasse para um consumidor quais os gastos junto a uma companhia
 fornecedora de água, levando em conta o seu perfil e consumo mensal estimado. Eu me baseei nos dados de uma tabela real
 que encontrei na internet com as seguintes tarifas em vigor a certa época junto à CASAN (Companhia Catarinense de Água e
@@ -11,7 +16,7 @@ Faixa consumo    Residencial   Resid. social  Comercial   Industrial
 26m³ a 50m³      R$ 12,18      R$ 12,18       R$ 12,18    R$ 12,18
 Acima de 50m³    R$ 15,32      R$ 15,32       R$ 15,32    R$ 12,18
 (*) Taxa fixa    R$ 29,49      R$  5,50       R$ 29,49    R$ 29,49
-"""
+'''
 
 def mensagem():
   print(f'\n> Ainda que não haja consumo de água, o valor da tarifa fixa para a categoria {categoria} será de R$ {fixo:.2f}.')

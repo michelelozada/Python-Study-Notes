@@ -1,9 +1,13 @@
-"""
+'''
+ *  Estrutura de controle - Laço While
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+
+
 Escreva um algoritmo para simular um formulário que impeça que o usuário avance para a próxima pergunta, caso algum
 campo seja deixado em branco. Obs: O campo idade também não deve permitir a entrada de outro valor que não seja numérico
 ou igual a zero.
-"""
-
+'''
 
 nome = ''
 idade = ''

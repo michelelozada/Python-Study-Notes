@@ -1,3 +1,9 @@
+'''
+ *  Listas
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+ '''
+
 # 1 - Imprima na tela uma lista de números que vá de 0 a 20.
 numeros = list(range(21))
 print(numeros) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]

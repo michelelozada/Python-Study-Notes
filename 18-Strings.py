@@ -1,3 +1,9 @@
+'''
+ *  Strings
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+ '''
+
 citacao = 'devemos julgar um homem mais pelas suas perguntas que pelas respostas.'
 autor = 'voltaire'
 nome = 'françois marie-arouet'

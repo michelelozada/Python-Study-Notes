@@ -1,4 +1,9 @@
-"""
+'''
+ *  Exercício: Desconto progressivo
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+
+
 Para este exercício, procurei os preços de uma loja de produtos do ramo de lembrancinhas/souvenirs, que trabalhasse com
 o chamado desconto progressivo à medida que a quantidade encomendada aumenta (atacado). Uma das promoções encontradas foi
 a seguinte:
@@ -20,9 +25,7 @@ a seguinte:
 -------------------------------
 
 O algoritmo abaixo é para registro do vendedor da encomenda feita pelo cliente.
-
-"""
-
+'''
 
 while True:
     item = "Souvenir Código 3021"

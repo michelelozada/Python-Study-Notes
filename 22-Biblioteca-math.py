@@ -1,3 +1,9 @@
+'''
+ *  Biblioteca math
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+ '''
+
 # A - Importando a biblioteca math
 import math
 

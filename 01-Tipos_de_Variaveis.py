@@ -1,3 +1,9 @@
+'''
+ *  Tipos de variáveis
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+'''
+
 # Retorne quais os tipos das variáveis apresentados abaixo:
 
 a = 7

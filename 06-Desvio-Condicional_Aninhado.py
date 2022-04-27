@@ -1,4 +1,9 @@
 '''
+ *  Desvio condicional aninhado
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+
+
 Escreva um algoritmo para servir de pré-atendimento para encomendas de clientes em uma panificadora.
 Um menu deve oferecer as opções disponíveis para encomenda e qual a quantidade que o cliente deseja encomendar.
 A saída deve apresentar o valor total a pagar e o produto encomendado.

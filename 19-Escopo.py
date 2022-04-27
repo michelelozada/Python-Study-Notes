@@ -1,3 +1,9 @@
+'''
+ *  Escopo
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+ '''
+
 # 1 - Escopo global vs. escopo local
 x = 'global' # variável de escopo global
 def minhaFuncao():

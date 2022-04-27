@@ -1,7 +1,12 @@
-"""
+'''
+ *  Desvio condicional simples
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+
+
 Peguei um destes testes bem-humorados da época daquele meme sobre ser cringe (= nascidas entre as décadas de 80 e 90) ou não.
 Pensei nisso, pois precisava de um pretexto para elaborar um pequeno algoritmo para usar a estrutura condicional simples.
-"""
+'''
 
 
 print('Será que você é cringe? Faça o teste abaixo e descubra!\n')

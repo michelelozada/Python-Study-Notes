@@ -1,3 +1,9 @@
+'''
+ *  Biblioteca random
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+ '''
+
 # 1 - Dados os números abaixo, retorne uma lista com três números aleatórios da mesma:
 import random
 lista1 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]

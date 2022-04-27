@@ -1,10 +1,13 @@
 '''
+ *  Funções
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+
 Criar funções para cálculo de notas de um aluno, sendo que:
 - A atividade prática deve ter peso de 40%.
 - O exame final deve ter peso de 60%.
 - Deve ser informado se o aluno foi aprovado ou não na disciplina (a média da escola é 7).
 '''
-
 
 #### As funções
 def nota_efetiva_pratica(nota_obtida1, peso = 0.4):

@@ -1,7 +1,12 @@
-"""
+'''
+ *  Variável acumuladora
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+
+
 Escreva um algoritmo que receba 4 notas de um aluno em uma determinada disciplina, calcule a média delas e informe se
 este aluno foi aprovado (a média da escola é 7.0) ou se ficou para recuperação.
-"""
+'''
 
 count = 1
 sum = 0

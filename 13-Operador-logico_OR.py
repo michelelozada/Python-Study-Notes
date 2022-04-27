@@ -1,4 +1,10 @@
 '''
+ *  Operador lógico OR
+ *  Operador lógico OR
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+
+
 Escreva um algoritmo que simule uma calculadora que realize as 4 operações aritméticas básicas.
 '''
 

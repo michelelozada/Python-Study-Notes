@@ -1,3 +1,10 @@
+'''
+ *  Exercício: Dois números
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+'''
+
+
 def mensagem():
     print('Desculpe, mas é necesário que seja um número inteiro\n\nNova tentativa.....')
 

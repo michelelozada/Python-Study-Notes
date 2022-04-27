@@ -1,3 +1,9 @@
+'''
+ *  Tuplas
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+ '''
+
 # 1 - Declaração inicial
 livro = (
     'O Hobbit',

@@ -1,7 +1,12 @@
-"""
+'''
+ *  Estrutura sequencial
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+
+
 Escreva um algoritmo que apresente o resultado da conversão de um valor, de real para libra esterlina.
 O algoritmo deve receber o valor da cotação da libra e a quantidade em reais a ser convertida.
-"""
+'''
 
 
 print('-- Conversor de Real/BRL para Libra Esterlina/GBP --')

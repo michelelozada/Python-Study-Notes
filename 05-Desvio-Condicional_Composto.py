@@ -1,4 +1,9 @@
 '''
+ *  Desvio condicional composto
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+
+
 O edital de um exame de proficiência em inglês definiu que, para ser aprovado, um candidato precisa obter nota mínima
 8.0 em cada uma das quatro provas a serem aplicadas. Sabendo disso, escreva um algoritmo que, depois de ler as notas
 obtidas, informe se esse candidato foi aprovado no exame (ou não).

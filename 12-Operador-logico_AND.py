@@ -1,4 +1,9 @@
 '''
+ *  Operador lógico AND
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+
+
 Escreva um algoritmo que receba três valores, representando os lados de um triângulo.
 Lembre-se de que para formar um triângulo:
  - Nenhum lado pode ter medida igual a zero;

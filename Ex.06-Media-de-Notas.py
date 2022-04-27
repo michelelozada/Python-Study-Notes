@@ -1,4 +1,11 @@
-# As notas de um aluno estão armazenadas numa lista. Calcule a média destas notas.
+'''
+ *  Exercício: Média de notas
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+
+
+As notas de um aluno estão armazenadas numa lista. Calcule a média destas notas.
+'''
 
 aluno='Enzo Marques'
 Lista_notas=[6.5,7.5,8,9,7.5,9.5]

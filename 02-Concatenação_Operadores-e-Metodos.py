@@ -1,3 +1,10 @@
+'''
+ *  Concatenação: operadores e métodos
+ *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  GitHub: @michelelozada
+'''
+
+
 # 1 - Operador +
 nome = 'Denzel' + ' ' + 'Washington'
 profissao = 'ator e produtor norte-americano'
