@@ -1,5 +1,5 @@
 '''
- *  Exercício: Sorteio familiar (v1.0)s
+ *  Exercício: Sorteio familiar (v1.0)
  *  Repositório: Lógica de Programação e Algoritmos em Python
  *  GitHub: @michelelozada
 
