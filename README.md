@@ -11,7 +11,7 @@ Script | Descrição
 06 | [Desvio condicional aninhado](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/06-Desvio-Condicional-Aninhado.py)
 07 | [Desvio condicional encadeado](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/07-Desvio-Condicional-Encadeado.py)
 08 | [Variável contadora](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/08-Variavel-contadora.py)
-09 | [Variávvel acumuladora](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/09-Variavel-acumuladora.py)
+09 | [Variável acumuladora](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/09-Variavel-acumuladora.py)
 10 | [Estrutura de controle - Laço For](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/10-Estrutura-Controle-Laco-For.py)
 11 | [Estrutura de controle - Laço While](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/11-Estrutura-Controle-Laco-While.py)
 12 | [Operador lógico AND](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/12-Operador-logico-AND.py)
