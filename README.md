@@ -3,7 +3,7 @@ Repositório em andamento com códigos diversos resultantes de meu estudo de ló
 
 Script | Descrição 
 :---: | :---
-01 | [Tipos de variáveis](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos_em_Python/blob/main/01-Tipos-de-Variaveis.py)
+01 | [Tipos de variáveis](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/01-Tipos-de-Variaveis.py)
 02 | [Concatenação: operadores e métodos](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/02-Concatenacao-Operadores-e-Metodos.py)
 03 | [Estrutura sequencial](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/03-Estrutura-Sequencial.py)
 04 | [Desvio condicional simples](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/04-Desvio-Condicional-Simples.py)
