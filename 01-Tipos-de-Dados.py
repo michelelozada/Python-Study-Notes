@@ -1,14 +1,14 @@
 '''
- *  Tipos de variáveis
+ *  Tipos de dados
  *  Repositório: Lógica de Programação e Algoritmos em Python
  *  GitHub: @michelelozada
 '''
 
-# Retorne quais os tipos das variáveis apresentados abaixo:
+# Retorne quais os tipos de dados das variáveis apresentadas abaixo:
 
 a = 7
 print(a, type(a))
-# 7 <class 'int'>
+# Retorna: 7 <class 'int'>
 
 
 b = 10.5
