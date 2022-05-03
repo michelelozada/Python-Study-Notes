@@ -4,7 +4,7 @@ Repositório em andamento com códigos diversos resultantes de meu estudo de ló
 Script | Descrição 
 :---: | :---
 01 | [Tipos de dados](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/01-Tipos-de-Dados.py)
-02 | [Convertendo tipos de dados (casting)](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/02-Covertendo-Tipos-de-Dados.py)
+02 | [Convertendo tipos de dados *(casting)*](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/02-Convertendo-Tipos-de-Dados.py)
 03 | [Operadores aritméticos](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/03-Operadores-Aritmeticos.py)
 04 | [Operadores relacionais](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/04-Operadores-Relacionais.py)
 05 | [Operadores de atribuição](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/05-Operadores-de-Atribuicao.py)
