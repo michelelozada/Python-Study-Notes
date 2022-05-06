@@ -4,18 +4,22 @@
  *  GitHub: @michelelozada
  '''
 
+
 citacao = 'devemos julgar um homem mais pelas suas perguntas que pelas respostas.'
 autor = 'voltaire'
 nome = 'françois marie-arouet'
 oficio = 'ESCRITOR E FILÓSOFO FRANCÊS DO SÉCULO 18'
 
+
 # 1 - Informando o conteúdo de um índice
 print(citacao[8])  # output: j
+
 
 # 2 - Informando o conteúdo de um intervalo
 print(citacao[15:24])  # um homem
 
-# 3 - Iterando a string autor
+
+# 3.1 - Iterando a string autor, de forma semelhante ao loop foreach de outras linguagens de programação
 for i in autor:
     print(i)
 '''
@@ -28,6 +32,24 @@ i
 r
 e
 '''
+
+
+# 3.2 - Iterando novamente a string autor, mas agora através de indexação
+letra = 1
+for i in range(0,len(autor)):
+    print(str(letra) + 'ª letra -> ' + autor[i])
+    letra += 1
+'''
+1ª letra -> v
+2ª letra -> o
+3ª letra -> l
+4ª letra -> t
+5ª letra -> a
+6ª letra -> i
+7ª letra -> r
+8ª letra -> e
+'''
+
 
 # 4 - Fazendo as verificações a respeito do tipo de caracteres  que as strings autor e ofício contêm:
 print(autor.islower()) # True -> essa string possui somente caracteres minúsculos
@@ -64,6 +86,7 @@ print(oficio_novo) # escritor e filósofo francês do século 18
 oficio_novo2 = oficio_novo.replace('escritor','ensaísta').replace('filósofo','pensador').replace('18','XVIII')
 print(oficio_novo2)
 # ensaísta e pensador francês do século XVIII
+
 
 # 11 - Imprimindo a versão da citação
 print('\"'+citacao_nova+'\"\n'+autor_novo+' (pseudônimo de',nome_novo+'),',oficio_novo2)
