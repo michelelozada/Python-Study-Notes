@@ -18,7 +18,7 @@ Script | Descrição
 13 | [Variável acumuladora](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/13-Variavel-acumuladora.py)
 14 | [Estrutura de controle - Laço For](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/14-Estrutura-Controle-Laco-For.py)
 15 | [Estrutura de controle - Laço While](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/15-Estrutura-Controle-Laco-While.py)
-16 | [Estrutura de controle - Laço While](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/16-Comandos-Continue-e-Break.py)
+16 | [Comandos continue e break](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/16-Comandos-Continue-e-Break.py)
 17 | [Operador lógico AND](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/17-Operador-logico-AND.py)
 18 | [Operador lógico OR](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/18-Operador-logico-OR.py)
 19 | [Operador lógico NOT](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/19-Operador-logico-NOT.py)
