@@ -40,3 +40,10 @@ print(a,type(a)) # Retorna: exemplo <class 'str'>
 print(b,type(b)) # 2 <class 'str'>
 print(c,type(c)) # 3.0 <class 'str'>
 print(b + c) # 23.0
+
+
+# 4. Convertendo para boolean
+print(bool(''))   # False
+print(bool('abc')) # True
+print(bool(0)) # False
+print(bool(2)) # True
