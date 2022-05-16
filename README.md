@@ -26,7 +26,7 @@ Script | Descrição
 21 | [Listas](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/21-Listas.py)
 22 | [Dicionários](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/22-Dicionarios.py)
 23 | [Tuplas](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/23-Tuplas.py)
-24 | [Conjuntos de dados *(sets)](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/24-Conjuntos-de-Dados.py)
+24 | [Conjuntos de dados *(sets)*](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/24-Conjuntos-de-Dados.py)
 25 | [Strings](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/25-Strings.py)
 26 | [Escopo](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/26-Escopo.py)
 27 | [Funções](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/27-Funcoes.py)
