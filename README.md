@@ -1,5 +1,5 @@
 # Lógica de Programação e Algoritmos em Python
-Repositório em andamento com códigos diversos resultantes de meu estudo de lógica de programação e algoritmos, utilizando o Python como linguagem base.
+
 
 Script | Descrição 
 :---: | :---
