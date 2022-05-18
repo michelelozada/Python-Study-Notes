@@ -1,7 +1,7 @@
 # Lógica de Programação e Algoritmos em Python
 Repositório em andamento com códigos diversos resultantes de meu estudo de lógica de programação e algoritmos, utilizando o Python como linguagem base.
 
-Script | Descrição 
+Índice| Descrição 
 :---: | :---
 01 | [Tipos de dados](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/Files/01-Tipos-de-Dados.py)
 02 | [Convertendo tipos de dados *(casting)*](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/Files/02-Convertendo-Tipos-de-Dados.py)
