@@ -1,5 +1,6 @@
-# Lógica de Programação e Algoritmos em Python
-
+<div align="center">
+	<img src="./assets/python.png">
+	<h1>Lógica de Programação e Algoritmos em Python</h1>
 
 Índice| Descrição 
 :---: | :---
@@ -41,3 +42,4 @@
 36 | [Exercício 6: Média de notas](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/Files/Ex.06-Media-de-Notas.py)
 37 | [Exercício 7: Diretores de cinema](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/Files/Ex.07-Diretores-de-Cinema.py)
 38 | [Exercício 8: Sorteio familiar (v1.0)](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/Files/Ex.08-Sorteio-Familiar(v1.0).py)
+</div>
