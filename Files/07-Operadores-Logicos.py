@@ -6,7 +6,7 @@
 
 
 # 1. Conectivo lógico 'AND'
-# Tem seu valor lágico verdadeiro somente quando 2 preposições forem verdadeiras
+# Tem seu valor lágico verdadeiro somente quando todas as preposições forem verdadeiras
 
 # 1.1. Representação da tabela verdade para o operador AND:
 print(True and True) # Retorna: True
@@ -26,7 +26,7 @@ print(False or False) # False
 
 
 # 3. Conectivo lógico 'NOT'
-# Tem o efeito de inverter o valor lógico da proposição original
+# Tem o efeito de negar o valor lógico da proposição original
 
 # 3.1. Representação da tabela verdade para o operador NOT:
 print(not True) # False
