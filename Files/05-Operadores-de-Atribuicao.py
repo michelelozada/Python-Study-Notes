@@ -38,6 +38,6 @@ n **= 2
 print(n)  # 25
 
 
-# 7. Atribuição de resto
+# 7. Atribuição de módulo/resto da divisão
 n %= 5
 print(n)  # 0

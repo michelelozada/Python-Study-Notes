@@ -32,5 +32,5 @@ print(a // b)  # 2
 print(a % b)  # 0
 
 
-# 7. Exponenciação
+# 7. Exponencial
 print(a ** b) # 16

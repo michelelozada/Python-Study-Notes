@@ -7,7 +7,7 @@
 # 1 - Escopo global vs. escopo local
 x = 'global' # variável de escopo global
 def minhaFuncao():
-    x = 'local' # varável de escopo local
+    x = 'local' # variável de escopo local
     print(x)
 
 # Evocando a função
