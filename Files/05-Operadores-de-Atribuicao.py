@@ -4,7 +4,7 @@
  *  GitHub: @michelelozada
 '''
 
-# 1. Atribuição básica
+# 1. Atribuição simples
 x = 2
 print(x) # Retorna: 2
 
