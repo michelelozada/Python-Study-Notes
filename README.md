@@ -34,12 +34,4 @@
 [28](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/files/28-Estrutura-Try-Except.py) | Estrutura Try Except   
 [29](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/files/29-Biblioteca-math.py) | Biblioteca math  
 [30](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/files/30-Biblioteca-random.py) | Biblioteca random  
-[31](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/files/Ex.01-Desconto-Progressivo.py) | Exercício 1: Desconto progressivo   
-[32](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/files/Ex.02-Simulador-Tarifa-Agua.py) | Exercício 2: Simulador de tarifa de água  
-[33](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/files/Ex.03-Teste-Morar-Sozinho(a).py) | Exercício 3: Teste - Morar sozinho  
-[34](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/files/Ex.04-Dois-Numeros.py) | Exercício 4: Dois números   
-[35](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/files/Ex.05-Sistema-de-Login.py) | Exercício 5: Sistema de login   
-[36](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/files/Ex.06-Media-de-Notas.py) | Exercício 6: Média de notas   
-[37](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/files/Ex.07-Diretores-de-Cinema.py) | Exercício 7: Diretores de cinema  
-[38](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/files/Ex.08-Sorteio-Familiar(v1.0).py) | Exercício 8: Sorteio familiar (v1.0)   
 </div>
