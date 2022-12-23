@@ -1,6 +1,9 @@
 <div align="center">
 	<img src="./assets/python.png">
-	<h1>Lógica de Programação e Algoritmos em Python</h1>
+	<h2>Lógica de Programação e Algoritmos em Python</h2>
+	<h3>⬝&nbsp; Tela Inicial &nbsp;⬝</h3>
+&nbsp;
+&nbsp;	
 
 Índice| Descrição 
 :---: | :---
@@ -34,4 +37,7 @@
 [28](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/files/28-Estrutura-Try-Except.py) | Estrutura Try Except   
 [29](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/files/29-Biblioteca-math.py) | Biblioteca math  
 [30](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python/blob/main/files/30-Biblioteca-random.py) | Biblioteca random  
+
+&nbsp;    
+[[Voltar ao topo]](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-Python#lógica-de-programação-e-algoritmos-em-python)
 </div>
