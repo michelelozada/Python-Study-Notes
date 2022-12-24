@@ -1,6 +1,6 @@
 '''
  *  Estrutura Try Except
- *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  Repositório: Python - Notas de estudo
  *  GitHub: @michelelozada
 
 

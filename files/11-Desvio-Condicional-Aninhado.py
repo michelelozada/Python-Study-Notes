@@ -1,6 +1,6 @@
 '''
  *  Desvio condicional aninhado
- *  Repositório: Lógica de Programação e Algoritmos em Python
+ *  Repositório: Python - Notas de estudon
  *  GitHub: @michelelozada
 
 
