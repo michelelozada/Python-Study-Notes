@@ -1,13 +1,14 @@
-'''
- *  Estrutura sequencial
- *  Repositório: Python - Notas de estudo
- *  GitHub: @michelelozada
-
-
+> **Estrutura sequencial**  
+> Repositório: Python - Notas de estudo     
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;  
+### Exercício:
 Escreva um algoritmo que apresente o resultado da conversão de um valor, de real para libra esterlina.
-O algoritmo deve receber o valor da cotação da libra e a quantidade em reais a ser convertida.
-'''
+O algoritmo deve receber o valor da cotação da libra e a quantidade em reais a ser convertida.  
 
+```py
 
 print('-- Conversor de Real/BRL para Libra Esterlina/GBP --')
 
@@ -26,3 +27,10 @@ Qual a quantia em Real que você deseja converter para Libra Esterlina? R$ 500.0
 > Resultado da conversão: Na cotação de hoje, você pode comprar £ 69.8353 (GBP) utilizando a quantia de R$ 500.00 (BRL).
 
 """
+```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/Python-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

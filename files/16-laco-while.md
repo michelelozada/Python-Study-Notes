@@ -1,38 +1,40 @@
-'''
- *  Estrutura de controle - Laço While
- *  Repositório: Python - Notas de estudo
- *  GitHub: @michelelozada
-
-
+> **Estrutura de controle - Laço While**  
+> Repositório: Python - Notas de estudo     
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;  
+### Exercício:
 Escreva um algoritmo para simular um formulário que impeça que o usuário avance para a próxima pergunta, caso algum
 campo seja deixado em branco. Obs: O campo idade também não deve permitir a entrada de outro valor que não seja numérico
-ou igual a zero.
-'''
+ou igual a zero.  
+
+```py
 
 nome = ''
 idade = ''
 profissao = ''
 #campo nome
 while not nome:
-    nome = input('Digite seu nome: ')
-    if(not nome):
-        print('(Erro: Você não pode deixar este campo vazio)')
+  nome = input('Digite seu nome: ')
+  if(not nome):
+    print('(Erro: Você não pode deixar este campo vazio)')
 #campo profissão
 while not profissao:
-    profissao = input('Digite sua profissão: ')
-    if(not profissao):
-        print('(Erro: Você não pode deixar este campo vazio)')
+  profissao = input('Digite sua profissão: ')
+  if(not profissao):
+    print('(Erro: Você não pode deixar este campo vazio)')
 #campo idade
 while not idade:
-    try:
-        idade = int(input('Digite sua idade: '))
-        if idade:
-            break
-        else:
-            print('(Erro: Você não pode preencher este campo com valor igual a zero)')
+  try:
+    idade = int(input('Digite sua idade: '))
+    if idade:
+      break
+    else:
+      print('(Erro: Você não pode preencher este campo com valor igual a zero)')
     except ValueError:
-        print('(Erro: Você não utilizou um valor numérico aqui)')
-        continue
+      print('(Erro: Você não utilizou um valor numérico aqui)')
+      continue
 print('Status: Formulário preenchido com sucesso.')
 
 
@@ -52,3 +54,10 @@ Digite sua idade: 0
 Digite sua idade: 25
 Status: Formulário preenchido com sucesso.
 """
+```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/Python-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

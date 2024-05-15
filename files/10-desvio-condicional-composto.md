@@ -1,13 +1,15 @@
-'''
- *  Desvio condicional composto
- *  Repositório: Python - Notas de estudo
- *  GitHub: @michelelozada
-
-
+> **Desvio condicional composto**  
+> Repositório: Python - Notas de estudo     
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;  
+### Exercício:
 O edital de um exame de proficiência em inglês definiu que, para ser aprovado, um candidato precisa obter nota mínima
 8.0 em cada uma das quatro provas a serem aplicadas. Sabendo disso, escreva um algoritmo que, depois de ler as notas
-obtidas, informe se esse candidato foi aprovado no exame (ou não).
-'''
+obtidas, informe se esse candidato foi aprovado no exame (ou não).  
+
+```py
 
 candidate = 'Enzo Marques'
 print(f"Por favor, informe abaixo as notas obtidas pelo candidato {candidate}:\n")
@@ -27,6 +29,7 @@ else:
   exam = 'pelo menos uma das provas'
 print(f'O candidato {candidate} obteve nota {status} a 8.0 em {exam} e, portanto, {outcome} no exame de proficiência em inglês.')
 
+
 '''
 Por favor, informe abaixo as notas obtidas pelo candidato Enzo Marques:
 
@@ -38,3 +41,11 @@ Por favor, informe abaixo as notas obtidas pelo candidato Enzo Marques:
 Resultado final:
 O candidato Enzo Marques obteve nota inferior a 8.0 em pelo menos uma das provas e, portanto, foi reprovado no exame de proficiência em inglês.
 '''
+```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/Python-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>
+

@@ -1,13 +1,15 @@
-'''
- *  Desvio condicional aninhado
- *  Repositório: Python - Notas de estudon
- *  GitHub: @michelelozada
+> **Desvio condicional aninhado**  
+> Repositório: Python - Notas de estudo     
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;  
+### Exercício:
+Escreva um algoritmo para servir de pré-atendimento para encomendas de clientes em uma panificadora.  
+Um menu deve oferecer as opções disponíveis para encomenda e qual a quantidade que o cliente deseja encomendar.  
+A saída deve apresentar o valor total a pagar e o produto encomendado.  
 
-
-Escreva um algoritmo para servir de pré-atendimento para encomendas de clientes em uma panificadora.
-Um menu deve oferecer as opções disponíveis para encomenda e qual a quantidade que o cliente deseja encomendar.
-A saída deve apresentar o valor total a pagar e o produto encomendado.
-'''
+```py
 
 print('Panificadora Bela Vista - Auto-atendimento')
 print('--------------------------------------------')
@@ -34,7 +36,7 @@ else:
       produto = 'broa(s) de fubá'
     else:
       if (op == 4):
-        produto = 'broa(s) de milho'
+			produto = 'broa(s) de milho'
         preco = 8.00
       else:
         produto = 'broa(s) de trigo integral'
@@ -58,3 +60,10 @@ Quantas broas deste sabor deseja encomendar? 4
 
 > Você encomendou 4 broa(s) de fubá, sendo que o valor de seu pedido ficou em R$ 26.00
 '''
+```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/Python-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

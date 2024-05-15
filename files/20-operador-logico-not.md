@@ -1,39 +1,42 @@
-'''
- *  Operador lógico NOT
- *  Repositório: Python - Notas de estudo
- *  GitHub: @michelelozada
-
-
+> **Operador lógico NOT**  
+> Repositório: Python - Notas de estudo     
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;  
+### Exercício:
 Escrever um algoritmo que consulte se um usuário tem direito à gratuidade para uso do transporte coletivo (válido para
 estudantes menores de 18 anos, crianças menores de 6 anos, idosos a partir de 65 anos e profissionais públicos em
-serviço). Utilizar operadores lógicos do tipo NOT.
-'''
+serviço). Utilizar operadores lógicos do tipo NOT.  
+
+```py
 
 print('- Tem direito à gratuidade no transporte coletivo? Consulte abaixo para saber - ')
 idade = int(input('\nPor favor, informe a idade do usuário: '))
 if not(idade < 6):
-    if not(idade >= 65):
-        estudante = input('O usuário é estudante e tem menos de 18 anos? (s/n) ')
-        if (not (estudante == 'n')) and (not(idade > 18)):
-            print(f'> O usuário é menor de 18 anos e é estudante, portanto tem direito ao passe livre no transporte'
-                  f'coletivo (solicite o Passe Estudantil na Prefeitura).')
-        elif (not(estudante == 's')) and (not(idade > 18)):
-            print(f'> Usuário com {idade} anos de idade e não é estudante, portanto deve pagar a tarifa integral para '
-                  f'uso do transporte coletivo.')
-        else:
-            profissional = input('O usuário é policial, bombeiro, carteiro ou guarda municipal? (s/n) ')
-            if not(profissional == 's'):
-                print( f'> Usuário com {idade} anos de idade e sem prerrogativas especiais, portanto deve pagar a tarifa'
-                       f' integral para uso do transporte coletivo.')
-            else:
-                print('> Quando estiver em serviço, este usuário tem direito à isenção no uso do transporte coletivo (para '
-                      'embarcar, é necesário apresentar sua ID profissional e estar uniformizado).')
+  if not(idade >= 65):
+    estudante = input('O usuário é estudante e tem menos de 18 anos? (s/n) ')
+    if (not (estudante == 'n')) and (not(idade > 18)):
+      print(f'> O usuário é menor de 18 anos e é estudante, portanto tem direito ao passe livre no transporte'
+      f'coletivo (solicite o Passe Estudantil na Prefeitura).')
+    elif (not(estudante == 's')) and (not(idade > 18)):
+      print(f'> Usuário com {idade} anos de idade e não é estudante, portanto deve pagar a tarifa integral para '
+      f'uso do transporte coletivo.')
     else:
-        print(f'> Usuário com {idade} anos de idade, portanto tem direito ao passe livre no transporte coletivo (solicite '
-              f'o Passe Sênior na Prefeitura).')
+      profissional = input('O usuário é policial, bombeiro, carteiro ou guarda municipal? (s/n) ')
+      if not(profissional == 's'):
+      print( f'> Usuário com {idade} anos de idade e sem prerrogativas especiais, portanto deve pagar a tarifa'
+      f' integral para uso do transporte coletivo.')
+    else:
+      print('> Quando estiver em serviço, este usuário tem direito à isenção no uso do transporte coletivo (para '
+      'embarcar, é necesário apresentar sua ID profissional e estar uniformizado).')
+    else:
+      print(f'> Usuário com {idade} anos de idade, portanto tem direito ao passe livre no transporte coletivo (solicite '
+      f'o Passe Sênior na Prefeitura).')
 else:
     print(f'> O usuário é uma criança com {idade} anos de idade, portanto tem direito ao passe livre no transporte coletivo '
-          f'(não há necessidade de cartão).')
+      f'(não há necessidade de cartão).')
+
 
 '''
 Outputs possíveis:
@@ -60,4 +63,12 @@ O usuário é policial, bombeiro, carteiro ou guarda municipal? (s/n) n
 > Usuário com 25 anos de idade e sem prerrogativas especiais, portanto deve pagar a tarifa integral para uso do transporte coletivo.
 
 Por favor, informe a idade do usuário: 65
-> Usuário com 65 anos de idade, portanto tem direito ao passe livre no transporte coletivo (solicite o Passe Sênior na Prefeitura).'''
+> Usuário com 65 anos de idade, portanto tem direito ao passe livre no transporte coletivo (solicite o Passe Sênior na Prefeitura).
+'''
+```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/Python-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

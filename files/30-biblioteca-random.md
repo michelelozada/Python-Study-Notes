@@ -1,37 +1,44 @@
-'''
- *  Biblioteca random
- *  Repositório: Python - Notas de estudo
- *  GitHub: @michelelozada
- '''
+> **Biblioteca random**  
+> Repositório: Python - Notas de estudo     
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;  
+### 1 - Dados os números abaixo, retorne uma lista com três números aleatórios da mesma:
+```py 
 
-# 1 - Dados os números abaixo, retorne uma lista com três números aleatórios da mesma:
 import random
 lista1 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 numeros_aleatorios1 = random.sample(lista1, 3)
 print(numeros_aleatorios1)
 # Exemplo de um dos outputs gerados: [40, 100, 10]
+```
 
+&nbsp; 
 
-# 2 - Dentro do intervalo de 1 a 50 (ambos inclusos), retorne uma lista com 5 números aleatórios:
+### 2 - Dentro do intervalo de 1 a 50 (ambos inclusos), retorne uma lista com 5 números aleatórios:
+```py 
 lista2 = random.sample(range(1,50),5)
 print(lista2)
 # Exemplo de um dos outputs gerados: [39, 9, 22, 41, 27]
+```
 
+&nbsp; 
 
-'''
-3 - Escreva um algoritmo que, mediante sorteio, defina qual o a escla de fins  de semana de folga para cada um dos 10 
+### 3 - Escreva um algoritmo que, mediante sorteio, defina qual o a escla de fins  de semana de folga para cada um dos 10 
 colaboradores de uma empresa. 
+```py 
 '''
 def print_msg():
-    print(f'Semana #{cont} - Fim de semana de folga para ' + colaborador + '.')
+  print(f'Semana #{cont} - Fim de semana de folga para ' + colaborador + '.')
 cont = 0
 colaboradores = ['Ana Carolina', 'Enzo', 'Carla', 'Marcos', 'Morgana', 'Paulo', 'Vanessa', 'Lucas', 'Rodrigo', 'Alana']
 print(f'- ESCALA DE FOLGAS DE COLABORADORES- EMPRESA XPTO -')
 while (cont <10):
-    cont += 1
-    colaborador = random.choice(colaboradores)
-    print_msg()
-    colaboradores.remove(colaborador)
+	cont += 1
+	colaborador = random.choice(colaboradores)
+	print_msg()
+	colaboradores.remove(colaborador)
 
 ''' Exemplo de um dos outputs gerados:
 Semana #1 - Fim de semana de folga para Morgana.
@@ -45,3 +52,10 @@ Semana #8 - Fim de semana de folga para Paulo.
 Semana #9 - Fim de semana de folga para Alana.
 Semana #10 - Fim de semana de folga para Ana Carolina.
 '''
+```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/Python-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

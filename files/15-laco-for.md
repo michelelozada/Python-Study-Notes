@@ -1,21 +1,24 @@
-'''
- *  Estrutura de controle - Laço For
- *  Repositório: Python - Notas de estudo
- *  GitHub: @michelelozada
+> **Estrutura de controle - Laço For**  
+> Repositório: Python - Notas de estudo     
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;  
+### Exercício:
+Escreva um algoritmo que imprima na tela a tabuada completa de multiplicação  
 
-
-Escreva um algoritmo que imprima na tela a tabuada completa de multiplicação
+```py
 
 n1 = 1
 n2 = 1
 print("TABUADA DE MULTIPLICAÇÃO")
 for n1 in range (1,11,1):
-    print('\nTabuada do', n1)
-    for n2 in range (1,11,1):
-        print(n1 ,'x', n2 ,'=', n1*n2)
+  print('\nTabuada do', n1)
+  for n2 in range (1,11,1):
+    print(n1 ,'x', n2 ,'=', n1*n2)
+
 
 '''
-
 TABUADA DE MULTIPLICAÇÃO
 
 Tabuada do 1
@@ -137,4 +140,11 @@ Tabuada do 10
 10 x 8 = 80
 10 x 9 = 90
 10 x 10 = 100
-"""
+'''
+```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/Python-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>
