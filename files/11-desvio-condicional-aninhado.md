@@ -41,8 +41,7 @@ else:
       else:
         produto = 'broa(s) de trigo integral'
         preco = 8.50
-print(
-  f'\n> Você encomendou {encomenda} {produto}, sendo que o valor de seu pedido ficou em R$ {encomenda * preco:.2f}.')
+print(f'\n> Você encomendou {encomenda} {produto}, sendo que o valor de seu pedido ficou em R$ {encomenda * preco:.2f}.')
 
 '''
 Panificadora Bela Vista - Auto-atendimento

@@ -32,9 +32,9 @@ while not idade:
       break
     else:
       print('(Erro: Você não pode preencher este campo com valor igual a zero)')
-    except ValueError:
-      print('(Erro: Você não utilizou um valor numérico aqui)')
-      continue
+  except ValueError:
+    print('(Erro: Você não utilizou um valor numérico aqui)')
+    continue
 print('Status: Formulário preenchido com sucesso.')
 
 

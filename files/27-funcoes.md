@@ -13,25 +13,25 @@ Criar funções para cálculo de notas de um aluno, sendo que:
 
 # As funções
 def nota_efetiva_pratica(nota_obtida1, peso = 0.4):
-	global nota_efetiva1
-	nota_efetiva1 = nota_obtida1 * peso
+  global nota_efetiva1
+  nota_efetiva1 = nota_obtida1 * peso
 
 def nota_efetiva_exame(nota_obtida2, peso = 0.6):
-	global nota_efetiva2
-	nota_efetiva2 = nota_obtida2 * peso
+  global nota_efetiva2
+  nota_efetiva2 = nota_obtida2 * peso
 
 def imprime_resultado(notas_finais):
-	sum = 0
-	cont = 0
-	for nota in notas_finais:
-			sum = sum + nota
-			cont = cont + 1
-			print(str(cont)+'a. avaliação: Nota',nota)
-	print(f'Nota final obtida: {sum:.1f}')
+  sum = 0
+  cont = 0
+  for nota in notas_finais:
+		sum = sum + nota
+		cont = cont + 1
+		print(str(cont)+'a. avaliação: Nota',nota)
+		print(f'Nota final obtida: {sum:.1f}')
 	if sum >= 7.0:
-			print('>> Status: O aluno foi aprovado')
+		print('>> Status: O aluno foi aprovado')
 	else:
-			print('>> Status: O aluno ficou para recuperação')
+		print('>> Status: O aluno ficou para recuperação')
 
 # O programa principal
 

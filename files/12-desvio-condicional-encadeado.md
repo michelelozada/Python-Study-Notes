@@ -6,7 +6,7 @@
 &nbsp;  
 ### Exercício:
 O Central Shopping utiliza a seguinte tabela de preços para o estacionamento de veículos dos clientes:
-
+```
 +----------------------+----------+
 | Tempo de permanência |  Preço   |
 +----------------------+----------+
@@ -14,7 +14,7 @@ O Central Shopping utiliza a seguinte tabela de preços para o estacionamento de
 | Até 60 minutos       | R$ 14,00 |
 | Acima de 60 minutos  | R$ 28,00 |
 +----------------------+----------+
-
+```
 Escreva um algoritmo que receba o tempo de permanência do veículo e apresente quanto o cliente precisará pagar na saída.  
 
 ```py

@@ -12,21 +12,21 @@ Caso não haja tal informação, o sistema deve reportar isso continuamente ao u
 ```py
 
 while True:
-	user1 = input('Por favor, informe o nome de usuário: ')
-	if(user1 == 'LuisRamos'):
-		print('> Nome de usuário confere...\n')
-		while True:
-			password = input('Por favor, informe sua senha cadastrada: ')
-			if (password == 'Prisma84*'):
-				print('> A senha confere! Seja bem-vindo ao sistema, Luis!')
-				break # utilizado para quebrar o loop interno
-			else:
-				print('> Sua senha não confere. Por gentileza, tente novamente...\n')
-				continue # utilizado para retornar ao loop interno
-	else:
-		print('> Nome de usuário não confere. Por gentileza, tente novamente...\n')
-		continue # utilizado para retornar ao loop externo
-	break # utilizado para quebrar o loop externo
+  user1 = input('Por favor, informe o nome de usuário: ')
+  if(user1 == 'LuisRamos'):
+    print('> Nome de usuário confere...\n')
+    while True:
+    password = input('Por favor, informe sua senha cadastrada: ')
+    if (password == 'Prisma84*'):
+      print('> A senha confere! Seja bem-vindo ao sistema, Luis!')
+      break # utilizado para quebrar o loop interno
+    else:
+      print('> Sua senha não confere. Por gentileza, tente novamente...\n')
+      continue # utilizado para retornar ao loop interno
+  else:
+    print('> Nome de usuário não confere. Por gentileza, tente novamente...\n')
+    continue # utilizado para retornar ao loop externo
+    break # utilizado para quebrar o loop externo
 
 
 ''' 

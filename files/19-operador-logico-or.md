@@ -33,13 +33,12 @@ if (op == '1') or (op == '2') or (op == '3') or (op == '4'):
 	elif (op == '4'):
 		nome = 'divisão'
 		if (n1 % n2 == 0):
-				result = n1 // n2
-		else:
-				result = n1 / n2
-	print(f'\n> O valor da operação de {nome} de {n1} com {n2} resultou em {result}.')
-
+	result = n1 // n2
+	else:
+		result = n1 / n2
+		print(f'\n> O valor da operação de {nome} de {n1} com {n2} resultou em {result}.')
 else:
-  print('\n> Hey, esta opção nao existe no menu. Por favor, tente novamente...')
+print('\n> Hey, esta opção nao existe no menu. Por favor, tente novamente...')
 
 
 '''

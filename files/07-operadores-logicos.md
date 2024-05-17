@@ -10,7 +10,7 @@ Tem seu valor lógico verdadeiro somente quando todas as preposições forem ver
 
 &nbsp;  
 
-### 1.1. Representação da tabela verdade para o operador AND:
+### Representação da tabela verdade para o operador AND:
 ```py
 
 print(True and True) # Retorna: True
@@ -26,7 +26,7 @@ Tem seu valor lógico verdadeiro quando ao menos uma das preposições for verda
 
 &nbsp;  
 
-### 2.1. Representação da tabela verdade para o operador OR:
+### Representação da tabela verdade para o operador OR:
 ```py
 
 print(True or True) # Retorna: True
@@ -42,7 +42,7 @@ Tem o efeito de negar o valor lógico da proposição original
 
 &nbsp;  
 
-### 3.1. Representação da tabela verdade para o operador NOT:
+### Representação da tabela verdade para o operador NOT:
 ```py
 
 print(not True) # False

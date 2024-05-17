@@ -8,11 +8,11 @@
 ```py
 
 ficha_livro = {
-	'Título': 'Harry Potter e a Pedra Filosofal',
-	'Título original': 'Harry Potter and the Philosopher\'s Stone',
-	'Autor(a)': 'Rowling, J.K.',
-	'Editora': 'Rocco',
-	'Páginas': '264 páginas'
+  'Título': 'Harry Potter e a Pedra Filosofal',
+  'Título original': 'Harry Potter and the Philosopher\'s Stone',
+  'Autor(a)': 'Rowling, J.K.',
+  'Editora': 'Rocco',
+  'Páginas': '264 páginas'
 }
 
 # ou

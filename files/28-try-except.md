@@ -13,9 +13,9 @@ seja abortado, caso o usuário digite um valor não-numérico.
 
 while True:
 	try:
-		n = int(input("Digite um número: "))
+	  n = int(input("Digite um número: "))
 		if (n>= 1 and n<=50):
-			print(f'> Resposta aceita: você informou um número dentro do intevalo.\n')
+		  print(f'> Resposta aceita: você informou um número dentro do intevalo.\n')
 			break
 		else:
 			print('> Houve um erro: você informou um número fora do intervalo entre 1 e 50. Por favor, tente novamente.\n')

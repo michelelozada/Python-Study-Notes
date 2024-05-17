@@ -18,24 +18,24 @@ if not(idade < 6):
     estudante = input('O usuário é estudante e tem menos de 18 anos? (s/n) ')
     if (not (estudante == 'n')) and (not(idade > 18)):
       print(f'> O usuário é menor de 18 anos e é estudante, portanto tem direito ao passe livre no transporte'
-      f'coletivo (solicite o Passe Estudantil na Prefeitura).')
+            f' coletivo (solicite o Passe Estudantil na Prefeitura).')
     elif (not(estudante == 's')) and (not(idade > 18)):
       print(f'> Usuário com {idade} anos de idade e não é estudante, portanto deve pagar a tarifa integral para '
-      f'uso do transporte coletivo.')
+            f'uso do transporte coletivo.')
     else:
       profissional = input('O usuário é policial, bombeiro, carteiro ou guarda municipal? (s/n) ')
       if not(profissional == 's'):
-      print( f'> Usuário com {idade} anos de idade e sem prerrogativas especiais, portanto deve pagar a tarifa'
-      f' integral para uso do transporte coletivo.')
-    else:
-      print('> Quando estiver em serviço, este usuário tem direito à isenção no uso do transporte coletivo (para '
-      'embarcar, é necesário apresentar sua ID profissional e estar uniformizado).')
-    else:
-      print(f'> Usuário com {idade} anos de idade, portanto tem direito ao passe livre no transporte coletivo (solicite '
-      f'o Passe Sênior na Prefeitura).')
+        print( f'> Usuário com {idade} anos de idade e sem prerrogativas especiais, portanto deve pagar a tarifa'
+               f' integral para uso do transporte coletivo.')
+      else:
+        print('> Quando estiver em serviço, este usuário tem direito à isenção no uso do transporte coletivo (para '
+                'embarcar, é necesário apresentar sua ID profissional e estar uniformizado).')
+  else:
+    print(f'> Usuário com {idade} anos de idade, portanto tem direito ao passe livre no transporte coletivo (solicite '
+          f'o Passe Sênior na Prefeitura).')
 else:
-    print(f'> O usuário é uma criança com {idade} anos de idade, portanto tem direito ao passe livre no transporte coletivo '
-      f'(não há necessidade de cartão).')
+  print(f'> O usuário é uma criança com {idade} anos de idade, portanto tem direito ao passe livre no transporte coletivo '
+        f'(não há necessidade de cartão).')
 
 
 '''

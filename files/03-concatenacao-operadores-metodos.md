@@ -9,6 +9,7 @@
 
 nome = 'Denzel' + ' ' + 'Washington'
 profissao = 'ator e produtor norte-americano'
+
 print(nome)  # Denzel Washington
 print(nome + ', ' + profissao) # Denzel Washington, ator e produtor norte-americano
 ```
@@ -21,6 +22,7 @@ print(nome + ', ' + profissao) # Denzel Washington, ator e produtor norte-americ
 s1 = 'hidro'
 s2 = 'elétrica'
 s1 += s2
+
 print(s1) # hidroelétrica
 ```
 
@@ -30,6 +32,7 @@ print(s1) # hidroelétrica
 ```py
 
 frase = ('Vamos sentir saudades. Volte logo' + '!' * 3)
+
 print(frase) # Vamos sentir saudades. Volte logo!!!
 ```
 
@@ -50,6 +53,7 @@ print('No ' + str(6) + 'º dia do evento, apenas ' + str(25) + '% dos convidados
 name = 'Luísa Dias'
 age = 18
 grade = 9.5
+	
 print('Aluno(a): {}. Idade: {}. Nota: {}'.format(name,age,grade))
 # Aluno(a): Luísa Dias. Idade: 18. Nota: 9.5
 
@@ -64,6 +68,7 @@ print(f'Aluno(a): {name}. Idade: {age}. Nota: {grade}') # Disponível a partir d
 
 bandasAnos80 = ['The Cure', 'The Smiths', 'New Order', 'Joy Division']
 s = ' - '.join(bandasAnos80)
+
 print(s)
 ```
 

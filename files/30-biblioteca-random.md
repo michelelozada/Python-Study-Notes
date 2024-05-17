@@ -4,31 +4,40 @@
 &nbsp;
      
 &nbsp;  
-### 1 - Dados os números abaixo, retorne uma lista com três números aleatórios da mesma:
+### 1. Exercício
+Dados os números abaixo, retorne uma lista com três números aleatórios da mesma:
+
 ```py 
 
 import random
+
 lista1 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 numeros_aleatorios1 = random.sample(lista1, 3)
 print(numeros_aleatorios1)
+
 # Exemplo de um dos outputs gerados: [40, 100, 10]
 ```
 
 &nbsp; 
 
-### 2 - Dentro do intervalo de 1 a 50 (ambos inclusos), retorne uma lista com 5 números aleatórios:
+### 2. Exercício
+Dentro do intervalo de 1 a 50 (ambos inclusos), retorne uma lista com 5 números aleatórios:
+
 ```py 
+
 lista2 = random.sample(range(1,50),5)
 print(lista2)
+
 # Exemplo de um dos outputs gerados: [39, 9, 22, 41, 27]
 ```
 
 &nbsp; 
 
-### 3 - Escreva um algoritmo que, mediante sorteio, defina qual o a escla de fins  de semana de folga para cada um dos 10 
-colaboradores de uma empresa. 
+### 3. Exercício
+Escreva um algoritmo que, mediante sorteio, defina qual o a escla de fins  de semana de folga para cada um dos 10 colaboradores de uma empresa.   
+
 ```py 
-'''
+
 def print_msg():
   print(f'Semana #{cont} - Fim de semana de folga para ' + colaborador + '.')
 cont = 0
@@ -40,7 +49,9 @@ while (cont <10):
 	print_msg()
 	colaboradores.remove(colaborador)
 
-''' Exemplo de um dos outputs gerados:
+''' 
+Exemplo de um dos outputs gerados:
+
 Semana #1 - Fim de semana de folga para Morgana.
 Semana #2 - Fim de semana de folga para Lucas.
 Semana #3 - Fim de semana de folga para Vanessa.
