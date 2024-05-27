@@ -4,6 +4,14 @@
 &nbsp;
      
 &nbsp;  
+### Notas
+```
+Em Python, as listas não são limitadas por tipos: podem conter itens do mesmo tipo ou de tipos diferentes
+
+```
+
+&nbsp; 
+
 ### 1 - Imprima na tela uma lista de números que vá de 0 a 20.
 ```py
 

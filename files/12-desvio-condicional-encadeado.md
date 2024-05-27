@@ -37,7 +37,31 @@ Estacionamento Central Shopping - Ticket de Saída
 > Tempo de permanência na vaga: 35 minutos
 > Valor a ser pago: R$ 14,00
 '''
-``
+```
+
+&nbsp;
+
+### Simulando a estrutura switch case 
+- É uma forma de controle de fluxo 
+- Ou seja, permite que seja selecionada uma alternativa dentre as apresentadas, com base no valor de uma expressão 
+- A linguagem Python não possui uma estrutura switch case nativa. Porém, para simular este mesmo comportamento, é possível utilizar a estrutura condicional `if-elif-else`
+
+```py
+mes = 2
+
+if mes == 1:
+  mes_extenso = "Janeiro"
+elif mes == 2:
+  mes_extenso = "Fevereiro"
+elif mes == 3:
+  mes_extenso  = "Março"
+else:
+  mes_extenso = "Um mês não compreendido entre os primeiros do ano"
+
+print(mes_extenso) 
+
+# Retorna: Fevereiro
+```
 
 &nbsp;
 

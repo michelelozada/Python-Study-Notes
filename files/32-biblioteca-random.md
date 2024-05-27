@@ -4,6 +4,21 @@
 &nbsp;
      
 &nbsp;  
+### Notas
+
+```py 
+
+import random
+
+# radint - retorna um número entre 10 e 20, ambos inclusos como opções
+print(random.randint(10, 20))
+
+# radrange - retorna um número entre 10 (este incluso como opção) e 20 (este não incluso)
+print(random.randrange(10, 20))
+```
+
+&nbsp;  
+
 ### 1. Exercício
 Dados os números abaixo, retorne uma lista com três números aleatórios da mesma:
 

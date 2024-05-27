@@ -4,6 +4,46 @@
 &nbsp;
      
 &nbsp;  
+## Revisão
+
+### Bloco `try... except... finally`
+- Utilizado para tratar as exceções/erros que podem ocorrer durate a execução de um bloco de código  
+- Evita que um programa termine abruptamente em virtude de um erro que não foi previsto
+- Fornece feedback ao usuário, de modo que este pode corrigir a entrada
+
+&nbsp;  
+
+#### Estrutura básica
+```py
+
+try:
+	# Bloco de código que pode causar um erro
+
+except:
+	# Bloco de código com o tratamento da exceção acima 
+	
+finally:
+  # Bloco de código que será executado sempre, indepentemente de erros. É opcional!
+```
+
+&nbsp;  
+
+### ValueError		
+- É uma exceção em Python, lançada quando uma função recebe um '**argumento de tipo correto, mas com um valor inapropriado**'  
+- Ocorre quando a função recebe um valor específico que não pode ser processado adequadmente devido ao valor fornecido
+
+```py
+
+try:
+  numero = int(input("Por favor, Digite um número: "))
+  print(numero)
+# digitando algo que não possa ser convertido para um inteiro 
+except ValueError:
+  print("Erro! Eu te avisei que era para digitar um número.")
+```
+
+&nbsp;  
+
 ### Exercício:
 Escreva um algoritmo que leia um número. Este número informado pelo usuário deve necessariamente estar compreendido
 no intervalo de 1 a 50 (ambos inclusos). Além disso, você deve usar um tratamento de exceção para evitar que o programa

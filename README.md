@@ -19,24 +19,26 @@ Link  | Tópico
 [10](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/10-desvio-condicional-composto.md) | Desvio condicional composto  
 [11](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/11-desvio-condicional-aninhado.md) | Desvio condicional aninhado  
 [12](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/12-desvio-condicional-encadeado.md) | Desvio condicional encadeado   
-[13](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/13-variavel-contadora.md) | Variável contadora   
+[13](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/13-variavel-contadora.md) | Variável contadora 
 [14](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/14-variavel-acumuladora.md) | Variável acumuladora   
 [15](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/15-laco-for.md) | Estrutura de controle - Laço For  
 [16](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/16-laco-while.md) | Estrutura de controle - Laço While  
 [17](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/17-continue-e-break.md) | Comandos continue e break  
 [18](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/18-operador-logico-and.md) | Operador lógico AND   
-[19](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/19-operador-logico-or.md) | Operador lógico OR  
+[19](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/19-operador-logico-or.md) | Operador lógico OR 
 [20](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/20-operador-logico-not.md) | Operador lógico NOT 
-[21](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/21-listas.md) | Listas   
-[22](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/22-dicionarios.md) | Dicionários   
-[23](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/23-tuplas.md) | Tuplas
-[24](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/24-conjuntos-de-dados.md) | Conjuntos de dados *(sets)*  
-[25](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/25-strings.md) | Strings  
-[26](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/26-escopo.md) | Escopo  
-[27](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/27-funcoes.md) | Funções  
-[28](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/28-try-except.md) | Estrutura Try Except   
-[29](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/29-biblioteca-math.md) | Biblioteca math  
-[30](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/30-biblioteca-random.md) | Biblioteca random  
+[21](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/21-operador-logico-not.md) | Iteráveis
+[22](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/22-listas.md) | Listas   
+[23](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/23-dicionarios.md) | Dicionários   
+[24](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/24-tuplas.md) | Tuplas
+[25](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/25-conjuntos-de-dados.md) | Conjuntos de dados *(sets)*  
+[26](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/26-strings.md) | Strings  
+[27](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/27-escopo.md) | Escopo  
+[28](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/28-funcoes.md) | Funções  
+[29](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/29-metodos.md) | Métodos _(referência rápida)_
+[30](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/30-try-except.md) | Estrutura Try Except   
+[31](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/31-biblioteca-math.md) | Biblioteca math  
+[32](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/32-biblioteca-random.md) | Biblioteca random  
 
 &nbsp;   
 
