@@ -34,11 +34,12 @@ Link  | Tópico
 [25](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/25-conjuntos-de-dados.md) | Conjuntos de dados *(sets)*  
 [26](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/26-strings.md) | Strings  
 [27](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/27-escopo.md) | Escopo  
-[28](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/28-funcoes.md) | Funções  
-[29](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/29-metodos.md) | Métodos _(referência rápida)_
-[30](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/30-try-except.md) | Estrutura Try Except   
-[31](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/31-biblioteca-math.md) | Biblioteca math  
-[32](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/32-biblioteca-random.md) | Biblioteca random  
+[28](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/28-funcoes-nativas.md) | Funções nativas  
+[29](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/29-funcoes-personalizadas.md) | Funções personalizadas
+[30](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/30-metodos.md) | Métodos _(referência rápida)_
+[31](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/31-try-except.md) | Estrutura Try Except   
+[32](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/32-biblioteca-math.md) | Biblioteca math  
+[33](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/33-biblioteca-random.md) | Biblioteca random  
 
 &nbsp;   
 

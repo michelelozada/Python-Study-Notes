@@ -40,6 +40,53 @@ sort() | Ordena os elementos da lista de forma crescente
 
 &nbsp;
 
+### Exemplos de aplicações dos métodos para manipular strings
+
+### Método lower()
+```py
+
+string = "Hello World"
+print(string.lower())  
+
+# Retorna: "hello world"
+```
+
+&nbsp;
+
+### Exemplos de aplicações dos métodos para manipular listas em Python 
+
+### Método append()
+```py
+
+numeros = [1, 5, 10, 15]
+numeros.append(20)
+print(numeros)
+
+# Retorna: [1, 5, 10, 15, 20]
+```
+
+&nbsp;
+
+### Método pop()
+```py
+
+meses = ["janeiro", "fevereiro", "março"]
+mes_removido = meses.pop()
+print(mes_removido)
+
+# Retorna: março
+```
+```py
+
+meses = ["janeiro", "fevereiro", "março"]
+mes_removido = meses.pop(1)
+print(mes_removido)
+
+# Retorna: fevereiro
+```
+
+&nbsp;
+
 <div align="center">
 <a href="https://github.com/michelelozada/Python-Study-Notes">[Voltar à tela inicial do repositório]</a>
 </div>
