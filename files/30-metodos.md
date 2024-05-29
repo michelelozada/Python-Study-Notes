@@ -28,15 +28,15 @@ upper() | Converte os caracteres de uma string para maiúsculas
 ### Métodos para manipular listas em Python
 Método | Função
 ---    | ---
-append(elemento) | Adiciona um elemento ao final de uma lista
-clear() | Remove todos os elementos da lista 
-count(elemento) | Retorna o número de ocorrências do elemento especificado na lista 
-index(elemento) | Retorna o índice da primeira ocorrência do elemento informado
-insert(posição, elemento) | Insere um elemento em uma posição determinada da lista 
-pop([indice]) | Remove e retorna o elemento da lista, na posição informada
-remove(elemento) | Remove a primeira ocorrência do elemento informado da lista 
-reverse() | Inverte a ordem dos elementos na lista 
-sort() | Ordena os elementos da lista de forma crescente
+append(elemento) | Adiciona um item ao final de uma lista
+clear() | Remove todos os itens da lista 
+count(elemento) | Retorna o número de ocorrências na lista do item especificado  
+index(elemento) | Retorna o índice da primeira ocorrência do item informado
+insert(posição, elemento) | Adiciona um item em uma posição especificada da lista 
+pop([indice]) | Remove e retorna o item de uma lista (segundo o índice informado)
+remove(elemento) | Remove da lista a primeira ocorrência do item informado 
+reverse() | Inverte a ordem dos itens na lista 
+sort() | Ordena os itens da lista de forma crescente
 
 &nbsp;
 
@@ -68,6 +68,8 @@ print(numeros)
 &nbsp;
 
 ### Método pop()
+* Informar o argumento index é opcional  
+* Se nenhum índice for especificado, retorna o último item da lista  
 ```py
 
 meses = ["janeiro", "fevereiro", "março"]
