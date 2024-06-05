@@ -15,7 +15,7 @@
 Funções | Finalidade 
 ---     | ---
 input() | Recebe (= lê) a entrada de um usuário, via teclado, como uma string
-[len()](função-len()) | Retorna o comprimento/número de itens de um objeto (lista, tupla, string, etc.)
+[len()](função-len) | Retorna o comprimento/número de itens de um objeto (lista, tupla, string, etc.)
 print() | Exibe (= imprime) um objeto no console 
 type() | Retorna o tipo de um objeto 
 
@@ -51,9 +51,9 @@ Funções | Finalidade
 filter() | Filtra itens de um iterável com base em uma função
 map() | Aplica uma função a todos os itens de um iterável
 sorted() | Retorna uma lista ordenada a partir dos elementos de um iterável
-[enumerate()](função-enumerate()) | Retorna  uma sequência de tuplas contendo um índice e o valor correspondente do iterável. Ùtil para percorrer 2 listas.
-[range()](função-range())| Geralmente usado em loops, gera uma sequência de números
-[zip()](função-zip()) | Combina elementos de múltiplos iteráveis (listas, tuplas, etc) em tuplas
+[enumerate()](função-enumerate) | Retorna  uma sequência de tuplas contendo um índice e o valor correspondente do iterável. Ùtil para percorrer 2 listas.
+[range()](função-range))| Geralmente usado em loops, gera uma sequência de números
+[zip()](função-zip) | Combina elementos de múltiplos iteráveis (listas, tuplas, etc) em tuplas
 
 &nbsp;  
 
@@ -67,9 +67,9 @@ strip() | Remover espaços em branco (ou outros caracteres especificados) do in�
 
 &nbsp;  
 
-### Exemplos de aplicações das funções para iteração e filtragem
+## Exemplos de aplicações das funções para iteração e filtragem
 
-## Função enumerate()
+### Função enumerate()
 - Na sintaxe da função, o primeiro argumento é o iterável  
 - Um segundo argumento, referente ao valor inicial do índice, pode estar implícito ou explícito  
 - Retorna uma sequência de tuplas com os valores dos índices + os próprios elementos de uma sequência iterada  
@@ -120,7 +120,7 @@ Retorna:
 
 &nbsp;
 
-## Função range()
+### Função range()
 ```py
 
 for i in range(4):
@@ -135,7 +135,7 @@ for i in range(4):
 
 &nbsp;
 
-## Função zip()
+### Função zip()
 ```py
 
 nomes = ["Ana", "Bela", "Cida"]
@@ -151,9 +151,9 @@ Cida 48
 
 &nbsp;
 
-### Exemplos de aplicações das funções para manipulação das strings
+## Exemplos de aplicações das funções para manipulação das strings
 
-## Função len()
+### Função len()
 ```py
 
 string = "Python"
@@ -165,8 +165,8 @@ print(tamanho)
 
 &nbsp;
 
-:link: Links de apoio consultados
-[Python enumerate() – What is the Enumerate Function in Python?](https://www.freecodecamp.org/news/python-enumerate-what-is-the-enumerate-function-in-python/) Por Ihechikara Vincent Abba
+### :link: Links de apoio consultados
+[Python enumerate() – What is the Enumerate Function in Python?](https://www.freecodecamp.org/news/python-enumerate-what-is-the-enumerate-function-in-python/) por Ihechikara Vincent Abba
 
 &nbsp;
 
