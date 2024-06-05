@@ -15,7 +15,7 @@
 Funções | Finalidade 
 ---     | ---
 input() | Recebe (= lê) a entrada de um usuário, via teclado, como uma string
-[len()](https://github.com/michelelozada/Python-Study-Notes/edit/main/files/28-funcoes-nativas.md#fun%C3%A7%C3%A3o-len) | Retorna o comprimento/número de itens de um objeto (lista, tupla, string, etc.)
+len() | Retorna o comprimento/número de itens de um objeto (lista, tupla, string, etc.)
 print() | Exibe (= imprime) um objeto no console 
 type() | Retorna o tipo de um objeto 
 
@@ -49,9 +49,9 @@ Funções | Finalidade
 filter() | Filtra itens de um iterável com base em uma função
 map() | Aplica uma função a todos os itens de um iterável
 sorted() | Retorna uma lista ordenada a partir dos elementos de um iterável
-[enumerate()](https://github.com/michelelozada/Python-Study-Notes/edit/main/files/28-funcoes-nativas.md#fun%C3%A7%C3%A3o-enumerate) | Retorna  uma sequência de tuplas contendo um índice e o valor correspondente do iterável. Ùtil para percorrer 2 listas.
-[range(https://github.com/michelelozada/Python-Study-Notes/blob/main/files/28-funcoes-nativas.md#fun%C3%A7%C3%A3o-range)](funcao-range)| Geralmente usado em loops, gera uma sequência de números
-[zip()](https://github.com/michelelozada/Python-Study-Notes/edit/main/files/28-funcoes-nativas.md#fun%C3%A7%C3%A3o-zip) | Combina elementos de múltiplos iteráveis (listas, tuplas, etc) em tuplas
+enumerate() | Retorna  uma sequência de tuplas contendo um índice e o valor correspondente do iterável. Ùtil para percorrer 2 listas.
+range() | Geralmente usado em loops, gera uma sequência de números
+zip() | Combina elementos de múltiplos iteráveis (listas, tuplas, etc) em tuplas
 
 &nbsp;  
 
