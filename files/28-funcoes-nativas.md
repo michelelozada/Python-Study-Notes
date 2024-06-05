@@ -15,10 +15,12 @@
 Funções | Finalidade 
 ---     | ---
 input() | Recebe (= lê) a entrada de um usuário, via teclado, como uma string
-len() | Retorna o comprimento/número de itens de um objeto (lista, tupla, string, etc.)
+[len()](função-len()) | Retorna o comprimento/número de itens de um objeto (lista, tupla, string, etc.)
 print() | Exibe (= imprime) um objeto no console 
 type() | Retorna o tipo de um objeto 
 
+
+https://github.com/michelelozada/Python-Study-Notes/blob/main/files/28-funcoes-nativas.md#fun%C3%A7%C3%A3o-len
 &nbsp;  
 
 #### 2. Funções para conversão de tipos:
@@ -49,9 +51,9 @@ Funções | Finalidade
 filter() | Filtra itens de um iterável com base em uma função
 map() | Aplica uma função a todos os itens de um iterável
 sorted() | Retorna uma lista ordenada a partir dos elementos de um iterável
-enumerate() | Retorna  uma sequência de tuplas contendo um índice e o valor correspondente do iterável
-range() | Geralmente usado em loops, gera uma sequência de números
-zip() | Combina elementos de múltiplos iteráveis (listas, tuplas, etc) em tuplas
+[enumerate()](função-enumerate()) | Retorna  uma sequência de tuplas contendo um índice e o valor correspondente do iterável. Ùtil para percorrer 2 listas.
+[range()](função-range())| Geralmente usado em loops, gera uma sequência de números
+[zip()](função-zip()) | Combina elementos de múltiplos iteráveis (listas, tuplas, etc) em tuplas
 
 &nbsp;  
 
@@ -61,24 +63,59 @@ Funções | Finalidade
 format() | Formata uma string
 len() | Retorna o comprimento de uma string
 str() | Converte um valor para uma string
+strip() | Remover espaços em branco (ou outros caracteres especificados) do início e do final de uma string 
 
 &nbsp;  
 
 ### Exemplos de aplicações das funções para iteração e filtragem
 
 ## Função enumerate()
+- Na sintaxe da função, o primeiro argumento é o iterável  
+- Um segundo argumento, referente ao valor inicial do índice, pode estar implícito ou explícito  
+- Retorna uma sequência de tuplas com os valores dos índices + os próprios elementos de uma sequência iterada  
+- Nos permite acessar o índice e valor de um item da lista   
+
 ```py
 
-vogais = ['a', 'e', 'i', 'o', 'u']
-for indice, valor in enumerate(vogais):
-  print(indice, valor)
+estacoes = ['primavera', 'verao', 'outono', 'inverno']
+enumEstacoes = enumerate(estacoes)
 
-# Retorna:
-0 a
-1 e
-2 i
-3 o
-4 u
+print(list(enumEstacoes))
+
+Retorna:
+[(0, 'primavera'), (1, 'verao'), (2, 'outono'), (3, 'inverno')]
+```
+```py
+
+estacoes = ['primavera', 'verão', 'outono', 'inverno']
+
+# Aqui `start` está implícito e valor índice começa, portanto, como zero 
+
+for indice, estacao in enumerate(estacoes):
+  print(f'índice: {indice} - item: {estacao}')
+	
+Retorna: 
+índice: 0 - item: primavera
+índice: 1 - item: verão
+índice: 2 - item: outono
+índice: 3 - item: inverno
+```	
+```py
+
+estacoes = ['primavera', 'verão', 'outono', 'inverno']
+
+# Aqui `start` foi definido para que o valor inicial do índice comece como 1 
+
+for indice, estacao in enumerate(estacoes, start=1):
+  print(f'índice: {indice} - item: {estacao}')
+
+	
+Retorna: 
+índice: 1 - item: primavera
+índice: 2 - item: verão
+índice: 3 - item: outono
+índice: 4 - item: inverno	
+
 ```
 
 &nbsp;
@@ -125,6 +162,11 @@ print(tamanho)
 
 # Retorna: 6
 ```
+
+&nbsp;
+
+:link: Links de apoio consultados
+[Python enumerate() – What is the Enumerate Function in Python?](https://www.freecodecamp.org/news/python-enumerate-what-is-the-enumerate-function-in-python/) Por Ihechikara Vincent Abba
 
 &nbsp;
 

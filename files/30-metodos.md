@@ -2,26 +2,52 @@
 > Repositório: Python - Notas de estudo     
 > GitHub: @michelelozada
 &nbsp;
-     
+
 &nbsp;  
-## Métodos para manipular objetos do tipo string em Python
+## Métodos para manipular e verificar strings em Python
+
+### Para verificação de conteúdo de strings:
 Método | Função
 ---    | ---
-capitalize() | Converte o 1º caractere de uma string para maiúscula e demais para minúsculas
+str.isalnum() | Verifica se todos os caracteres da string são letras ou dígitos
+str.isalpha() | Verifica se todos os caracteres da string são letras e se string não está vazia
+str.isdigit() | Verifica se todos os caracteres da string são dígitos
+str.islower() | Verifica se todos os caracteres da string estão em minúsculas
+str.isspace() | Verifica se todos os caracteres da string são espaços em branco
+str.isupper() | Verifica se todos os caracteres da string estão em maiúsculas
+
+&nbsp;  
+
+### Para manipulação de conteúdo:
+Método | Função
+---    | ---
+str.capitalize() | Converte o 1º caractere de uma string para maiúscula e demais para minúsculas
+str.lower() | Converte os caracteres de uma string para minúsculas
+str.replace(old, new) | Substitui a ocorrência de uma substring por outra ali informada
+str.split(separator) | Divide a string em uma lista de substrings usando o separador informado
+str.strip() | Remove espaços em branco do início e do fim da string
+str.title() | Converte o 1º caractere de cada palavra para maiúscula e demais para minúsculas
+str.upper() | Converte todos os caracteres da string para maiúsculas
+
+&nbsp;  
+
+### Para pesquisa de conteúdo:
+Método | Função
+---    | ---
+str.endswith(suffix) | Verifica se a string termina com o prefixo informado  
+str.find(sub) | Retorna o índice da 1ª ocorrência da substring informada ou -1 se não for encontrada
+str.index(sub) | Mesma função do método `find()`, mas retorna erro ValueError se a substring não for encontrada
+str.startswith(prefix) | Verifica se a string começa com a substring informada
+
+&nbsp;  
+
+### Outros:
+Método | Função
+---    | ---
 count() | Retorna o número de ocorrências da substring informada 
-endswith() | Retorna True se a string terminar com o prefixo informado 
-find() | Retorna o índice de da primeira ocorrência de uma substring informada 
-index() | Mesma função do método `find()`, mas retorna erro ValueError se a substring não for encontrada
 join() | Concatena elementos 
-lower() | Converte os caracteres de uma string para minúsculas
 lstrip() | Remove espaços em branco do início de uma string 
-replace() | Substitui a ocorrência de uma substring por outra ali informada
 rstrip() | Remove espaços em branco do final de uma string 
-startswith() | Retorna True se a string começar com o prefixo informado 
-split() | Divide uma string em substrings, utilizando um separado informado 
-strip() | Remove espaços em branco do início e do final de uma string 
-title() | Converte o 1º caractere de cada palavra para maiúscula e demais para minúsculas
-upper() | Converte os caracteres de uma string para maiúsculas 
 
 &nbsp;  
 

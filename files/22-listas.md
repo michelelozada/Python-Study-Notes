@@ -6,8 +6,9 @@
 &nbsp;  
 ### Notas
 ```
-Em Python, as listas não são limitadas por tipos: podem conter itens do mesmo tipo ou de tipos diferentes
-
+- Em Python, lista é uma estrutura de dados que armazena uma coleção ordenada de itens. 
+- Cada item dentro da lista é chamado de elemento (ou mesmo item). 
+- Em Python, as listas não são limitadas por tipos: podem conter itens do mesmo tipo ou de tipos diferentes
 ```
 
 &nbsp; 
@@ -16,7 +17,10 @@ Em Python, as listas não são limitadas por tipos: podem conter itens do mesmo 
 ```py
 
 numeros = list(range(21))
-print(numeros) # Retorna: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+print(numeros) 
+
+# Retorna: 
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 ```
 
 &nbsp;  
@@ -25,7 +29,11 @@ print(numeros) # Retorna: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,
 ```py
 
 numeros.remove(0)  # método remove() exclui o valor indicado entre os parênteses
-print(numeros) # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+print(numeros) 
+
+# 
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
 # Obs: O método pop(0) também serve para remoção, porém ele remove o conteúdo do indice indicado. Veja como seria o resultado.
 ```
 

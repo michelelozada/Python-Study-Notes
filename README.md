@@ -27,7 +27,7 @@ Link  | Tópico
 [18](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/18-operador-logico-and.md) | Operador lógico AND   
 [19](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/19-operador-logico-or.md) | Operador lógico OR 
 [20](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/20-operador-logico-not.md) | Operador lógico NOT 
-[21](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/21-operador-logico-not.md) | Iteráveis
+[21](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/21-iteraveis.md) | Iteráveis
 [22](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/22-listas.md) | Listas   
 [23](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/23-dicionarios.md) | Dicionários   
 [24](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/24-tuplas.md) | Tuplas
@@ -48,7 +48,8 @@ Link  | Tópico
 
   &nbsp;
   &nbsp;   
-  [Documentação do Python](https://www.python.org/)   
+  [Documentação do Python](https://www.python.org/)  
+	[Pense em Python - Pense como um Cientista da Computação](https://penseallen.github.io/PensePython2e/), livro de Allen B. Downey
   </details>
 
 &nbsp;    

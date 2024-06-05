@@ -29,15 +29,16 @@ finally:
 &nbsp;  
 
 ### ValueError		
-- É uma exceção em Python, lançada quando uma função recebe um '**argumento de tipo correto, mas com um valor inapropriado**'  
+- É uma exceção em Python, lançada quando uma função ou operação recebe um '**argumento que tem o tipo correto, mas o valor inapropriado**'  
 - Ocorre quando a função recebe um valor específico que não pode ser processado adequadmente devido ao valor fornecido
+- Quando você utiliza o `input()` para obter uma entrada do usuário e, na sequência, tenta converter essa entrada em um número, como `int()` ou `float()`, um ValueError será lançado, pois a entrada não pode ser convertida para o tipo numérico esperado.  
 
 ```py
 
 try:
   numero = int(input("Por favor, Digite um número: "))
   print(numero)
-# digitando algo que não possa ser convertido para um inteiro 
+# para o caso de valor que não possa ser convertido para um inteiro 
 except ValueError:
   print("Erro! Eu te avisei que era para digitar um número.")
 ```
