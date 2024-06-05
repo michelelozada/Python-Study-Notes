@@ -49,7 +49,7 @@ Link  | Tópico
   &nbsp;
   &nbsp;   
   [Documentação do Python](https://www.python.org/)  
-	[Pense em Python - Pense como um Cientista da Computação](https://penseallen.github.io/PensePython2e/), livro de Allen B. Downey
+	[Pense em Python](https://penseallen.github.io/PensePython2e/), livro de Allen B. Downey
   </details>
 
 &nbsp;    

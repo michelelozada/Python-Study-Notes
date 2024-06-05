@@ -58,10 +58,8 @@ zip() | Combina elementos de múltiplos iteráveis (listas, tuplas, etc) em tupl
 #### 5. Funções para manipulação de strings
 Funções | Finalidade 
 ---     | ---
-format() | Formata uma string
 len() | Retorna o comprimento de uma string
 str() | Converte um valor para uma string
-strip() | Remover espaços em branco (ou outros caracteres especificados) do início e do final de uma string 
 
 &nbsp;  
 
@@ -163,8 +161,8 @@ print(tamanho)
 
 &nbsp;
 
-### :link: Links de apoio consultados
-[Python enumerate() – What is the Enumerate Function in Python?](https://www.freecodecamp.org/news/python-enumerate-what-is-the-enumerate-function-in-python/) por Ihechikara Vincent Abba
+## :link: Referências consultadas
+[Python enumerate() – What is the Enumerate Function in Python?](https://www.freecodecamp.org/news/python-enumerate-what-is-the-enumerate-function-in-python/), artigo de Ihechikara Vincent Abba
 
 &nbsp;
 

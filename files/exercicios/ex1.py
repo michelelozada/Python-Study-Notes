@@ -10,7 +10,7 @@ De um trabalho da faculdade de ADS - 2021
 | Ensino Médio           | a partir 15 anos   |
 +------------------------+--------------------+
 
-De acordo com a seguinte classificação acima, crie um programa em Python que solicite nome e idade de um aluno e retorne qual a sua classificação em relação à etapa de ensino esperada. Além disso, o usuário deve escolher se deseja encerrar o programa ou não.
+De acordo com a classificação acima, crie um programa em Python que solicite nome e idade de um aluno e retorne qual a sua classificação em relação à etapa de ensino esperada. Além disso, o usuário deve escolher se deseja encerrar o programa ou não.
 '''
 
 

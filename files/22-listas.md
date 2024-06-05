@@ -6,8 +6,8 @@
 &nbsp;  
 ### Notas
 ```
-- Em Python, lista é uma estrutura de dados que armazena uma coleção ordenada de itens. 
-- Cada item dentro da lista é chamado de elemento (ou mesmo item). 
+- Uma lista (list) é uma estrutura de dados que armazena uma coleção ordenada de itens. 
+- Cada item dentro da lista é chamado de elemento (ou item). 
 - Em Python, as listas não são limitadas por tipos: podem conter itens do mesmo tipo ou de tipos diferentes
 ```
 

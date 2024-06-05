@@ -4,6 +4,15 @@
 &nbsp;
      
 &nbsp;  
+### Notas
+```
+- Um dicionário (dict) em Python é uma coleção desordenada de pares chave-valor.
+- Permite que você armazene dados de uma maneira estruturada e facilmente acessível através das chaves.
+- Portanto, útil para armazenar informações detalhadas e rotuladas.
+```
+
+&nbsp; 
+
 ### 1 - Declaração inicial
 ```py
 
