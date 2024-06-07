@@ -4,11 +4,21 @@
 &nbsp;
      
 &nbsp;  
-### Notas
+## Revisão sobre listas em Python
 ```
-- Uma lista (list) é uma estrutura de dados que armazena uma coleção ordenada de itens. 
-- Cada item dentro da lista é chamado de elemento (ou item). 
-- Em Python, as listas não são limitadas por tipos: podem conter itens do mesmo tipo ou de tipos diferentes
+- Classe associada: list
+
+- Cada item dentro da lista é chamado de elemento (ou mesmo de item) 
+
+- É uma estrutura de dados de sequência mutável, i.e., após a criação da lista, elementos podem ser modificados, adicionados ou removidos dali 
+
+- Listas são ordenadas, i.e., sua ordem é baseada na sequência em que os elementos foram inseridos ali
+
+- Elementos são acessados pela posição deles (= seu índice) na lista
+
+- As listas não são limitadas por tipos: podem conter itens do mesmo tipo ou de tipos diferentes 
+
+- Exemplo da sintaxe básica: [1, 2, 3, 4], ['a', 'e', 'i', 'o', 'u']
 ```
 
 &nbsp; 

@@ -4,6 +4,23 @@
 &nbsp;
      
 &nbsp;  
+## Revisão sobre tuplas em Python
+```
+- Classe associada: tuple
+
+- Cada item dentro da lista é chamado de elemento (ou mesmo de item) 
+
+- É um estrutura de dados de sequência *imutável*, i.e., após a criação da tupla, elementos não podem ser modificados, adicionados ou removidos dali 
+
+- Tuplas são ordenadas, i.e., sua ordem é baseada na sequência em que os elementos foram inseridos ali 
+
+- Elementos são acessados pela posição  (= seu índice) deles na tupla
+
+- Exemplo da sintaxe básica: (1, 2, 3, 4), ('a', 'e', 'i', 'o', 'u')
+```
+
+&nbsp;  
+
 ### 1 - Declaração inicial
 ```py
 

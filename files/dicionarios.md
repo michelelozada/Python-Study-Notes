@@ -4,16 +4,23 @@
 &nbsp;
      
 &nbsp;  
-### Notas
+## Revisão sobre dicionários em Python
 ```
-- Um dicionário (dict) em Python é uma coleção desordenada de pares chave-valor.
-- Permite que você armazene dados de uma maneira estruturada e facilmente acessível através das chaves.
-- Portanto, útil para armazenar informações detalhadas e rotuladas.
+- Classe associada: dict
+
+- É uma coleção de pares de chave-valor *mutável*, i.e., após a criação do dicionário, os pares chave-valor podem ser modificados, adicionados ou removidos  
+
+- Na versões mais recentes do Python, os dicionários são ordenados, baseados na ordem de inserção dos valores 
+
+- Permite que dados sejam armazenados de uma maneira estruturada e facilmente acessível por meio das chaves
+
+- Exemplo da sintaxe básica: {'nome': 'James', 'sobrenome': 'Bond'}, {'a': 10, 'b': 20}
 ```
 
 &nbsp; 
 
 ### 1 - Declaração inicial
+`ficha_livro` é uma instância da classe dict  
 ```py
 
 ficha_livro = {
@@ -24,16 +31,6 @@ ficha_livro = {
   'Páginas': '264 páginas'
 }
 
-# ou
-
-ficha_livro = {}
-ficha_livro['Título'] = 'Harry Potter e a Pedra Filosofal'
-ficha_livro['Título original'] = 'Harry Potter and the Philosopher\'s Stone'
-ficha_livro['Autor(a)'] = 'Rowling, J.K.'
-ficha_livro['Editora'] = 'Rocco'
-ficha_livro['Páginas'] = '264 páginas'
-
-print(ficha_livro)
 
 
 '''

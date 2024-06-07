@@ -1,0 +1,43 @@
+> **Range (intervalos)**  
+> Repositório: Python - Notas de estudo     
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;  
+## Revisão sobre range em Python
+```
+- Classe associada: range 
+
+- É uma estrutura de dados de sequência de números inteiros, que são gerados quando o range é iterado 
+
+- Os números deste invervalo são sempre inteiros
+
+- Os ranges/intervalos são imutáveis, i.e., tendo sido criados, não podem mais ser alterados
+
+- Exemplo da sintaxe básica: range(1, 10, 2) 
+```
+
+### A sintaxe básica para criar um objeto range é:
+
+```py
+range(start, stop, step)
+```
+Sendo:  
+**start**: O valor inicial do intervalo (inclusive)  
+**stop**: O valor final do intervalo (exclusive)  
+**step**: O intervalo entre os números/passo (quando implícito, o padrão é 1)  
+
+```py
+
+r = range(1, 10, 2)
+# Convertendo para lista para imprimir valores contidos no range
+print(list(r))  
+
+# Saída: [1, 3, 5, 7, 9]
+```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/Python-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

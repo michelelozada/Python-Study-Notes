@@ -4,6 +4,130 @@
 &nbsp;
      
 &nbsp;  
+## Revisão sobre strings em Python
+```
+- Classe associada: str
+
+- Representa uma sequência de caracteres/texto
+
+- Objetos do tipo str são imutáveis 
+
+- É representado no código através do uso de aspas simples ou duplas
+
+- Caracteres individuais de uma string podem ser acessados através dos índices (o 1º caractere de uma string está no índice 0)
+
+- A técnica do fatiamento (slicing) extrai partes específicas de uma string
+
+- As operação de string são:
+	. comparação (com operadores de comparação)
+	. concatenação (com operador +)
+	. formatação (com métodos como format ou f-string)
+	. repetição (com operador *)
+````
+
+&nbsp;  
+
+## Formatação através das f-strings
+
+Forma de formatar strings em Python, disponível a partir do Python 3.6
+Facilita a interpolação de variáveis e expressões diretamente nas strings 
+Uma f-tring deve começar com o prefixo `f`, seguida por uma string que deve conter as expressões/variáveis entre chaves. 
+```py
+
+estado = "Paraná"
+cidade = "Curitiba"
+print(f"{cidade} é a capital do {estado}.")
+
+# Saída: Curitiba é a capital do Paraná.
+```
+
+&nbsp;
+
+### • Comparando strings
+```py
+
+print('bom' < 'dia') # True
+print('bom' == 'dia') # False
+print('bom' > 'dia') # False
+print('dia' == 'dia') # True
+```
+
+&nbsp;
+
+## Concatenação: operadores e métodos  
+
+&nbsp;
+
+### 1 - Operador +
+```py
+
+nome = 'Denzel' + ' ' + 'Washington'
+profissao = 'ator e produtor norte-americano'
+
+print(nome)  # Denzel Washington
+print(nome + ', ' + profissao) # Denzel Washington, ator e produtor norte-americano
+```
+
+&nbsp; 
+
+### 2 - Operador +=
+```py
+
+s1 = 'hidro'
+s2 = 'elétrica'
+s1 += s2
+
+print(s1) # hidroelétrica
+```
+
+&nbsp; 
+
+### 3 - Operador *
+```py
+
+frase = ('Vamos sentir saudades. Volte logo' + '!' * 3)
+
+print(frase) # Vamos sentir saudades. Volte logo!!!
+```
+
+&nbsp; 
+
+### 4 - Método str()
+```py
+
+print('No ' + str(6) + 'º dia do evento, apenas ' + str(25) + '% dos convidados participaram dos ' + str(10) + ' seminários.')
+# No 6º dia do evento, apenas 25% dos convidados participaram dos 10 seminários.
+```
+
+&nbsp; 
+
+### 5 - Método format()
+```py
+
+name = 'Luísa Dias'
+age = 18
+grade = 9.5
+	
+print('Aluno(a): {}. Idade: {}. Nota: {}'.format(name,age,grade))
+# Aluno(a): Luísa Dias. Idade: 18. Nota: 9.5
+
+print(f'Aluno(a): {name}. Idade: {age}. Nota: {grade}') # Disponível a partir da versão 3.6 do Python!
+# Aluno(a): Luísa Dias. Idade: 18. Nota: 9.5
+```
+
+&nbsp; 
+
+### 6 - Método join()
+```py
+
+bandasAnos80 = ['The Cure', 'The Smiths', 'New Order', 'Joy Division']
+s = ' - '.join(bandasAnos80)
+
+print(s)
+```
+
+&nbsp;
+
 ```py
 
 citacao = 'devemos julgar um homem mais pelas suas perguntas que pelas respostas.'  

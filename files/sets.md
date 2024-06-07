@@ -1,19 +1,30 @@
-> **Conjuntos de dados (sets)**  
+> **Set (conjunto de dados)**  
 > Repositório: Python - Notas de estudo     
 > GitHub: @michelelozada
 &nbsp;
      
 &nbsp;  
+## Revisão sobre sets em Python
+```
+- Classe associada: set
+
+- É uma estrutura de dados de sequência que pode conter múltiplos itens ou elementos, porém apenas itens únicos são armazenados num set
+
+- Isso quer dizer que ao tentar adicionar um item que já presente no set, este será ignorado.
+
+- É uma sequência não ordenada, pois não mantém uma ordem específica dos elementos 
+
+- Exemplo da sintaxe básica: {1, 2, 3, 6, 5}
+```
+
+&nbsp; 
+
 ### 1. Declarando um set
+* Conjunto é uma instância de um set em Python/é um objeto do tipo set
+
 ```py
 
-conjunto = set()
-conjunto = set([1,2,3,6,5])
-print(conjunto) # Retorna: {1, 2, 3, 5, 6}
-
-# ou
-
-conjunto = {1,2,3,6,5}
+conjunto = {1, 2, 3, 6, 5}
 print(conjunto) # {1, 2, 3, 5, 6}
 ```
 

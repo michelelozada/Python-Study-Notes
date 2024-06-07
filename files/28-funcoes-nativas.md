@@ -17,18 +17,19 @@ Funções | Finalidade
 input() | Recebe (= lê) a entrada de um usuário, via teclado, como uma string
 len() | Retorna o comprimento/número de itens de um objeto (lista, tupla, string, etc.)
 print() | Exibe (= imprime) um objeto no console 
-type() | Retorna o tipo de um objeto 
+type() | Retorna a classe de um objeto em Python 
 
 &nbsp;  
 
 #### 2. Funções para conversão de tipos:
+* Essas funções criam/retornam instâncias de classes. Também são chamadas de funções construtoras.  
 Funções | Finalidade 
 ---     | ---
-bool() | Converte um valor para um tipo booleano
-float() | Converte um valor para um tipo ponto flutuante
-int() | Converte um valor para um tipo inteiro
-list() | Converte um iterável para uma lista
-str() | Converte um valor para um tipo string
+bool() | Converte um valor para um tipo booleano (pertence à classe `bool`)
+float() | Converte um valor para um tipo ponto flutuante (pertence à classe `float`)
+int() | Converte um valor para um tipo inteiro (pertence à classe `int`)
+list() | Converte um iterável para uma lista (pertence à classe `list`)
+str() | Converte um valor para um tipo string (pertence à classe `str`)
 
 &nbsp;  
 
@@ -36,22 +37,22 @@ str() | Converte um valor para um tipo string
 Funções | Finalidade 
 ---     | ---
 abs() | Retorna o valor absoluto de um número
-max() | Retorna o valor máximo de uma sequência de números
-min() | Retorna o valor mínimo de uma sequência de números
-round() | Arredonda um número para um determinado número de casas decimais
-sum() | Retorna a soma de uma sequência de números
+max() | Retorna o maior item em um iterável (ou o maior de 2 ou mais argumentos)
+min() | Retorna o menor item em um iterável (ou o menor de 2 ou mais argumentos)
+round() | Retorna um número arredondado para um determinado número de casas decimais
+sum() | Retorna a soma de um iterável 
 
 &nbsp;  
 
 #### 4. Funções para iteração e filtragem
 Funções | Finalidade 
 ---     | ---
-filter() | Filtra itens de um iterável com base em uma função
-map() | Aplica uma função a todos os itens de um iterável
-sorted() | Retorna uma lista ordenada a partir dos elementos de um iterável
-enumerate() | Retorna  uma sequência de tuplas contendo um índice e o valor correspondente do iterável. Ùtil para percorrer 2 listas.
-range() | Geralmente usado em loops, gera uma sequência de números
-zip() | Combina elementos de múltiplos iteráveis (listas, tuplas, etc) em tuplas
+filter() | Filtra itens de um iterável com base em uma função especificada
+map() | Aplica uma função a todos os itens de um iterável e retorna uma lista dos resultados
+sorted() | Retorna uma nova lista, contendo todos os elementos do iterável ordenados
+enumerate() | Retorna uma sequência de tuplas contendo os índices e valores correspondentes do iterável
+range() | Geralmente usado em loops, retorna uma sequência imutável de números entre dois inteiros
+zip() | Combina elementos de múltiplos iteráveis (listas, tuplas, etc), retornados em tuplas
 
 &nbsp;  
 
