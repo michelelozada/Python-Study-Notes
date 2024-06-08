@@ -16,7 +16,7 @@
 
 - Caracteres individuais de uma string podem ser acessados através dos índices (o 1º caractere de uma string está no índice 0)
 
-- A técnica do fatiamento (slicing) extrai partes específicas de uma string
+- Pode ser iterada para acesso a cada caractere individualmente
 
 - As operação de string são:
 	. comparação (com operadores de comparação)

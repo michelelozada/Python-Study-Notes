@@ -14,7 +14,7 @@
 
 - Listas são ordenadas, i.e., sua ordem é baseada na sequência em que os elementos foram inseridos ali
 
-- Elementos são acessados pela posição deles (= seu índice) na lista
+- Seus elementos são acessados pela posição (= seus índices) na lista
 
 - As listas não são limitadas por tipos: podem conter itens do mesmo tipo ou de tipos diferentes 
 

@@ -8,7 +8,7 @@
 ```
 - Classe associada: tuple
 
-- Cada item dentro da lista é chamado de elemento (ou mesmo de item) 
+- Cada item dentro da tupla é chamado de elemento (ou mesmo de item) 
 
 - É um estrutura de dados de sequência *imutável*, i.e., após a criação da tupla, elementos não podem ser modificados, adicionados ou removidos dali 
 

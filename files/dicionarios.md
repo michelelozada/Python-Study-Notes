@@ -12,7 +12,7 @@
 
 - Na versões mais recentes do Python, os dicionários são ordenados, baseados na ordem de inserção dos valores 
 
-- Permite que dados sejam armazenados de uma maneira estruturada e facilmente acessível por meio das chaves
+- Os elementos de um dicionário são acessados por meio de suas chaves e podem ser iterados
 
 - Exemplo da sintaxe básica: {'nome': 'James', 'sobrenome': 'Bond'}, {'a': 10, 'b': 20}
 ```

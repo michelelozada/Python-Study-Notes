@@ -10,14 +10,16 @@
 
 - É uma estrutura de dados de sequência de números inteiros, que são gerados quando o range é iterado 
 
-- Os números deste invervalo são sempre inteiros
+- Os números deste invervalo são sempre inteiros, em progressão aritmética
 
 - Os ranges/intervalos são imutáveis, i.e., tendo sido criados, não podem mais ser alterados
 
 - Exemplo da sintaxe básica: range(1, 10, 2) 
 ```
 
-### A sintaxe básica para criar um objeto range é:
+&nbsp;
+
+### A sintaxe básica para criar um objeto range:
 
 ```py
 range(start, stop, step)

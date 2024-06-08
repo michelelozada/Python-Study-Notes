@@ -8,14 +8,19 @@
 ```
 - Classe associada: set
 
-- É uma estrutura de dados de sequência que pode conter múltiplos itens ou elementos, porém apenas itens únicos são armazenados num set
+- É uma estrutura de dados de sequência em que apenas itens únicos são armazenados
 
-- Isso quer dizer que ao tentar adicionar um item que já presente no set, este será ignorado.
+- Isso quer dizer que ao tentar adicionar um item que já presente no set, este será ignorado
 
 - É uma sequência não ordenada, pois não mantém uma ordem específica dos elementos 
 
+- É mutável, i.e, permite a adição, remoção ou modificação de elementos dentro da coleção
+
 - Exemplo da sintaxe básica: {1, 2, 3, 6, 5}
 ```
+
+Conjuntos (set e frozenset): Um conjunto é uma coleção desordenada e mutável de itens únicos. 
+
 
 &nbsp; 
 
