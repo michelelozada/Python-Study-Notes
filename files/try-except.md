@@ -1,19 +1,21 @@
-> **Estrutura Try Except**  
+> **Bloco try-except**  
 > Repositório: Python - Notas de estudo     
 > GitHub: @michelelozada
 &nbsp;
      
 &nbsp;  
-## Revisão
+## Revisão sobre o bloco try-except em Python
+```
+- Utilizado para tratamento de exceções que podem ocorrer ao longo da execução de um bloco de código  
 
-### Bloco `try... except... finally`
-- Utilizado para tratar as exceções/erros que podem ocorrer durate a execução de um bloco de código  
-- Evita que um programa termine abruptamente em virtude de um erro que não foi previsto
-- Fornece feedback ao usuário, de modo que este pode corrigir a entrada
+- Evita, portanto que um programa termine abruptamente em virtude de uma exceção que não foi prevista
+
+- Fornece também feedback ao usuário, de modo que este possa corrigir a entrada, quando necessário 
+```
 
 &nbsp;  
 
-#### Estrutura básica
+### • Sintaxe básica
 ```py
 
 try:
@@ -28,27 +30,26 @@ finally:
 
 &nbsp;  
 
-### ValueError		
-- É uma exceção em Python, lançada quando uma função ou operação recebe um '**argumento que tem o tipo correto, mas o valor inapropriado**'  
-- Ocorre quando a função recebe um valor específico que não pode ser processado adequadmente devido ao valor fornecido
-- Quando você utiliza o `input()` para obter uma entrada do usuário e, na sequência, tenta converter essa entrada em um número, como `int()` ou `float()`, um ValueError será lançado, pois a entrada não pode ser convertida para o tipo numérico esperado.  
+### • ValueError		
+
+É uma exceção em Python, lançada quando uma função ou operação recebe um **argumento que tem o tipo correto, mas o valor inapropriado**
+
+Imaginando o exemplo de que é utilizado o `input()` para obter uma entrada do usuário e há a entrada de um número, como `int()` ou `float()`, que não pode ser processado adequadamente devido ao valor fornecido: neste caso um `ValueError` será lançado, pois a entrada não pode ser convertida para o tipo numérico esperado.  
 
 ```py
 
 try:
-  numero = int(input("Por favor, Digite um número: "))
+  numero = int(input("Por favor, digite aqui um número: "))
   print(numero)
-# para o caso de valor que não possa ser convertido para um inteiro 
+# Para o caso da entrada de valor que não possa ser convertido para um inteiro 
 except ValueError:
-  print("Erro! Eu te avisei que era para digitar um número.")
+  print("Eu te avisei que era para digitar um número!")
 ```
 
 &nbsp;  
 
-### Exercício:
-Escreva um algoritmo que leia um número. Este número informado pelo usuário deve necessariamente estar compreendido
-no intervalo de 1 a 50 (ambos inclusos). Além disso, você deve usar um tratamento de exceção para evitar que o programa
-seja abortado, caso o usuário digite um valor não-numérico.  
+>> Exercício: Escreva um algoritmo que leia um número. Este número informado pelo usuário deve necessariamente estar compreendido no intervalo de 1 a 50 (ambos inclusos). Além disso, você deve usar um tratamento de exceção para evitar que o programa seja abortado, caso o usuário digite um valor não-numérico.  
+
 
 ```py 
 
@@ -82,8 +83,7 @@ Digite um número: 25
 
 &nbsp;  
 
-### Exercício:
-Considerando os divisores abaixo, trate os erros que podem acontecer a fim de evitar que programa seja abortado
+>> Exercício: Considerando os divisores abaixo, trate os erros que podem acontecer a fim de evitar que programa seja abortado
 durante o procesamento das divisões:  
 
 ```py 

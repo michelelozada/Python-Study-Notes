@@ -5,7 +5,7 @@
 &nbsp;
 &nbsp;	
 
-Link  | Tópico
+Link  | Assunto
 :---: | :---
 [01](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/tipos-de-dados.md) | Tipos de dados   
 [02](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/strings.md) | Strings  
@@ -20,13 +20,13 @@ Link  | Tópico
 [11](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/desvio-condicional.md) | Desvio condicional
 [12](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/estruturas-repeticao.md) | Estruturas de repetição
 [13](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/iteraveis.md) | Iteráveis
-[14](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/27-escopo.md) | Escopo  
-[15](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/28-funcoes-nativas.md) | Funções nativas  
-[16](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/29-funcoes-personalizadas.md) | Funções personalizadas
-[17](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/30-metodos.md) | Métodos _(referência rápida)_
-[18](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/31-try-except.md) | Estrutura Try Except   
-[19](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/32-biblioteca-math.md) | Biblioteca math  
-[20](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/33-biblioteca-random.md) | Biblioteca random  
+[14](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/try-except.md) | Bloco try-except 
+[15](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/funcoes-nativas.md) | Funções nativas do Python
+[16](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/funcoes-personalizadas.md) | Funções personalizadas
+[17](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/escopo.md) | Escopo  
+[18](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/biblioteca-math.md) | Biblioteca math  
+[19](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/biblioteca-random.md) | Biblioteca random  
+[20](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/metodos.md) | Métodos _(referência rápida)_
 
 &nbsp;   
 
@@ -35,9 +35,12 @@ Link  | Tópico
 
   &nbsp;
   &nbsp;   
-  [Documentação do Python](https://www.python.org/)  
-	[Pense em Python, de Allen B. Downey](https://penseallen.github.io/PensePython2e/)
-	[The Best of the Best Practices Guide for Python, compilado por sloria](https://gist.github.com/sloria/7001839)
+  
+	[Como Pensar Como um Cientista da Computação](https://panda.ime.usp.br/panda/static/pensepy/index.html), de Brad Miller e David Ranum/traduzido por Morimoto, Pina Jr. e Soares  
+	[Introdução à Computação com Python](https://panda.ime.usp.br/panda/static/cc110/index.html), curso por J.C. de Pina Jr. e C.H. Morimoto  
+	[Pense em Python](https://penseallen.github.io/PensePython2e/), de Allen B. Downey/traduzido por Sheila Gomes  
+	[Python’s standard documentation](https://www.python.org/)  
+	[The Best of the Best Practices Guide for Python](https://gist.github.com/sloria/7001839), compilado por sloria  
   </details>
 
 &nbsp;    

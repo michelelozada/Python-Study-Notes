@@ -27,7 +27,7 @@
 
 &nbsp;  
 
-## Formatação através das f-strings
+### • Formatação através das f-strings
 
 Forma de formatar strings em Python, disponível a partir do Python 3.6
 Facilita a interpolação de variáveis e expressões diretamente nas strings 

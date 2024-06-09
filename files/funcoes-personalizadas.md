@@ -5,9 +5,22 @@
      
 &nbsp;  
 
-### Funções personalizadas 
-- São criadas no código pelo usuário para resolver uma necessidade específica  
-- Definidas através da palavra-chave `def` seguida pelo nome da função, (se existirem) dos parâmetros e do bloco de código desejado 
+## Revisão sobre funções personalizadas em Python
+```
+- Criadas no código pelo usuário para a resolução de uma necessidade específica, sendo uma maneira eficaz de reutilizar este mesmo código   
+
+- São definidas através da palavra-chave def, seguida pelo nome da função
+
+- Funções podem aceitar:
+  . parâmetros, que são variáveis usadas na definição da função
+	. argumentos, que são valores reais passados para a função quando ele é chamada 
+
+- O bloco de código indentado  é o que define o comportamento da função 
+
+- Funções podem retornar valores ao ser utilizada a palavra-chave return (se nada for especificado, por default, é retornado None)
+```
+
+&nbsp
 
 ```py
 
