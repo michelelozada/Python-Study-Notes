@@ -14,7 +14,8 @@
 
 - É representado no código através do uso de aspas simples ou duplas
 
-- Caracteres individuais de uma string podem ser acessados através dos índices (o 1º caractere de uma string está no índice 0)
+- Caracteres individuais de uma string podem ser acessados através dos índices (o 1º caractere de uma 
+string está no índice 0)
 
 - Pode ser iterada para acesso a cada caractere individualmente
 
@@ -275,6 +276,48 @@ VOLTAIRE (pseudônimo de François Marie-Arouet), ensaísta e pensador francês 
 ```
 
 &nbsp;
+
+## Métodos da Classe `str` (String)
+
+### • Para verificação de conteúdo de strings:
+Método | Função
+---    | ---
+isalnum() | Retorna True se todos os caracteres da string forem letras ou dígitos
+isalpha() | Retorna True se todos os caracteres da string forem letras e se string não está vazia
+isdigit() | Retorna True se todos os caracteres da string forem dígitos
+islower() | Retorna True se todos os caracteres da string estiverem em minúsculas
+isspace() | Retorna True se todos os caracteres da string forem espaços em branco
+isupper() | Retorna True se todos os caracteres da string estiverem em maiúsculas
+
+&nbsp;  
+
+### • Para manipulação de conteúdo/formatação:
+Método | Função
+---    | ---
+capitalize() | Retorna uma cópia da string em minúsculas
+format() | Formata uma string
+join() | Junta os elementos de um iterável em uma string única, usando a string original como separador
+lower() | Converte os caracteres de uma string para minúsculas
+lstrip() | Remove espaços em branco do início de uma string 
+replace(old, new) | Substitui a ocorrência da substring antiga por outra ali informada
+rstrip() | Remove espaços em branco do final de uma string 
+split() | Divide a string em uma lista de substrings usando o separador informado
+strip() | Remove espaços em branco (ou outros caracteres especificados) do início e do fim da string 
+title() | Converte o 1º caractere de cada palavra para maiúscula e demais para minúsculas
+upper() | Retorna uma cópia da string em maiúsculas
+
+&nbsp;  
+
+### • Para pesquisa de conteúdo:
+Método | Função
+---    | ---
+count() | Retorna o número de ocorrências da substring informada 
+endswith() | Retorna True se a string termina com o sufixo especificado
+find() | Retorna o índice da 1ª ocorrência da substring informada ou -1 se não for encontrada
+index() | Mesma função do método `find()`, mas retorna erro ValueError se a substring não for encontrada
+startswith(prefix) | Retorna True se a string começa com o prefixo especificado
+
+&nbsp;  
 
 <div align="center">
 <a href="https://github.com/michelelozada/Python-Study-Notes">[Voltar à tela inicial do repositório]</a>

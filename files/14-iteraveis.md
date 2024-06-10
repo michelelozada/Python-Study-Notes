@@ -4,9 +4,10 @@
 &nbsp;
      
 &nbsp;  
-## Revisão sobre iteráveis em Python
+## Revisão sobre Iteráveis em Python
 ```
-- Iteráveis são os objetos que podem ser percorridos (ou seja, iterados), permitindo o acesso a cada um de seus itens sequencialmente
+- Iteráveis são os objetos que podem ser percorridos (ou seja, iterados), permitindo o acesso a cada 
+um de seus itens sequencialmente
 
 - Os principais iteráveis em Python são:
   . Strings
@@ -16,7 +17,8 @@
 	. Sets (conjuntos)
 	. Range (intervalos)
 	
-- Iteráveis e loops estão diretamente correlacionados, pois estes últimos são usados para percorrer os elementos de um iterável, normalmente executando uma ação específica para cada um destes itens
+- Iteráveis e loops estão diretamente correlacionados, pois estes últimos são usados para percorrer os 
+elementos de um iterável, normalmente executando uma ação específica para cada um destes itens
 ```
 
 &nbsp;  

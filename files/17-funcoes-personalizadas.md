@@ -5,11 +5,12 @@
      
 &nbsp;  
 
-## Revisão sobre funções personalizadas em Python
+## Revisão sobre Funções Personalizadas em Python
 ```
-- Criadas no código pelo usuário para a resolução de uma necessidade específica, sendo uma maneira eficaz de reutilizar este mesmo código   
+- São criadas pelo usuário para a realização de uma ação específica, podendo ser chamadas em diferentes
+partes do programa
 
-- São definidas através da palavra-chave def, seguida pelo nome da função
+- São declaradas através da palavra-chave def, seguida pelo nome da função
 
 - Funções podem aceitar:
   . parâmetros, que são variáveis usadas na definição da função
@@ -17,7 +18,8 @@
 
 - O bloco de código indentado  é o que define o comportamento da função 
 
-- Funções podem retornar valores ao ser utilizada a palavra-chave return (se nada for especificado, por default, é retornado None)
+- A palavra-chave return é utilizada dentro de funções para retornar um valor específico quando a 
+função é chamada (sendo que se nada for especificado, por default, é retornado None)
 ```
 
 &nbsp
@@ -51,10 +53,10 @@ print(calculo)
 
 &nbsp;  
 
-Exercício: Criar funções para cálculo de notas de um aluno, sendo que:  
-- A atividade prática deve ter peso de 40%.  
-- O exame final deve ter peso de 60%.  
-- Deve ser informado se o aluno foi aprovado ou não na disciplina (a média da escola é 7).  
+> Exercício: Criar funções para cálculo de notas de um aluno, sendo que:  
+> - A atividade prática deve ter peso de 40%.  
+> - O exame final deve ter peso de 60%.  
+> - Deve ser informado se o aluno foi aprovado ou não na disciplina (a média da escola é 7).  
 
 ```py 
 

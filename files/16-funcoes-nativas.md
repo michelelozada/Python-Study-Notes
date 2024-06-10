@@ -139,7 +139,6 @@ Retorna:
 índice: 2 - item: verão
 índice: 3 - item: outono
 índice: 4 - item: inverno	
-
 ```
 
 &nbsp;
@@ -187,7 +186,7 @@ Cida 48
 &nbsp;
 
 ## Referências consultadas
-. [Python enumerate() – What is the Enumerate Function in Python?](https://www.freecodecamp.org/news/python-enumerate-what-is-the-enumerate-function-in-python/), artigo de Ihechikara Vincent Abba  
+> [Python enumerate() – What is the Enumerate Function in Python?](https://www.freecodecamp.org/news/python-enumerate-what-is-the-enumerate-function-in-python/), artigo de Ihechikara Vincent Abba  
 
 &nbsp;
 

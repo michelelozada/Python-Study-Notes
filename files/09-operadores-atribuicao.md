@@ -4,9 +4,10 @@
 &nbsp;
      
 &nbsp;  
-## Operadores de atribuição
+## Revisão sobre Operadores de Atribuição
 ```
-Permitem modificar o valor de uma variável através de uma operação realizada com o valor atual de uma variável
+Permitem modificar o valor de uma variável através de uma operação realizada com o valor atual de 
+uma variável
 ```
 
 &nbsp; 

@@ -4,7 +4,7 @@
 &nbsp;
      
 &nbsp;  
-## Operadores lógicos
+## Revisão sobre Operadores Lógicos
 ```
 - Usados para combinar e modificar valores booleanos para criar expressões lógicas mais complexas
 

@@ -4,24 +4,27 @@
 &nbsp;
      
 &nbsp;  
-## Resumo sobre Desvio condicional em Python
+## Resumo sobre Desvio Condicional em Python
 ```py
 
-- É uma estrutura de decisão, utilizada para criar uma lógica de controle de fluxo
+- É uma estrutura de decisão, utilizada para realizar testes condicionais e controlar o fluxo do 
+programa com base em condições.
 
-- Ou seja, dependendo de se uma condição é avaliada como verdadeira ou como 
-falsa, o programa é capaz de tomar decisões e executar (ou não) diferentes blocos de código 
 
-- Em Python, o desvio condicional é implementado, através das seguintes cláusulas: 
-  . if (que verifica se uma condição é verdadeira)
-	. elif (equivalente ao "else if"), que permitem testar outras condições
+- Ou seja, dependendo de se uma condição é avaliada como verdadeira ou como falsa, o programa é 
+capaz de tomar decisões e executar (ou não) diferentes blocos de código 
+
+- Em Python, o desvio condicional é implementado, através das seguintes palavras-chave: 
+  . if, que verifica se uma condição é verdadeira
+	. elif (equivalente ao "else if"), que permite testar outras condições
 	. else, que define um bloco de código para tratar dos casos não cobertos pelas condições anteriores
 
 - O desvio condicional pode ser classificado como simples ou composto 
 
-- Também pode ser aninhado ou encadeado (simulando a estrutura switch case)  
+- Também pode ser aninhado ou encadeado (simulando aqui a estrutura switch case de outras linguagens)  
 
-- Em Python, o indentamento apropriado do código é crucial para garantir que as instruções dentro dos blocos if, elif e else sejam executadas corretamente. 
+- Em Python, o indentamento apropriado do código é crucial para garantir que os blocos if, elif e else 
+sejam executadas corretamente. 
 ```
 
 &nbsp; 

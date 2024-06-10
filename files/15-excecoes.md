@@ -1,16 +1,16 @@
-> **Bloco try-except**  
+> **Gerenciamento de exceções**  
 > Repositório: Python - Notas de estudo     
 > GitHub: @michelelozada
 &nbsp;
      
 &nbsp;  
-## Revisão sobre o bloco try-except em Python
+## Revisão sobre Gerenciamento de exceções em Python
 ```
-- Utilizado para tratamento de exceções que podem ocorrer ao longo da execução de um bloco de código  
+- As instruções try, except e finally são utilizadas para lidar com exceções (erros) em Python, a 
+permitindo sua captura e tratamento de forma controlada, ao longo da execução de um bloco de código
 
-- Evita, portanto que um programa termine abruptamente em virtude de uma exceção que não foi prevista
-
-- Fornece também feedback ao usuário, de modo que este possa corrigir a entrada, quando necessário 
+- Evita, portanto que um programa termine abruptamente em virtude de uma exceção que não foi prevista, 
+fornece também feedback ao usuário, de modo que este possa corrigir a entrada sempre que  necessário 
 ```
 
 &nbsp;  
@@ -48,7 +48,7 @@ except ValueError:
 
 &nbsp;  
 
->> Exercício: Escreva um algoritmo que leia um número. Este número informado pelo usuário deve necessariamente estar compreendido no intervalo de 1 a 50 (ambos inclusos). Além disso, você deve usar um tratamento de exceção para evitar que o programa seja abortado, caso o usuário digite um valor não-numérico.  
+> Exercício: Escreva um algoritmo que leia um número. Este número informado pelo usuário deve necessariamente estar compreendido no intervalo de 1 a 50 (ambos inclusos). Além disso, você deve usar um tratamento de exceção para evitar que o programa seja abortado, caso o usuário digite um valor não-numérico.  
 
 
 ```py 
@@ -83,7 +83,7 @@ Digite um número: 25
 
 &nbsp;  
 
->> Exercício: Considerando os divisores abaixo, trate os erros que podem acontecer a fim de evitar que programa seja abortado
+> Exercício: Considerando os divisores abaixo, trate os erros que podem acontecer a fim de evitar que programa seja abortado
 durante o procesamento das divisões:  
 
 ```py 

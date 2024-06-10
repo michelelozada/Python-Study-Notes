@@ -4,9 +4,10 @@
 &nbsp;
      
 &nbsp;  
-## Operadores relacionais
+## Revisão sobre Operadores Relacionais
 ```
-Usados para comparar valores e retornar um resultado booleano (True ou False) com base na relação entre eles
+Usados para comparar valores e retornar um resultado booleano (True ou False) com base na relação 
+entre eles
 ```
 
 &nbsp;  

@@ -4,7 +4,7 @@
 &nbsp;
      
 &nbsp;  
-## Operadores aritméticos 
+## Revisão sobre Operadores Aritméticos 
 ```
 Usados para realizar operações matemáticas em expressões
 ```

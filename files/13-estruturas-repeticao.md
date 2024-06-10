@@ -9,18 +9,23 @@
 ```
 - Existem duas estruturas principais de repetição em Python: o loop for e o loop while. 
 
-- Ambas as estruturas de repetição são úteis em diferentes situações e a escolha entre elas dependerá do contexto específico do problema que está se tentando resolver
+- Estas duas estruturas de repetição são úteis em diferentes situações e a escolha entre elas dependerá 
+do contexto específico do problema que está se tentando resolver
 
 - Alguns conceitos importantes neste contexto são: 
-  . Variável contadora, que é usada normalmente no loop while para controlar quantas vezes o bloco de código dentro do loop é executado. Ela é inicializada com um dado valor e é incrementada a cada iteração, até alcançar um limite pré-definido.
-	. Variável acumuladora, que é usada para armazenar o resultado de operações realizadas ao longo das iterações do loop for ou while
-  . continue e break, que são palavras-chave utilizadas para, respectivamente, controlar e interromper o fluxo de execução dentro de loops for e while	
+  . Variável contadora, que é usada normalmente no loop while para controlar quantas vezes o bloco de 
+	código dentro do loop é executado. Ela é inicializada com um dado valor e é incrementada a cada 
+	iteração, até alcançar um limite pré-definido.
+	. Variável acumuladora, que é usada para armazenar o resultado de operações realizadas ao longo das 
+	iterações do loop for ou while
+  . continue e break, que são palavras-chave utilizadas para, respectivamente, controlar e interromper 
+	o fluxo de execução dentro de loops for e while	
 ```
 
 &nbsp;  
 
 ## O Loop for
-Usado para iterar sobre uma sequência (como uma lista, tupla, dicionário ou string) ou uma coleção de elementos, executando o bloco de código associado a cada elemento desta sequência.
+Usado para iterar sobre uma sequência (como uma lista, tupla, dicionário ou string) ou em um intervalo específico, executando o bloco de código associado a cada elemento desta sequência.
 
 &nbsp;  
 
@@ -58,6 +63,8 @@ Saída:
 ### •  Loop for em conjunto com a função `range()`
 
 O `range()` é uma função incorporada em Python que gera uma sequência de números em uma progressão aritmética. É frequentemente utilizada em conjunto com o loop for para iterar sobre uma sequência de números específica. 
+
+&nbsp; 
 
 >> No exemplo abaixo: range(5) gera uma sequência de números de 0 a 4 (não incluindo o número 5) sobre a qual o loop for vai iterar, imprimindo cada um desses números
 ```py
@@ -100,6 +107,8 @@ while condição:
   # O bloco de código aqui é repetido enquanto a condição for verdadeira
 ```
 
+&nbsp; 
+
 >> Exercício: Conte de 1 até 5 usando um loop while. 
 ```py
 
@@ -129,6 +138,8 @@ Saída:
 ### • Variável acumuladora: 
 É uma variável que é usada para armazenar valores acumulados de operações realizadas ao longo das iterações de um loop. Costuma ser utilizada em loops `for`, quando iterando sobre uma sequência de elementos.
 
+&nbsp; 
+
 >> Exercício: Some todos os elementos da lista abaixo:
 ```py
 
@@ -151,6 +162,8 @@ print("A soma dos números da lista é:", soma)
 ### • Instrução `continue`: 
 Esta palavra-chave é usada para **interromper a iteração atual de um loop e avançar para a próxima iteração**. Ou seja, quando o Python encontra a instrução `continue` dentro de um loop, ele pula o restante do código dentro da iteração atual de um loop  e pula para a iteração seguinte.
 
+&nbsp; 
+
 >> Sobre o exemplo abaixo: quando i for igual a 3, a instrução `continue` será acionada e o código dentro deste loop será interrompido para essa iteração específica. Repare na saída que o número 3 não será impresso e o loop continuará com a próxima iteração.
 ```py
 
@@ -170,6 +183,8 @@ Saída:
 
 ### • Instrução `continue`: 
 Esta palavra-chave é usada para **interromper a iteração atual de um loop e avançar para a próxima iteração**. Ou seja, quando o Python encontra a instrução `continue` dentro de um loop, ele pula o restante do código dentro da iteração atual de um loop  e pula para a iteração seguinte.
+
+&nbsp; 
 
 >> Sobre o exemplo abaixo: quando i for igual a 3, a instrução `continue` será acionada e o código dentro deste loop será interrompido para essa iteração específica. Repare na saída que o número 3 não será impresso e o loop continuará com a próxima iteração.
 ```py
@@ -192,6 +207,8 @@ Saída:
 
 ### • Instrução `break`: 
 Esta palavra-chave é usada para **sair completamente de um loop, interrompendo sua execução**, mesmo que a condição de continuação do loop ainda seja verdadeira. 
+
+&nbsp; 
 
 >> Sobre o exemplo abaixo: Quando i for igual a 4, a instrução `break` será acionada, e o loop será interrompido completamente. Repare na saída que só os números de 1 a 3 foram impressos, antes da execução do programa
 
@@ -214,6 +231,8 @@ Saída:
 
 ### • Instrução `break`: 
 Esta palavra-chave é usada para **sair completamente de um loop, interrompendo sua execução**, mesmo que a condição de continuação do loop ainda seja verdadeira. 
+
+&nbsp; 
 
 >> Sobre o exemplo abaixo: Quando i for igual a 4, a instrução `break` será acionada, e o loop será interrompido completamente. Repare na saída que só os números de 1 a 3 foram impressos, antes da execução do programa
 

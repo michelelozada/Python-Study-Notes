@@ -4,9 +4,10 @@
 &nbsp;
      
 &nbsp;  
-## Revisão dos principais tipos de dados 
+## Revisão sobre tipos de dados 
 ```
-Em Python, os tipos de dados estão relacionados às suas classes subjacentes, i.e., cada tipo de dado corresponde a uma classe.   
+Em Python, os tipos de dados estão relacionados às suas classes subjacentes, i.e., cada tipo de dado 
+corresponde a uma classe.   
 ```
 
 &nbsp;  
