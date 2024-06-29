@@ -4,7 +4,7 @@
 &nbsp;
      
 &nbsp;  
-## Revisão sobre range em Python
+## Range/intervalos em Python *(mini-revisão)*
 ```
 - Classe associada: range 
 
@@ -22,17 +22,23 @@
 ### A sintaxe básica para criar um objeto range:
 
 ```py
+
 range(start, stop, step)
 ```
 Sendo:  
-**start**: O valor inicial do intervalo (inclusive)  
-**stop**: O valor final do intervalo (exclusive)  
-**step**: O intervalo entre os números/passo (quando implícito, o padrão é 1)  
+&nbsp;&nbsp;**. start**: O valor inicial do intervalo (inclusive)  
+&nbsp;&nbsp;**. stop**: O valor final do intervalo (exclusive)  
+&nbsp;&nbsp;**. step**: O intervalo entre os números/passo (quando implícito, o padrão é 1)  
+
+&nbsp;
+
+### Exemplo
 
 ```py
 
 r = range(1, 10, 2)
-# Convertendo para lista para imprimir valores contidos no range
+
+# Convertendo para lista para impressão de valores contidos no range
 print(list(r))  
 
 # Saída: [1, 3, 5, 7, 9]

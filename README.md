@@ -6,7 +6,7 @@
 &nbsp;	
 
 Link  | Assunto
-:---: | :---
+:---: | ---
 [01](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/01-tipos-de-dados.md) | Tipos de dados   
 [02](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/02-strings.md) | Strings  
 [03](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/03-listas.md) | Listas   
@@ -17,7 +17,7 @@ Link  | Assunto
 [08](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/08-operadores-aritmeticos.md) | Operadores aritméticos   
 [09](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/09-operadores-atribuicao.md) | Operadores de atribuição   
 [10](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/10-operadores-relacionais.md) | Operadores relacionais   
-[11](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/11-operadores-relacionais.md) | Operadores logicos   
+[11](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/11-operadores-logicos.md) | Operadores logicos   
 [12](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/12-desvio-condicional.md) | Desvio condicional
 [13](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/13-estruturas-repeticao.md) | Estruturas de repetição
 [14](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/14-iteraveis.md) | Iteráveis
@@ -36,11 +36,11 @@ Link  | Assunto
 &nbsp;
 &nbsp;   
 
-[Como Pensar Como um Cientista da Computação](https://panda.ime.usp.br/panda/static/pensepy/index.html), de Brad Miller e David Ranum/traduzido por Morimoto, Pina Jr. e Soares  
-[Introdução à Computação com Python](https://panda.ime.usp.br/panda/static/cc110/index.html), curso por J.C. de Pina Jr. e C.H. Morimoto  
-[Pense em Python](https://penseallen.github.io/PensePython2e/), de Allen B. Downey/traduzido por Sheila Gomes  
-[Python’s standard documentation](https://www.python.org/)  
-[The Best of the Best Practices Guide for Python](https://gist.github.com/sloria/7001839), compilado por sloria  
+[Como Pensar Como um Cientista da Computação](https://panda.ime.usp.br/panda/static/pensepy/index.html)
+[Introdução à Computação com Python](https://panda.ime.usp.br/panda/static/cc110/index.html)
+[Pense em Python](https://penseallen.github.io/PensePython2e/)
+[Python’s standard documentation](https://www.python.org/)
+[The Best of the Best Practices Guide for Python](https://gist.github.com/sloria/7001839)
 </details>
 
 &nbsp;    

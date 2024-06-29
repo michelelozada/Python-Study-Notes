@@ -4,12 +4,11 @@
 &nbsp;
      
 &nbsp;  
-## Resumo sobre Desvio Condicional em Python
+## Desvio Condicional em Python *(mini-revisão)*
 ```py
 
 - É uma estrutura de decisão, utilizada para realizar testes condicionais e controlar o fluxo do 
 programa com base em condições.
-
 
 - Ou seja, dependendo de se uma condição é avaliada como verdadeira ou como falsa, o programa é 
 capaz de tomar decisões e executar (ou não) diferentes blocos de código 
@@ -29,9 +28,12 @@ sejam executadas corretamente.
 
 &nbsp; 
 
-### • Desvio Condicional Simples:
+## Desvio Condicional Simples
+Envolve apenas uma condição ser verificada, sendo que executa um bloco de código se essa condição for avaliada como verdadeira.
 
-Envolve apenas uma condição ser verificada, sendo que executa um bloco de código se essa condição for avaliada como verdadeira.   
+&nbsp; 
+
+↳ Exemplo da sua estrutura básica:
 
 ```py
 
@@ -43,15 +45,16 @@ if idade >= 18:
 
 &nbsp; 
 
-### • Desvio Condicional Composto:
-
+## Desvio Condicional Composto
 Deriva do desvio condicional simples, sendo que passa a envolver mais uma ou mais condições e, por conta disso, passa a ter caminhos de execução diferentes, dependendo das condições serem avaliadas como verdadeiras ou falsas. 
+
+&nbsp; 
 
 Isso é expresso através da cláusulas `elif`para o caso de verificações adicionais após a primeira e `else` para capturar qualquer outra condição que não seja coberta pelas anteriores.
 
 &nbsp; 
 
-Exemplo da sua estrutura básica:
+↳ Exemplo da sua estrutura básica:
 
 ```py
 if condição:
@@ -79,8 +82,12 @@ else:
 
 &nbsp; 
 		
-### • Desvio condicional aninhado (aka _nested if_)
+## Desvio condicional aninhado (aka _nested if_)
 Estrutura na qual uma ou mais instruções podem estar associadas a uma outra condição, ou seja, são criadas "combinações de condições" para a execução (ou não) de determinados blocos de código. Dessa forma, é ideal para lidar com múltiplas condições em uma estrutura hierárquica.
+
+&nbsp; 
+
+↳ Exemplo da sua estrutura básica:
 
 ```py
 
@@ -101,10 +108,16 @@ else:
 
 &nbsp; 
 
-### • Desvio condicional encadeado 
+## Desvio condicional encadeado 
 Estrutura na qual instruções independentes são encadeadas uma após a outra, sendo possível testar múltiplas condições em uma sequência linear.
 
+&nbsp; 
+
 Ao se utilizar esta estrutura, é implementado um comportamento similar à estrutura **switch case**, que é encontrada de forma nativa em algumas outras linguagens de programação, mas não no Python.
+
+&nbsp; 
+
+↳ Exemplo da sua estrutura básica:
 
 ```py
 opcao = 2

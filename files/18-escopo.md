@@ -4,7 +4,7 @@
 &nbsp;
      
 &nbsp;  
-## Resumo sobre Escopo em Python
+## Escopo em Python *(mini-revisão)*
 ```
 - Escopo refere-se à região onde uma variável (ou uma função) é acessível.
 
@@ -21,7 +21,7 @@ meio de valores de retorno) ou usadas dentro de outras funções (por meio de ar
 
 &nbsp;  
 
-> No exemplo abaixo: Repare que a variável local não afeta a variável global
+↳ No exemplo abaixo: Repare que a variável local não afeta a variável global
 
 ```py 
 
@@ -38,7 +38,7 @@ print(x)
 
 &nbsp;  
 
-> No exemplo abaixo: Repare que a palavra-chave `global` é usada para declarar que uma variável dentro de uma função está se referindo a uma variável no escopo global, em vez de ser criada uma nova variável local com o mesmo nome.
+↳ No exemplo abaixo: Repare que a palavra-chave `global` é usada para declarar que uma variável dentro de uma função está se referindo a uma variável no escopo global, em vez de ser criada uma nova variável local com o mesmo nome.
 
 ```py 
 

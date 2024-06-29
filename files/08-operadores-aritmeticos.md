@@ -4,9 +4,9 @@
 &nbsp;
      
 &nbsp;  
-## Revisão sobre Operadores Aritméticos 
+## Operadores Aritméticos *(mini-revisão)*
 ```
-Usados para realizar operações matemáticas em expressões
+Utilizados para realizar operações matemáticas em expressões
 ```
 
 &nbsp;  
@@ -48,7 +48,7 @@ print(a * b)
 &nbsp; 
 
 ### • Divisão (/)
-Retorna um valor de ponto flutuante, ainda que a divisão seja exata.
+*Retorna um valor de ponto flutuante, ainda que a divisão seja exata*  
 ```py
 
 a = 4
@@ -61,7 +61,7 @@ print(a / b)
 &nbsp; 
 
 ### • Divisão de piso (//)
-Retorna valor inteiro. Quando for o caso, arrendonda o valor para o inteiro mais próximo (mais baixo)
+*Retorna valor inteiro. Quando for o caso, arrendonda o valor para o inteiro mais próximo (mais baixo)*
 ```py
 
 a = 4
@@ -74,7 +74,7 @@ print(a // b)
 &nbsp; 
 
 ### • Módulo (%)
-Retorna o resto da divisão
+*Retorna o resto da divisão*
 ```py
 
 a = 4
@@ -87,13 +87,13 @@ print(a % b)
 &nbsp; 
 
 ### • Exponencial
-Eleva o primeiro valor à potência do segundo
+*Eleva o primeiro valor à potência do segundo*
 ```py
 
 a = 4
 b = 2
-
 print(a ** b) 
+
 # Saída: 16
 ```
 

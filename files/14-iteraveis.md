@@ -4,7 +4,7 @@
 &nbsp;
      
 &nbsp;  
-## Revisão sobre Iteráveis em Python
+## Iteráveis em Python *(mini-revisão)*
 ```
 - Iteráveis são os objetos que podem ser percorridos (ou seja, iterados), permitindo o acesso a cada 
 um de seus itens sequencialmente
@@ -23,7 +23,7 @@ elementos de um iterável, normalmente executando uma ação específica para ca
 
 &nbsp;  
 
-### • Iterando sobre uma string: 
+### ↳ Iterando sobre uma string: 
 ```py
 
 palavra = "Github"
@@ -43,7 +43,7 @@ b
 
 &nbsp;  
 
-### • Iterando sobre uma lista: 
+### ↳ Iterando sobre uma lista: 
 ```py
 
 lista = [5, 10, 15, 20]
@@ -61,7 +61,7 @@ Saída:
 
 &nbsp;  
 
-### • Iterando sobre uma tupla: 
+### ↳ Iterando sobre uma tupla: 
 ```py
 
 tupla = [5, 10, 15, 20]
@@ -79,7 +79,7 @@ Saída:
 
 &nbsp;  
 
-### • Iterando sobre um dicionário: 
+### ↳ Iterando sobre um dicionário: 
 ```py
 
 dicionario = {'a': 1, 'b': 2, 'c': 3}
@@ -96,7 +96,7 @@ c 3
 
 &nbsp;  
 
-### • Iterando sobre um set (conjunto): 
+### ↳ Iterando sobre um set (conjunto): 
 ```py
 
 conjunto = {1, 3, 6, 9}
@@ -114,7 +114,7 @@ Saída:
 
 &nbsp;  
 
-### • Iterando sobre um range (intervalo): 
+### ↳ Iterando sobre um range (intervalo): 
 ```py
 
 for numero in range(5):

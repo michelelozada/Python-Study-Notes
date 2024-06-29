@@ -5,7 +5,7 @@
      
 &nbsp;  
 
-## Revisão sobre Funções Personalizadas em Python
+## Funções personalizadas em Python *(mini-revisão)*
 ```
 - São criadas pelo usuário para a realização de uma ação específica, podendo ser chamadas em diferentes
 partes do programa
@@ -23,6 +23,8 @@ função é chamada (sendo que se nada for especificado, por default, é retorna
 ```
 
 &nbsp
+
+↳ Exemplo: 
 
 ```py
 
@@ -53,10 +55,10 @@ print(calculo)
 
 &nbsp;  
 
-> Exercício: Criar funções para cálculo de notas de um aluno, sendo que:  
-> - A atividade prática deve ter peso de 40%.  
-> - O exame final deve ter peso de 60%.  
-> - Deve ser informado se o aluno foi aprovado ou não na disciplina (a média da escola é 7).  
+↳ Exercício: Criar funções para cálculo de notas de um aluno, sendo que:  
+&nbsp;&nbsp; ◦ A atividade prática deve ter peso de 40%.  
+&nbsp;&nbsp; ◦ O exame final deve ter peso de 60%.  
+&nbsp;&nbsp; ◦ Deve ser informado se o aluno foi aprovado ou não na disciplina (a média da escola é 7).  
 
 ```py 
 

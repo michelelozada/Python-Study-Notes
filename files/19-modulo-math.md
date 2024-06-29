@@ -4,7 +4,7 @@
 &nbsp;
      
 &nbsp;  
-## Revisão sobre o módulo math do Python
+## Módulo math do Python *(mini-revisão)*
 ```
 - O módulo math é uma ferramenta útil para lidar com operações e cálculos matemáticas em Python
 
@@ -19,12 +19,12 @@ isso apenas esta função é importada, permitndo usar a função ceil(), sem a 
 
 &nbsp;  
 
-### Funções importantes disponíveis na biblioteca math do Python.
+## Funções importantes disponíveis na biblioteca math do Python (referência rápida)
 
-#### • Funções Matemáticas Básicas
+### • Funções Matemáticas Básicas
 
 Função | Finalidade 
----    | ---
+---    | :--
 math.ceil(x) | Retorna o número arredondado para cima (para inteiro mais próximo)
 math.floor(x) | Retorna o número arredondado para baixo (para  inteiro mais próximo)
 math.pow(x, y) | Retorna x elevado à potência y
@@ -34,17 +34,17 @@ math.trunc(x.y) | Remove a parte decimal de x, retornando a parte inteira
 
 &nbsp;  
 
-#### • Outras Funções:
+### • Outras Funções:
 
 Função | Finalidade 
----    | ---
+---    | :--
 math.factorial(x) | Retorna o fatorial de x
 math.isnan(x) | Retorna True se x for NaN (Not a Number)
 math.modf(x) | Retorna a parte fracionária e a parte inteira de x
 
 &nbsp;  
 
-> Exemplo: Retorno do maior e do menor inteiro de um número real:
+↳ Exemplo: Retorno do maior e do menor inteiro de um número real:
 ```py
 
 import math
@@ -63,7 +63,7 @@ Informe um número real: 3.5
 
 &nbsp;  
 
-> Exemplo: Retornando o máximo divisor comum (MDC) entre dois números
+↳ Exemplo: Retornando o máximo divisor comum (MDC) entre dois números
 ```py
 
 import math
@@ -82,7 +82,7 @@ Informe o segundo número: 60
 
 &nbsp;  
 
-> Exemplo: Retorno da raiz quadrada de um número
+↳ Exemplo: Retorno da raiz quadrada de um número
 ```py
 
 import math
@@ -100,7 +100,7 @@ Forneça um número para retorno da sua raiz quadrada: 16
 
 &nbsp;  
 
-> Exemplo: Cálculo da potência de um número
+↳ Exemplo: Cálculo da potência de um número
 ```py
 
 import math
@@ -119,7 +119,7 @@ Qual o valor do expoente? 2
 
 &nbsp;  
 
-> Exemplo: Retorno do fatorial de um número
+↳ Exemplo: Retorno do fatorial de um número
 ```py
 
 import math

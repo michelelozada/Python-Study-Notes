@@ -4,7 +4,7 @@
 &nbsp;
      
 &nbsp;  
-## Revisão sobre Operadores Relacionais
+## Operadores Relacionais *(mini-revisão)*
 ```
 Usados para comparar valores e retornar um resultado booleano (True ou False) com base na relação 
 entre eles
@@ -13,7 +13,8 @@ entre eles
 &nbsp;  
 
 ### • Igualdade (==)
-Verifica se dois valores são iguais  
+*Verifica se dois valores são iguais*
+
 ```py
 
 print(4 == 4.0)  
@@ -24,7 +25,8 @@ print(4 == 4.0)
 &nbsp;  
 
 ### • Diferença (!=)
-Verifica se dois valores são diferentes
+*Verifica se dois valores são diferentes*
+
 ```py
 
 print(4 != 4.0)  
@@ -35,7 +37,8 @@ print(4 != 4.0)
 &nbsp;  
 
 ### • Maior que (>)
-Verifica se o valor da esquerda é maior que o valor da direita
+*Verifica se o valor da esquerda é maior que o valor da direita*
+
 ```py
 
 print(5 > 3) 
@@ -46,7 +49,8 @@ print(5 > 3)
 &nbsp;  
 
 ### • Maior ou igual a (>=)
-Verifica se o valor da esquerda é maior ou igual ao valor da direita
+*Verifica se o valor da esquerda é maior ou igual ao valor da direita*
+
 ```py
 
 print(5 >= 13) 
@@ -59,7 +63,8 @@ print(5.0 >= 5)
 &nbsp;  
 
 ### • Menor que (<)
-Verifica se o valor da esquerda é menor que o valor da direita
+*Verifica se o valor da esquerda é menor que o valor da direita*
+
 ```py
 
 print(2.5 < 10) 
@@ -70,7 +75,8 @@ print(2.5 < 10)
 &nbsp;  
 
 ### • Menor ou igual a (<=)
-Verifica se o valor da esquerda é menor ou igual ao valor da direita
+*Verifica se o valor da esquerda é menor ou igual ao valor da direita*
+
 ```py
 
 print(10 <= 5) 

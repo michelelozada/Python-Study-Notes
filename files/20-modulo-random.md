@@ -4,7 +4,7 @@
 &nbsp;
      
 &nbsp;  
-## Revisão sobre o módulo random do Python
+## Módulo random do Python *(mini-revisão)*
 ```py 
 
 - O módulo random é uma ferramenta que fornece várias funções para a geração números aleatórios
@@ -19,7 +19,7 @@ random. Ex: random.randint(), random.choice(), etc.
 
 &nbsp;  
 
-### Funções de geração de números inteiros aleatórios
+## Funções de geração de números inteiros aleatórios
 
 Função | Finalidade  
 ---    | ---  
@@ -28,7 +28,7 @@ random.randrange(start, stop[, step]) | Retorna um inteiro aleatório entre star
 
 &nbsp;  
 
-#### • Função randint()
+### • Função randint()
 
 ```py
 
@@ -41,7 +41,7 @@ print(random.randint(10, 20))
 
 &nbsp;  
 
-#### • Função randrange()
+### • Função randrange()
 
 ```py
 
@@ -54,7 +54,7 @@ print(random.randrange(10, 20))
 
 &nbsp;  
 
-### Função de controle e manipulação da semente aleatória
+## Função de controle e manipulação da semente aleatória
 
 Função | Finalidade  
 ---    | ---  
@@ -62,12 +62,12 @@ seed() | Inicializa o gerador de números aleatórios com um estado específico,
 
 &nbsp;  
 
-#### • Função seed()
+### • Função seed()
 Sementes aleatórias são valores usados para iniciar o gerador de números pseudoaleatórios (pois são números determinísticos) em um programa de computador. Portanto, quando é definida uma semente aleatória em um programa, está sendo especificado um ponto de partida para a geração de números pseudoaleatórios.
 
 &nbsp;  
 
-> Exercício: definindo uma semente aleatória e gerando números aleatórios utilizando a biblioteca random
+↳ Exercício: definindo uma semente aleatória e gerando números aleatórios utilizando a biblioteca random
 
 ```py
 
@@ -90,7 +90,7 @@ for _ in range(5):
 
 &nbsp;  
 
-### Funções de amostragem aleatória 
+## Funções de amostragem aleatória 
 Usadas para embaralhar, selecionar ou extrair subconjuntos aleatórios de dados
 
 Função | Finalidade  
@@ -101,12 +101,12 @@ shuffle() | Usada para embaralhar (ou permutar aleatoriamente) os elementos de u
 
 &nbsp;  
 
-#### • Função choice()
+### • Função choice()
 Permite escolher aleatoriamente um único elemento de uma sequência - o que é útil quando você se deseja selecionar um elemento aleatório de uma lista, tupla ou qualquer outra sequência de elemento.
 
 &nbsp; 
 
-> Exercício: Escolha aleatória de um nome em uma lista
+↳ Exercício: Escolha aleatória de um nome em uma lista
 
 ```py 
 
@@ -126,12 +126,12 @@ print(nome_aleatorio)
 
 &nbsp; 
 
-#### • Função sample()
+### • Função sample()
 Realiza uma amostragem aleatória em uma sequência de elementos - o que é útil quando se deseja extrair uma amostra aleatória de uma sequência, sem duplicatas, ou seja, cada elemento na amostra é único.
 
 &nbsp;  
 
-> Exercício: Dada a lista de números abaixo, retorne uma lista com três números aleatórios da mesma:
+↳ Exercício: Dada a lista de números abaixo, retorne uma lista com três números aleatórios da mesma:
 
 ```py 
 
@@ -153,7 +153,7 @@ print(amostra)
 
 &nbsp; 
 
-> Exercício: Dentro do intervalo de 1 a 50 (ambos inclusos), retorne uma lista com 5 números aleatórios:
+↳ Exercício: Dentro do intervalo de 1 a 50 (ambos inclusos), retorne uma lista com 5 números aleatórios:
 
 ```py 
 
@@ -167,11 +167,11 @@ print(lista)
 
 &nbsp;
 
-#### • Função shuffle() 
+### • Função shuffle() 
 Usada para criar uma nova ordem aleatória dos elementos de uma lista, _modificando a lista original, ao invés de retornar uma nova lista_.   
 
 
-> Exercício: Utilizando a função shuffle() para embaralhar os números de uma lista 
+↳ Exercício: Utilizando a função shuffle() para embaralhar os números de uma lista 
 ```py
 
 import random
@@ -189,7 +189,7 @@ print(lista)
 ```
 
 
-> No exemplo abaixo, é usada a semente antes de chamar a função shuffle(), para que o embaralhamento produza sempre o mesmo resultado 
+↳ No exemplo abaixo, é usada a semente antes de chamar a função shuffle(), para que o embaralhamento produza sempre o mesmo resultado 
 
 ```py
 

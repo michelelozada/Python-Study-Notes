@@ -4,7 +4,7 @@
 &nbsp;
      
 &nbsp;  
-## Resumo sobre Estruturas de Repetição em Python 
+## Estruturas de Repetição em Python *(mini-revisão)*
  
 ```
 - Existem duas estruturas principais de repetição em Python: o loop for e o loop while. 
@@ -29,7 +29,7 @@ Usado para iterar sobre uma sequência (como uma lista, tupla, dicionário ou st
 
 &nbsp;  
 
->> Sintaxe básica do loop for:
+↳ Sintaxe básica do loop for:
 ```py
 
 for item in sequencia:
@@ -38,7 +38,7 @@ for item in sequencia:
 
 &nbsp;  
 
->> Exercício: Calcule o quadrado de cada número da lista abaixo
+↳ Exercício: Calcule o quadrado de cada número da lista abaixo
 ```py
 
 numeros = [1, 2, 3, 4, 5]
@@ -66,7 +66,7 @@ O `range()` é uma função incorporada em Python que gera uma sequência de nú
 
 &nbsp; 
 
->> No exemplo abaixo: range(5) gera uma sequência de números de 0 a 4 (não incluindo o número 5) sobre a qual o loop for vai iterar, imprimindo cada um desses números
+↳ No exemplo abaixo: range(5) gera uma sequência de números de 0 a 4 (não incluindo o número 5) sobre a qual o loop for vai iterar, imprimindo cada um desses números
 ```py
 
 for i in range(5):
@@ -84,8 +84,11 @@ Saída:
 &nbsp;  
 
 ### •  Variável contadora
+Também chamada de _variável de iteração_ ou  _variável de loop_,  a variável contadora assume valores diferentes (= atualiza seu valor) a cada iteração de um loop. Conveciona-se usar nomes como i, j, k para essas variáveis. 
 
-Também chamada de _variável de iteração_ ou  _variável de loop_,  a variável contadora assume valores diferentes (= atualiza seu valor) a cada iteração de um loop.  Conveciona-se usar nomes como i, j, k para essas variáveis. 
+&nbsp;  
+
+↳ Exemplo: 
 
 ```py
 
@@ -100,7 +103,8 @@ Executa um bloco de código repetidamente enquanto uma condição especificada f
 
 &nbsp;  
 
->> Sintaxe básica do loop while:
+↳ Sintaxe básica do loop while:
+
 ```py
 
 while condição:
@@ -109,7 +113,7 @@ while condição:
 
 &nbsp; 
 
->> Exercício: Conte de 1 até 5 usando um loop while. 
+↳ Exercício: Conte de 1 até 5 usando um loop while. 
 ```py
 
 # Inicializando a variável contadora
@@ -140,7 +144,7 @@ Saída:
 
 &nbsp; 
 
->> Exercício: Some todos os elementos da lista abaixo:
+↳ Exercício: Some todos os elementos da lista abaixo:
 ```py
 
 numeros = [1, 2, 3, 4, 5]
@@ -164,7 +168,7 @@ Esta palavra-chave é usada para **interromper a iteração atual de um loop e a
 
 &nbsp; 
 
->> Sobre o exemplo abaixo: quando i for igual a 3, a instrução `continue` será acionada e o código dentro deste loop será interrompido para essa iteração específica. Repare na saída que o número 3 não será impresso e o loop continuará com a próxima iteração.
+↳ Sobre o exemplo abaixo: quando i for igual a 3, a instrução `continue` será acionada e o código dentro deste loop será interrompido para essa iteração específica. Repare na saída que o número 3 não será impresso e o loop continuará com a próxima iteração.
 ```py
 
 for i in range(1, 6):
@@ -186,7 +190,7 @@ Esta palavra-chave é usada para **interromper a iteração atual de um loop e a
 
 &nbsp; 
 
->> Sobre o exemplo abaixo: quando i for igual a 3, a instrução `continue` será acionada e o código dentro deste loop será interrompido para essa iteração específica. Repare na saída que o número 3 não será impresso e o loop continuará com a próxima iteração.
+↳ Sobre o exemplo abaixo: quando i for igual a 3, a instrução `continue` será acionada e o código dentro deste loop será interrompido para essa iteração específica. Repare na saída que o número 3 não será impresso e o loop continuará com a próxima iteração.
 ```py
 
 for i in range(1, 6):
@@ -210,7 +214,7 @@ Esta palavra-chave é usada para **sair completamente de um loop, interrompendo 
 
 &nbsp; 
 
->> Sobre o exemplo abaixo: Quando i for igual a 4, a instrução `break` será acionada, e o loop será interrompido completamente. Repare na saída que só os números de 1 a 3 foram impressos, antes da execução do programa
+↳ Sobre o exemplo abaixo: Quando i for igual a 4, a instrução `break` será acionada, e o loop será interrompido completamente. Repare na saída que só os números de 1 a 3 foram impressos, antes da execução do programa
 
 ```py
 
@@ -234,7 +238,7 @@ Esta palavra-chave é usada para **sair completamente de um loop, interrompendo 
 
 &nbsp; 
 
->> Sobre o exemplo abaixo: Quando i for igual a 4, a instrução `break` será acionada, e o loop será interrompido completamente. Repare na saída que só os números de 1 a 3 foram impressos, antes da execução do programa
+↳ Sobre o exemplo abaixo: Quando i for igual a 4, a instrução `break` será acionada, e o loop será interrompido completamente. Repare na saída que só os números de 1 a 3 foram impressos, antes da execução do programa
 
 ```py
 

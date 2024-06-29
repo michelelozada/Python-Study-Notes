@@ -4,7 +4,7 @@
 &nbsp;
      
 &nbsp;  
-## Revisão sobre Operadores de Atribuição
+## Operadores de Atribuição *(mini-revisão)*
 ```
 Permitem modificar o valor de uma variável através de uma operação realizada com o valor atual de 
 uma variável
@@ -13,7 +13,7 @@ uma variável
 &nbsp; 
 
 ### • Atribuição simples (=)
-Atribui o valor do lado direito à variável do lado esquerdo
+*Atribui o valor do lado direito à variável do lado esquerdo*
 ```py
 
 x = 2
@@ -25,7 +25,7 @@ print(x)
 &nbsp;  
 
 ### • Atribuição de adição (+=)
-Adiciona o valor do lado direito ao valor atual da variável e atribui o resultado à variável
+*Adiciona o valor do lado direito ao valor atual da variável e atribui o resultado à variável*
 
 ```py
 
@@ -39,7 +39,8 @@ print(x)
 &nbsp;  
 
 ### • Atribuição de subtração (-=)
-Subtrai o valor do lado direito do valor atual da variável e atribui o resultado à variável
+*Subtrai o valor do lado direito do valor atual da variável e atribui o resultado à variável*
+
 ```py
 
 x = 2
@@ -52,7 +53,8 @@ print(x)
 &nbsp;  
 
 ### • Atribuição de multiplicação (*=)
-Multiplica o valor da variável pelo valor do lado direito e atribui o resultado à variável
+*Multiplica o valor da variável pelo valor do lado direito e atribui o resultado à variável*
+
 ```py
 
 x = 2
@@ -65,7 +67,8 @@ print(x)
 &nbsp;  
 
 ### • Atribuição de divisão (/=)
-Divide o valor da variável pelo valor do lado direito e atribui o resultado à variável
+*Divide o valor da variável pelo valor do lado direito e atribui o resultado à variável*
+
 ```py
 
 x = 2
@@ -78,7 +81,7 @@ print(x)
 &nbsp;  
 
 ### • Atribuição de divisão de piso (//=)
-Realiza a divisão de piso do valor da variável pelo valor do lado direito e atribui o resultado à variável
+*Realiza a divisão de piso do valor da variável pelo valor do lado direito e atribui o resultado à variável*
 
 ```py
 
@@ -92,7 +95,8 @@ print(x)
 &nbsp;  
 
 ### • Atribuição exponencial (**)
-Eleva o valor da variável à potência do valor do lado direito e atribui o resultado à variável
+*Eleva o valor da variável à potência do valor do lado direito e atribui o resultado à variável*
+
 ```py
 
 n = 5
@@ -104,7 +108,8 @@ n **= 2  # equivale a: n = n²
 &nbsp;  
 
 ### • Atribuição de módulo/resto da divisão (%=)
-Calcula o módulo do valor da variável pelo valor do lado direito e atribui o resultado à variável
+*Calcula o módulo do valor da variável pelo valor do lado direito e atribui o resultado à variável*
+
 ```py
 
 n = 25

@@ -4,7 +4,7 @@
 &nbsp;
      
 &nbsp;  
-## Revisão sobre Gerenciamento de exceções em Python
+## Gerenciamento de exceções em Python *(mini-revisão)*
 ```
 - As instruções try, except e finally são utilizadas para lidar com exceções (erros) em Python, a 
 permitindo sua captura e tratamento de forma controlada, ao longo da execução de um bloco de código
@@ -15,7 +15,7 @@ fornece também feedback ao usuário, de modo que este possa corrigir a entrada 
 
 &nbsp;  
 
-### • Sintaxe básica
+### ↳ Sintaxe básica
 ```py
 
 try:
@@ -30,11 +30,13 @@ finally:
 
 &nbsp;  
 
-### • ValueError		
+## ValueError		
 
-É uma exceção em Python, lançada quando uma função ou operação recebe um **argumento que tem o tipo correto, mas o valor inapropriado**
+É uma exceção em Python, lançada quando uma função ou operação recebe um **argumento que tem o tipo correto, mas o valor inapropriado**.
 
-Imaginando o exemplo de que é utilizado o `input()` para obter uma entrada do usuário e há a entrada de um número, como `int()` ou `float()`, que não pode ser processado adequadamente devido ao valor fornecido: neste caso um `ValueError` será lançado, pois a entrada não pode ser convertida para o tipo numérico esperado.  
+&nbsp;  
+
+↳ Imaginando o exemplo de que é utilizado o `input()` para obter uma entrada do usuário e há a entrada de um número, como `int()` ou `float()`, que não pode ser processado adequadamente devido ao valor fornecido: neste caso um `ValueError` será lançado, pois a entrada não pode ser convertida para o tipo numérico esperado.  
 
 ```py
 
@@ -48,7 +50,7 @@ except ValueError:
 
 &nbsp;  
 
-> Exercício: Escreva um algoritmo que leia um número. Este número informado pelo usuário deve necessariamente estar compreendido no intervalo de 1 a 50 (ambos inclusos). Além disso, você deve usar um tratamento de exceção para evitar que o programa seja abortado, caso o usuário digite um valor não-numérico.  
+↳ Exercício: Escreva um algoritmo que leia um número. Este número informado pelo usuário deve necessariamente estar compreendido no intervalo de 1 a 50 (ambos inclusos). Além disso, você deve usar um tratamento de exceção para evitar que o programa seja abortado, caso o usuário digite um valor não-numérico.  
 
 
 ```py 
@@ -83,7 +85,7 @@ Digite um número: 25
 
 &nbsp;  
 
-> Exercício: Considerando os divisores abaixo, trate os erros que podem acontecer a fim de evitar que programa seja abortado
+↳ Exercício: Considerando os divisores abaixo, trate os erros que podem acontecer a fim de evitar que programa seja abortado
 durante o procesamento das divisões:  
 
 ```py 

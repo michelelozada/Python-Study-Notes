@@ -4,7 +4,7 @@
 &nbsp;
      
 &nbsp;  
-## Revisão sobre Operadores Lógicos
+## Operadores Lógicos *(mini-revisão)*
 ```
 - Usados para combinar e modificar valores booleanos para criar expressões lógicas mais complexas
 
@@ -14,11 +14,11 @@
 &nbsp;  
 
 ### • E lógico (and)
-Retorna True somente se os operandos forem True
+*Retorna True somente se os operandos forem True*
 
 &nbsp;  
 
-Representação da tabela verdade para o operador `and`:
+↳ Representação da tabela verdade para o operador `and`:
 ```py
 
 print(True and True) 
@@ -34,6 +34,9 @@ print(False and False)
 # Saída: False
 ```
 
+&nbsp;  
+
+↳ Exemplos:
 ```py
 
 print((3 < 2) and (2 == 2)) 
@@ -55,11 +58,11 @@ print((True and False) and True)
 &nbsp;  
 
 ### • OU lógico (or)
-Retorna True se pelo menos um dos operandos for True
+*Retorna True se pelo menos um dos operandos for True*
 
 &nbsp;  
 
-Representação da tabela verdade para o operador `or`:
+↳ Representação da tabela verdade para o operador `or`:
 ```py
 
 print(True or True) 
@@ -75,6 +78,9 @@ print(False or False)
 # Saída: False
 ```
 
+&nbsp;  
+
+↳ Exemplos:
 ```py
 
 print((2 > 1) or (3 < 7))  
@@ -96,11 +102,11 @@ print((True and False) or True)
 &nbsp;  
 
 ### • Negação lógica (not)
-Inverte o valor do operando, retornando False se o operando for True e True se o operando for False.
+*Inverte o valor do operando, retornando False se o operando for True e True se o operando for False*
 
 &nbsp;  
 
-Representação da tabela verdade para o operador `not`:
+↳ Representação da tabela verdade para o operador `not`:
 ```py
 
 print(not True) 
@@ -110,6 +116,9 @@ print(not False)
 # Saída: True
 ```
 
+&nbsp;  
+
+↳ Exemplos:
 ```py
 
 print(not (3 > 2)) 
