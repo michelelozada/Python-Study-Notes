@@ -11,7 +11,7 @@ Utilizados para realizar operações matemáticas em expressões
 
 &nbsp;  
 
-### • Adição (+)
+#### • Adição (+)
 ```py
 
 a = 4
@@ -23,7 +23,7 @@ print(a + b)
 
 &nbsp; 
 
-### • Subtração (-)
+#### • Subtração (-)
 ```py
 
 a = 4
@@ -35,7 +35,7 @@ print(a - b)
 
 &nbsp; 
 
-### • Multiplicação (*)
+#### • Multiplicação (*)
 ```py
 
 a = 4
@@ -47,7 +47,7 @@ print(a * b)
 
 &nbsp; 
 
-### • Divisão (/)
+#### • Divisão (/)
 *Retorna um valor de ponto flutuante, ainda que a divisão seja exata*  
 ```py
 
@@ -60,7 +60,7 @@ print(a / b)
 
 &nbsp; 
 
-### • Divisão de piso (//)
+#### • Divisão de piso (//)
 *Retorna valor inteiro. Quando for o caso, arrendonda o valor para o inteiro mais próximo (mais baixo)*
 ```py
 
@@ -73,7 +73,7 @@ print(a // b)
 
 &nbsp; 
 
-### • Módulo (%)
+#### • Módulo (%)
 *Retorna o resto da divisão*
 ```py
 
@@ -86,7 +86,7 @@ print(a % b)
 
 &nbsp; 
 
-### • Exponencial
+#### • Exponencial
 *Eleva o primeiro valor à potência do segundo*
 ```py
 

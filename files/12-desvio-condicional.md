@@ -5,7 +5,7 @@
      
 &nbsp;  
 ## Desvio Condicional em Python *(mini-revisão)*
-```py
+```
 
 - É uma estrutura de decisão, utilizada para realizar testes condicionais e controlar o fluxo do 
 programa com base em condições.

@@ -13,7 +13,7 @@
 
 &nbsp;  
 
-### • E lógico (and)
+#### • E lógico (and)
 *Retorna True somente se os operandos forem True*
 
 &nbsp;  
@@ -57,7 +57,7 @@ print((True and False) and True)
 
 &nbsp;  
 
-### • OU lógico (or)
+#### • OU lógico (or)
 *Retorna True se pelo menos um dos operandos for True*
 
 &nbsp;  
@@ -101,7 +101,7 @@ print((True and False) or True)
 
 &nbsp;  
 
-### • Negação lógica (not)
+#### • Negação lógica (not)
 *Inverte o valor do operando, retornando False se o operando for True e True se o operando for False*
 
 &nbsp;  

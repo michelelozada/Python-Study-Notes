@@ -121,8 +121,6 @@ print(type(i1), ' - ', type(i2))
 
 ## Conversão de tipos de dados (casting)  
 
-&nbsp;  
-
 ### • Conversão para int
 ```py
 

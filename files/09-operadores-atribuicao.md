@@ -12,7 +12,7 @@ uma variável
 
 &nbsp; 
 
-### • Atribuição simples (=)
+#### • Atribuição simples (=)
 *Atribui o valor do lado direito à variável do lado esquerdo*
 ```py
 
@@ -24,7 +24,7 @@ print(x)
 
 &nbsp;  
 
-### • Atribuição de adição (+=)
+#### • Atribuição de adição (+=)
 *Adiciona o valor do lado direito ao valor atual da variável e atribui o resultado à variável*
 
 ```py
@@ -38,7 +38,7 @@ print(x)
 
 &nbsp;  
 
-### • Atribuição de subtração (-=)
+#### • Atribuição de subtração (-=)
 *Subtrai o valor do lado direito do valor atual da variável e atribui o resultado à variável*
 
 ```py
@@ -52,7 +52,7 @@ print(x)
 
 &nbsp;  
 
-### • Atribuição de multiplicação (*=)
+#### • Atribuição de multiplicação (*=)
 *Multiplica o valor da variável pelo valor do lado direito e atribui o resultado à variável*
 
 ```py
@@ -66,7 +66,7 @@ print(x)
 
 &nbsp;  
 
-### • Atribuição de divisão (/=)
+#### • Atribuição de divisão (/=)
 *Divide o valor da variável pelo valor do lado direito e atribui o resultado à variável*
 
 ```py
@@ -80,7 +80,7 @@ print(x)
 
 &nbsp;  
 
-### • Atribuição de divisão de piso (//=)
+#### • Atribuição de divisão de piso (//=)
 *Realiza a divisão de piso do valor da variável pelo valor do lado direito e atribui o resultado à variável*
 
 ```py
@@ -94,7 +94,7 @@ print(x)
 
 &nbsp;  
 
-### • Atribuição exponencial (**)
+#### • Atribuição exponencial (**)
 *Eleva o valor da variável à potência do valor do lado direito e atribui o resultado à variável*
 
 ```py
@@ -107,7 +107,7 @@ n **= 2  # equivale a: n = n²
 
 &nbsp;  
 
-### • Atribuição de módulo/resto da divisão (%=)
+#### • Atribuição de módulo/resto da divisão (%=)
 *Calcula o módulo do valor da variável pelo valor do lado direito e atribui o resultado à variável*
 
 ```py

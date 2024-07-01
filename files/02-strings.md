@@ -259,6 +259,36 @@ print(f"{cidade} é a capital do {estado}.")
 
 &nbsp; 
 
+## Exemplos de aplicações dos métodos para manipular strings em Python
+
+#### • 1 - Método replace
+*Substitui a ocorrência de uma substring por outra*
+
+```py
+
+frase_portugues = "Vamos dançar!"
+frase_espanhol = frase_portugues.replace('dançar', 'a bailar')
+print(frase_espanhol)
+
+# Saída: Vamos a bailar!
+```
+
+↳ No exemplo abaixo o método replace() é encadeado para mudar letra a letra uma string
+```py
+palavra_portugues = "dançar"
+palavra_espanhol = palavra_portugues.replace('d', 'b') \
+                                    .replace('a', 'a') \
+                                    .replace('n', 'i') \
+                                    .replace('ç', 'l') \
+                                    .replace('a','a') \
+                                    .replace('r','r')
+print(palavra_espanhol)
+
+# Saída: bailar
+```
+
+&nbsp; 
+
 <div align="center">
 <a href="https://github.com/michelelozada/Python-Study-Notes">[Voltar à tela inicial do repositório]</a>
 </div>

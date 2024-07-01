@@ -5,7 +5,7 @@
      
 &nbsp;  
 ## Módulo random do Python *(mini-revisão)*
-```py 
+```
 
 - O módulo random é uma ferramenta que fornece várias funções para a geração números aleatórios
 
@@ -28,7 +28,7 @@ random.randrange(start, stop[, step]) | Retorna um inteiro aleatório entre star
 
 &nbsp;  
 
-### • Função randint()
+#### • Função randint()
 
 ```py
 
@@ -41,7 +41,7 @@ print(random.randint(10, 20))
 
 &nbsp;  
 
-### • Função randrange()
+#### • Função randrange()
 
 ```py
 
@@ -62,7 +62,7 @@ seed() | Inicializa o gerador de números aleatórios com um estado específico,
 
 &nbsp;  
 
-### • Função seed()
+#### • Função seed()
 Sementes aleatórias são valores usados para iniciar o gerador de números pseudoaleatórios (pois são números determinísticos) em um programa de computador. Portanto, quando é definida uma semente aleatória em um programa, está sendo especificado um ponto de partida para a geração de números pseudoaleatórios.
 
 &nbsp;  
@@ -101,7 +101,7 @@ shuffle() | Usada para embaralhar (ou permutar aleatoriamente) os elementos de u
 
 &nbsp;  
 
-### • Função choice()
+#### • Função choice()
 Permite escolher aleatoriamente um único elemento de uma sequência - o que é útil quando você se deseja selecionar um elemento aleatório de uma lista, tupla ou qualquer outra sequência de elemento.
 
 &nbsp; 
@@ -126,7 +126,7 @@ print(nome_aleatorio)
 
 &nbsp; 
 
-### • Função sample()
+#### • Função sample()
 Realiza uma amostragem aleatória em uma sequência de elementos - o que é útil quando se deseja extrair uma amostra aleatória de uma sequência, sem duplicatas, ou seja, cada elemento na amostra é único.
 
 &nbsp;  
@@ -167,7 +167,7 @@ print(lista)
 
 &nbsp;
 
-### • Função shuffle() 
+#### • Função shuffle() 
 Usada para criar uma nova ordem aleatória dos elementos de uma lista, _modificando a lista original, ao invés de retornar uma nova lista_.   
 
 

@@ -14,9 +14,9 @@ Link  | Assunto
 [05](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/05-dicionarios.md) | Dicionários
 [06](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/06-sets.md) | Sets (conjuntos de dados)
 [07](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/07-range.md) | Range (intervalos)
-[08](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/08-operadores-aritmeticos.md) | Operadores aritméticos   
-[09](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/09-operadores-atribuicao.md) | Operadores de atribuição   
-[10](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/10-operadores-relacionais.md) | Operadores relacionais   
+[08](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/08-operadores-aritmeticos.md) | Operadores aritméticos  
+[09](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/09-operadores-atribuicao.md) | Operadores de atribuição 
+[10](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/10-operadores-relacionais.md) | Operadores relacionais  
 [11](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/11-operadores-logicos.md) | Operadores logicos   
 [12](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/12-desvio-condicional.md) | Desvio condicional
 [13](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/13-estruturas-repeticao.md) | Estruturas de repetição
@@ -36,11 +36,11 @@ Link  | Assunto
 &nbsp;
 &nbsp;   
 
-[Como Pensar Como um Cientista da Computação](https://panda.ime.usp.br/panda/static/pensepy/index.html)
-[Introdução à Computação com Python](https://panda.ime.usp.br/panda/static/cc110/index.html)
-[Pense em Python](https://penseallen.github.io/PensePython2e/)
-[Python’s standard documentation](https://www.python.org/)
-[The Best of the Best Practices Guide for Python](https://gist.github.com/sloria/7001839)
+[Como Pensar Como um Cientista da Computação](https://panda.ime.usp.br/panda/static/pensepy/index.html)  
+[Introdução à Computação com Python](https://panda.ime.usp.br/panda/static/cc110/index.html)  
+[Pense em Python](https://penseallen.github.io/PensePython2e/)  
+[Python’s standard documentation](https://www.python.org/)  
+[The Best of the Best Practices Guide for Python](https://gist.github.com/sloria/7001839)  
 </details>
 
 &nbsp;    

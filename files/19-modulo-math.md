@@ -21,7 +21,7 @@ isso apenas esta função é importada, permitndo usar a função ceil(), sem a 
 
 ## Funções importantes disponíveis na biblioteca math do Python (referência rápida)
 
-### • Funções Matemáticas Básicas
+#### • Funções Matemáticas Básicas
 
 Função | Finalidade 
 ---    | :--
@@ -34,7 +34,7 @@ math.trunc(x.y) | Remove a parte decimal de x, retornando a parte inteira
 
 &nbsp;  
 
-### • Outras Funções:
+#### • Outras Funções:
 
 Função | Finalidade 
 ---    | :--

@@ -12,7 +12,7 @@ entre eles
 
 &nbsp;  
 
-### • Igualdade (==)
+#### • Igualdade (==)
 *Verifica se dois valores são iguais*
 
 ```py
@@ -24,7 +24,7 @@ print(4 == 4.0)
 
 &nbsp;  
 
-### • Diferença (!=)
+#### • Diferença (!=)
 *Verifica se dois valores são diferentes*
 
 ```py
@@ -36,7 +36,7 @@ print(4 != 4.0)
 
 &nbsp;  
 
-### • Maior que (>)
+#### • Maior que (>)
 *Verifica se o valor da esquerda é maior que o valor da direita*
 
 ```py
@@ -48,7 +48,7 @@ print(5 > 3)
 
 &nbsp;  
 
-### • Maior ou igual a (>=)
+#### • Maior ou igual a (>=)
 *Verifica se o valor da esquerda é maior ou igual ao valor da direita*
 
 ```py
@@ -62,7 +62,7 @@ print(5.0 >= 5)
 
 &nbsp;  
 
-### • Menor que (<)
+#### • Menor que (<)
 *Verifica se o valor da esquerda é menor que o valor da direita*
 
 ```py
@@ -74,7 +74,7 @@ print(2.5 < 10)
 
 &nbsp;  
 
-### • Menor ou igual a (<=)
+#### • Menor ou igual a (<=)
 *Verifica se o valor da esquerda é menor ou igual ao valor da direita*
 
 ```py

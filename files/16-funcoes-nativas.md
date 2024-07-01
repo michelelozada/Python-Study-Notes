@@ -19,7 +19,7 @@
 
 ## Funções nativas importantes *(referência rápida)*
 
-### • Funções de entrada e saída
+#### • Funções de entrada e saída
 *Como o nome sugere, manipulam a entrada e saída de dados*
 
 Função | Finalidade 
@@ -29,7 +29,7 @@ print() | Exibe mensagens na saída padrão
 
 &nbsp;  
 
-### • Funções de conversão de tipos
+#### • Funções de conversão de tipos
 *Criam/retornam instâncias de classes. Também chamadas de funções construtoras*
 
 Função | Finalidade 
@@ -45,7 +45,7 @@ tuple() | Converte um valor para uma nova tupla
 
 &nbsp;  
 
-### • Funções matemáticas
+#### • Funções matemáticas
 *Lidam com operações matemáticas básicas*
 
 Função | Finalidade 
@@ -58,7 +58,7 @@ sum() | Retorna a soma de um iterável
 
 &nbsp;  
 
-### • Funções de sequência
+#### • Funções de sequência
 *Operam em sequências de elementos, como listas, tuplas, strings, etc.*
 
 Função | Finalidade 
@@ -70,7 +70,7 @@ zip() | Combina elementos de múltiplos iteráveis (listas, tuplas, etc), retorn
 
 &nbsp;  
 
-### • Funções de controle de fluxo
+#### • Funções de controle de fluxo
 *Utilizadas para controlar o fluxo do programa ou aplicar operações em massa a elementos*
 
 Função | Finalidade 
@@ -81,7 +81,7 @@ range() | Retorna uma sequência de números
 
 &nbsp;  
 
-### • Funções de introspecção e inspeção
+#### • Funções de introspecção e inspeção
 *Obtêm informações sobre objetos e tipos de dados em tempo de execução*
 
 Função | Finalidade 
@@ -93,7 +93,7 @@ type() | Retorna o tipo de um objeto em Python
 
 ## Exemplos de aplicações das funções nativas
 
-### • Função enumerate()
+#### • Função enumerate()
 ◦ Na sintaxe da função, o primeiro argumento é o iterável  
 ◦ Um segundo argumento, referente ao valor inicial do índice, pode estar implícito ou explícito  
 ◦ Retorna uma sequência de tuplas com os valores dos índices + os próprios elementos de uma sequência iterada  
@@ -145,7 +145,7 @@ Retorna:
 
 &nbsp;
 
-### • Função len()
+#### • Função len()
 ```py
 
 string = "Python"
@@ -156,7 +156,7 @@ print(tamanho)
 ```
 
 
-### • Função range()
+#### • Função range()
 ```py
 
 for i in range(4):
@@ -171,7 +171,7 @@ for i in range(4):
 
 &nbsp;
 
-### • Função zip()
+#### • Função zip()
 ```py
 
 nomes = ["Ana", "Bela", "Cida"]

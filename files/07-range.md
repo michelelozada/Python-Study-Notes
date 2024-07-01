@@ -30,10 +30,6 @@ Sendo:
 &nbsp;&nbsp;**. stop**: O valor final do intervalo (exclusive)  
 &nbsp;&nbsp;**. step**: O intervalo entre os números/passo (quando implícito, o padrão é 1)  
 
-&nbsp;
-
-### Exemplo
-
 ```py
 
 r = range(1, 10, 2)

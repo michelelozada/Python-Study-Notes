@@ -237,30 +237,6 @@ Saída:
 
 &nbsp; 
 
-### • Instrução `break`: 
-Esta palavra-chave é usada para **sair completamente de um loop, interrompendo sua execução**, mesmo que a condição de continuação do loop ainda seja verdadeira. 
-
-&nbsp; 
-
-↳ Sobre o exemplo abaixo: Quando i for igual a 4, a instrução `break` será acionada, e o loop será interrompido completamente. Repare na saída que só os números de 1 a 3 foram impressos, antes da execução do programa
-
-```py
-
-for i in range(1, 6):
-  if i == 4:
-    break
-    print(i)
-	 
-'''
-Saída:
-1
-2
-3
-'''
-```	 
-
-&nbsp; 
-
 <div align="center">
 <a href="https://github.com/michelelozada/Python-Study-Notes">[Voltar à tela inicial do repositório]</a>
 </div>
