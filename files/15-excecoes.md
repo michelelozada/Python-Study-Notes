@@ -6,11 +6,11 @@
 &nbsp;  
 ## Gerenciamento de exceções em Python *(mini-revisão)*
 ```
-- As instruções try, except e finally são utilizadas para lidar com exceções (erros) em Python, a 
+- As instruções try, except e finally são utilizadas para lidar com exceções (erros) em Python,  
 permitindo sua captura e tratamento de forma controlada, ao longo da execução de um bloco de código
 
 - Evita, portanto que um programa termine abruptamente em virtude de uma exceção que não foi prevista, 
-fornece também feedback ao usuário, de modo que este possa corrigir a entrada sempre que  necessário 
+fornecendo também um feedback ao usuário, de modo que este possa corrigir sua ação com outra entrada adequada
 ```
 
 &nbsp;  

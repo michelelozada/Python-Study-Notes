@@ -21,14 +21,14 @@ dos valores
 
 &nbsp;  
 
-## Métodos da Classe `dict` *(referência rápida)* 
+## Métodos da classe `dict` *(referência rápida)* 
 
 Método | Função
 ---    | :--
 clear() | Remove todos os itens do dicionário
 copy() | Retorna uma cópia superficial do dicionário
 get() | Retorna o valor de chave especificada ou o valor padrão se a chave não for encontrada
-items() | Retorna uma nova lista dos pares chave-valor no dicionário
+items() | Retorna uma visão dinâmica dos pares chave-valor no dicionário
 keys() | Retorna uma nova lista das chaves do dicionário
 pop() |  Remove e retorna o valor para a chave especificada. Se a chave não estiver no dicionário, retorna o valor padrão
 popitem() | Remove e retorna um par chave-valor do dicionário. Se o dicionário estiver vazio, lança um KeyError
@@ -38,24 +38,57 @@ values() | Retorna uma nova lista dos valores do dicionário
 
 &nbsp;
 
-## Exemplos de aplicações dos métodos para manipular dicionários
-
-### Método items()
+## Testando se um dicionário possui elementos ou se está vazio
+*Em Python, um dicionário vazio é considerado um valor falso (False) num contexto booleano. Portanto, quando se usa um dicionário em uma condição if, é verificado se o dicionário está vazio ou não, sendo que um dicionário com elementos é considerado True e um dicionário vazio é considerado False. 
 ```py
 
-aluno = {
-    'nome': 'Enzo',
-    'idade': 18,
-    'cidade': 'Curitiba'
+dici_nomes = {'a': 'Ana', 'b': 'Bia', 'c': 'Celso'}
+
+if dici_nomes:
+  print("O dicionário de nomes não está vazio.")
+else:
+  print("O dicionário de nomes está vazio.")
+  
+# Saída: O dicionário de nomes não está vazio.
+```
+```py
+dici_idades = {}
+
+if dici_idades:
+  print("O dicionário de idades não está vazio.")
+else:
+  print("O dicionário de idades está vazio.")
+
+# Saída: O dicionário de idades está vazio.
+```
+
+&nbsp;
+
+## Exemplos de aplicações dos métodos para manipular dicionários
+
+#### Método items()
+*Este método retorna um objeto do tipo dict_items, que é uma visão dinâmica e iterável dos pares chave-valor do dicionário original, permitindo acessar e iterar sobre eles.*
+
+```py
+tarefas = {
+    '1': 'Lavar a louça',
+    '2': 'Varrer a casa',
+    '3': 'Fazer o almoço'
 }
 
-for chave, valor in aluno.items():
-	print(f"Chave: {chave}, Valor: {valor}")
+items_de_tarefas = tarefas.items()
+print(type(items_de_tarefas))
+
+# Saída: <class 'dict_items'>
+
+
+for chave, valor in tarefas.items():
+	print(f"{chave}ª tarefa: {valor}")
 	
 # Retorna: 
-Chave: nome, Valor: Enzo
-Chave: idade, Valor: 18
-Chave: cidade, Valor: Curitiba
+1ª tarefa: Lavar a louça
+2ª tarefa: Varrer a casa
+3ª tarefa: Fazer o almoço
 ```
 
 &nbsp;

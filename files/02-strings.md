@@ -12,12 +12,15 @@
 
 - É representado no código através do uso de aspas simples ou duplas
 
-- Objetos do tipo str são imutáveis 
+- Objetos do tipo str são imutáveis, ou seja, não podem ser alterados após a sua criação. Portanto, qualquer operação que pareça estar alterando uma string, na verdade, está retornando uma nova string com estas alterações aplicadas 
 
-- Caracteres individuais de uma string podem ser acessados através dos índices, sendo que o 1º caractere 
-de uma string está no índice 0
+- Uma string é uma sequência de caracteres, sendo que cada caractere possui um índice associado que começa em 0 e vai até o comprimento da string menos um
 
-- As operações com strings podem ser de:
+- Caracteres individuais de uma string podem ser acessados através dos seus índices correspondentes
+
+- Já partes maiores de strings podem ser extraídas através da operação chamada slicing (ou fatiamento), que se refere basicamente a um intervalo de índices
+
+- Outras operações com strings podem ser de:
   . comparação (realizadas com os operadores de comparação)
   . concatenação (realizadas com o operador +)
   . repetição (realizada com o operador *)
@@ -29,9 +32,9 @@ de uma string está no índice 0
 
 &nbsp;  
 
-## Métodos da Classe `str` *(referência rápida)* 
+## Métodos da classe `str` *(referência rápida)* 
 
-### • Para verificação de conteúdo de strings:
+#### • Para verificação de conteúdo de strings:
 
 Método | Função
 ---    | :--
@@ -44,10 +47,10 @@ isupper() | Retorna True se todos os caracteres da string estiverem em maiúscul
 
 &nbsp;  
 
-### • Para manipulação de conteúdo/formatação:
+#### • Para manipulação de conteúdo/formatação:
 Método | Função
 ---    | :--
-capitalize() | Retorna uma cópia da string em minúsculas
+capitalize() | Retorna uma cópia da string com o 1º caractere apenas em maiúscula
 format() | Formata uma string
 join() | Junta os elementos de um iterável em uma string única, usando a string original como separador
 lower() | Converte os caracteres de uma string para minúsculas
@@ -56,12 +59,12 @@ replace(old, new) | Substitui a ocorrência da substring antiga por outra ali in
 rstrip() | Remove espaços em branco do final de uma string 
 split() | Divide a string em uma lista de substrings usando o separador informado
 strip() | Remove espaços em branco (ou outros caracteres especificados) do início e do fim da string 
-title() | Converte o 1º caractere de cada palavra para maiúscula e demais para minúsculas
+title() | Retorna uma cópia da string com o 1º caractere de cada palavra da seuência em maiúscula
 upper() | Retorna uma cópia da string em maiúsculas
 
 &nbsp;  
 
-### • Para pesquisa de conteúdo:
+#### • Para pesquisa de conteúdo:
 Método | Função
 ---    | :--
 count() | Retorna o número de ocorrências da substring informada 
@@ -72,12 +75,84 @@ startswith(prefix) | Retorna True se a string começa com o prefixo especificado
 
 &nbsp;  
 
-## Operações com strings 
+## Acessando caracteres em uma string
 
-### • 1 - Operações de comparação  
+Em Python, caracteres individuais em uma string podem ser acessados através de números inteiros conhecidos como índices, lembrando que: 
+&nbsp;&nbsp; . indexação de strings começa em 0
+&nbsp;&nbsp; . há suporte para índices negativos, que contam a partir do final da string, como -1 e assim sucessivamente
+&nbsp;&nbsp; . caracteres específicos podem ser acessados através de string[indice], sendo índice a posição do caractere desejado
+
+```py
+palavra = "Python"
+
+print(palavra[0])  # Saída: 'P'
+print(palavra[3])  # Saída: 'h'
+print(palavra[-2]) # Saída: 'o'
+```
+  
+&nbsp;
+
+## Slicing (ou fatiamento) 
+
+Através desta operação, é possível extrair partes maiores de uma string. O intervalo de índices deve ser definido usando a sintaxe `string[inicio:fim:passo]`, sendo: 
+&nbsp;&nbsp; . inicio onde o fatiamento começa (inclusive) 
+&nbsp;&nbsp; . fim onde o fatiamento termina (exclusive)
+&nbsp;&nbsp; . passo é o intervalo entre os índices a ser considerado (opcional)
+\* Se o inicio for omitido, Python assume 0. Se fim for omitido, Python assume o final da string.
+
+&nbsp;
+
+↳ Slicing básico
+```py
+
+palavra = "Python"
+print(palavra[2:5])
+
+# Extraiu: tho
+```
+
+&nbsp; 
+
+↳ Slicing com índices negativos  
+*Repare que no exemplo abaixo, extrai a partir do terceiro último até o final da string*  
+```py
+
+palavra = "Python"
+print(palavra[-3:])
+
+# Extraiu: hon
+```
+
+&nbsp; 
+
+↳ Slicing com passo  
+*Repare que no exemplo abaixo, capta o 1º caractere, pula o 2º, capta o 3º, e assim por diante*  
+```py
+
+palavra = "Python"
+print(palavra[::2])
+
+# Extraiu: Pto
+```
+
+&nbsp; 
+
+↳ Slicing reverso  
+*Inverte a string*
+```py
+
+palavra = "Python"
+print(palavra[::-1])
+
+# Extraiu: nohtyP
+```
+
+&nbsp; 
+
+## Outras operações com strings 
+
+#### • 1 - Operações de comparação  
 *Realizadas com os operadores de comparação*  
-
-&nbsp;  
 
 ```py
 
@@ -89,10 +164,8 @@ print('dia' == 'dia') # Saída: True
 
 &nbsp;
 
-### • 2 - Operações de concatenação 
+#### • 2 - Operações de concatenação 
 *Realizada com o operador `+`ou `+=`*
-
-&nbsp;  
 
 ```py
 
@@ -117,8 +190,9 @@ print(s1)
 
 &nbsp;  
 
-### • 3 - Operações de repetição  
-*Realizada com o operador `\*`*
+#### • 3 - Operações de repetição  
+*Realizada com o operador `*`*
+
 ```py
 
 frase = ('Vamos sentir saudades. Volte logo' + '!' * 3)
@@ -132,7 +206,7 @@ print(frase)
 
 ## Concatenando strings 
 
-### • 1 - Através do método str() 
+#### • 1 - Através do método str() 
 
 ```py
 
@@ -144,7 +218,7 @@ print('No ' + str(6) + 'º dia do evento, apenas ' + str(25) + '% dos convidados
 &nbsp; 
 
 
-### 2 - Através do método join()
+#### • 2 - Através do método join()
 ```py
 
 bandasAnos80 = ['The Cure', 'The Smiths', 'New Order', 'Joy Division']
@@ -172,8 +246,8 @@ print('Aluno(a): {}. Idade: {}. Nota: {}'.format(name,age,grade))
 
 &nbsp; 
 
-### • 2 - Através da sintaxe f-string
-Disponível a partir do Python 3.6, esta sintaxe facilita a interpolação de variáveis e expressões diretamente nas strings. Uma f-string deve começar com o prefixo `f`, seguido por uma string que deve conter as expressões/variáveis entre chaves. 
+#### • 2 - Através da sintaxe f-string
+Disponível a partir do Python 3.6, esta sintaxe facilita a interpolação de variáveis e expressões diretamente nas strings. Uma f-string deve começar com o prefixo `f` seguido por uma string que deve conter as expressões/variáveis sempre entre chaves. 
 ```py
 
 estado = "Paraná"

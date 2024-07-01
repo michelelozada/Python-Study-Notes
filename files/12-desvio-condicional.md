@@ -117,6 +117,10 @@ Ao se utilizar esta estrutura, é implementado um comportamento similar à estru
 
 &nbsp; 
 
+Esta estrutura é ideal para a implementação de um percurso para o usuário - seja através de um menu de opções ou apresentação de alternativas - que o direcionam dentro do programa (ou podem determinar seu encerramento).
+
+&nbsp; 
+
 ↳ Exemplo da sua estrutura básica:
 
 ```py

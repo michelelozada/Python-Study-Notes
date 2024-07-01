@@ -103,6 +103,10 @@ Executa um bloco de código repetidamente enquanto uma condição especificada f
 
 &nbsp;  
 
+Recurso muito útil para quando se necessita garantir que um usuário permaneça em um determinado bloco até que certas entradas sejam válidas.
+
+&nbsp;  
+
 ↳ Sintaxe básica do loop while:
 
 ```py

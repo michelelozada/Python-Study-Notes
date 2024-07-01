@@ -24,7 +24,7 @@ modificados, adicionados ou removidos dali
 
 &nbsp; 
 
-## Métodos da Classe `list` *(referência rápida)* 
+## Métodos da classe `list` *(referência rápida)* 
 
 Método | Função
 ---    | :--
@@ -42,9 +42,37 @@ sort() | Ordena os itens da lista de forma crescente
 
 &nbsp;
 
+## Testando se uma lista possui elementos ou se está vazia
+*Em Python, uma lista vazia é considerada um valor falso (False) num contexto booleano. Portanto, quando se usa uma lista em uma condição if, é verificado se a lista está vazia ou não, sendo que uma lista com elementos é considerada True e uma lista vazia é considerada False.*
+
+```py
+
+cesta_frutas = ['maçã', 'mamão', 'laranja']
+
+if cesta_frutas:
+  print('Há frutas em casa')
+else:
+  print('Ir na feira comprar frutas!')
+  
+# Saída: Há frutas em casa
+```
+```py
+
+cesta_verduras = []
+
+if cesta_verduras:
+  print('Há verduras em casa')
+else:
+  print('Ir na feira comprar verduras!')
+  
+# Saída: Ir na feira comprar verduras!    
+```
+
+&nbsp;   
+
 ## Exemplos de aplicações dos métodos para manipular listas em Python 
 
-### • Método append()
+#### • Método append()
 ```py
 
 numeros = [1, 5, 10, 15]
@@ -56,7 +84,7 @@ print(numeros)
 
 &nbsp;
 
-### • Método pop()
+#### • Método pop()
 *\*Informar o argumento index é opcional. Se nenhum índice for especificado, retornará o último item da lista*
 
 ```py

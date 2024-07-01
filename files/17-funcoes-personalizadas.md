@@ -10,6 +10,8 @@
 - São criadas pelo usuário para a realização de uma ação específica, podendo ser chamadas em diferentes
 partes do programa
 
+- Dessa forma, cada vez que uma função é chamada no programa principal, certos blocos de código são executados, desempenhando alguma operação
+
 - São declaradas através da palavra-chave def, seguida pelo nome da função
 
 - Funções podem aceitar:
