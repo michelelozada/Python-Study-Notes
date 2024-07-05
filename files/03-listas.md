@@ -2,7 +2,7 @@
 > Repositório: Python - Notas de estudo     
 > GitHub: @michelelozada
 &nbsp;
-     
+
 &nbsp;  
 ## Listas em Python *(mini-revisão)*
 ```
@@ -32,13 +32,57 @@ append() | Adiciona um item especificado no final de uma lista
 copy() | Retorna uma cópia da lista
 clear() | Remove todos os itens da lista 
 count() | Retorna o número de ocorrências na lista do item especificado  
-extend() | Estende a lista adicionando todos os itens de um iterável
+extend() | Estende uma lista adicionando todos os itens de um iterável
 index() | Retorna o índice da primeira ocorrência do item especificado
 insert() | Adiciona um item em uma posição especificada da lista 
-pop() | Remove e retorna o item de uma lista (o último ou o do índice informado)
-remove() | Remove da lista a primeira ocorrência do item informado 
+pop() | Remove e retorna o item de uma lista, a partir de seu índice 
+remove() | Remove da lista o item informado, em sua primeira ocorrência encontrada
 reverse() | Inverte a ordem dos itens da lista 
 sort() | Ordena os itens da lista de forma crescente
+
+&nbsp;
+
+## Aplicação de slicing em listas 
+
+↳ Criação de sublistas a partir de uma lista
+```py
+
+numeros = [1 , 2, 3, 4, 5, 6 , 7, 8, 9, 10]
+
+numeros_pares = numeros[1::2]
+numeros_impares = numeros[::2]
+
+print(numeros_pares)   # Saída: [2, 4, 6, 8, 10]
+print(numeros_impares) # Saída: [1, 3, 5, 7, 9]
+```
+
+&nbsp;
+
+↳ Inversão da ordem de elementos da lista 
+```py
+
+print(numeros[::-1])
+
+# Saída: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+```
+
+&nbsp;
+
+## Desempacotamento (ou unpacking) de listas
+Técnica para lidar com iteráveis (tuplas, listas, etc.) que permite a atribuição de valores a variáveis individuais, de forma rápida e concisa. 
+
+↳ Desempacotamento simples
+```py
+
+nomes = ['Ana', 'Beatriz', 'Celso']
+
+# Desempacotando a lista
+a, b, c = nomes
+
+print(a)  # Saída: Ana
+print(b)  # Saída: Beatriz
+print(c)  # Saída: Celso
+```
 
 &nbsp;
 
@@ -73,6 +117,8 @@ else:
 ## Exemplos de aplicações dos métodos para manipular listas em Python 
 
 #### • Método append()
+*Adiciona um item especificado no final de uma lista*  
+
 ```py
 
 numeros = [1, 5, 10, 15]
@@ -84,9 +130,45 @@ print(numeros)
 
 &nbsp;
 
-#### • Método pop()
-*\*Informar o argumento index é opcional. Se nenhum índice for especificado, retornará o último item da lista*
+#### • Método extend()
+*Estende uma lista adicionando todos os itens de um iterável*  
 
+```py
+
+vogais = ['a', 'e']
+vogais.extend(['i','o','u'])
+print(vogais)
+
+# Saída: ['a', 'e', 'i', 'o', 'u']
+```
+
+&nbsp;
+
+#### • Método insert()
+*Adiciona um item em uma posição especificada da lista*
+
+```py
+
+vogais = ['a', 'e', 'o', 'u' ]
+vogais.insert(2, 'i')
+print(vogais)
+
+# Saída: ['a', 'e', 'i', 'o', 'u']
+```
+
+&nbsp;
+
+#### • Método pop()
+*Remove e retorna o item de uma lista, a partir do índice fornecido como argumento. Se nenhum índice for especificado, removerá e retornará o último item da lista*
+
+```py
+
+meses = ["janeiro", "fevereiro", "março"]
+mes_removido = meses.pop(1)
+print(mes_removido)
+
+# Saída: fevereiro
+```
 ```py
 
 meses = ["janeiro", "fevereiro", "março"]
@@ -95,13 +177,36 @@ print(mes_removido)
 
 # Saída: março
 ```
+
+&nbsp;
+
+#### • Método remove()
+*Remove da lista o item informado, em sua primeira ocorrência encontrada. Corresponde ao valor do elemento que foi passado como argumento.*
+
 ```py
 
-meses = ["janeiro", "fevereiro", "março"]
-mes_removido = meses.pop(1)
-print(mes_removido)
+letras = ['a', 'b', 'c', 'a']
+letras.remove('a')
+print(letras)
 
-# Saída: fevereiro
+# Saída: ['b','c', 'a']
+```
+
+&nbsp;
+
+#### • Método zip()
+*Gera objeto do tipo zip que permite combinar iteráveis (listas, tuplas, etc) em pares de tuplas* 
+
+```py
+marca = ['Citröen', 'Renault', 'Peugeot']
+modelo = ['C3', 'Clio', '208']
+
+# Para visualizar o resultado, objeto zip foi convertido em lista
+resultado = list(zip(marca, modelo))
+
+print(resultado)
+
+# Saída: [('Citröen', 'C3'), ('Renault', 'Clio'), ('Peugeot', '208')]
 ```
 
 &nbsp;

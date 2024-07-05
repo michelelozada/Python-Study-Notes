@@ -64,6 +64,39 @@ else:
 
 &nbsp;
 
+# Verificando se uma determinada chave está presente em um dicionário 
+Feito através do operador `in`, que verifica se a chave (key) está em um dicionário e retorna um valor booleano a respeito dela ter sido encontrada (ou não).
+
+```py
+
+
+dici_nomes = {'a': 'Ana', 'b': 'Bia', 'c': 'Celso'}
+
+print('e' in dici_nomes)
+# Saída: False
+
+print('c' in dici_nomes)
+# Saída: True
+```
+
+&nbsp;
+
+# Verificando se um determinado valor está presente em um dicionário 
+Feito através do operador `in` em conjunto com o método `values()`, que verifica se um valor está associado a alguma chave do dicionário, retornando um valor booleano.
+
+```py
+
+dici_nomes = {'a': 'Ana', 'b': 'Bia', 'c': 'Celso'}
+
+print('Celso' in dici_nomes.values())
+# Saída: True
+
+print('Dani' in dici_nomes.values())
+# Saída: False
+```
+
+&nbsp;
+
 ## Exemplos de aplicações dos métodos para manipular dicionários
 
 #### Método items()
@@ -85,10 +118,12 @@ print(type(items_de_tarefas))
 for chave, valor in tarefas.items():
 	print(f"{chave}ª tarefa: {valor}")
 	
-# Retorna: 
+'''  
+Retorna: 
 1ª tarefa: Lavar a louça
 2ª tarefa: Varrer a casa
 3ª tarefa: Fazer o almoço
+'''
 ```
 
 &nbsp;

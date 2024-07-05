@@ -189,7 +189,6 @@ Cida 48
 
 ## Referências extras consultadas
 > [Python enumerate() – What is the Enumerate Function in Python?](https://www.freecodecamp.org/news/python-enumerate-what-is-the-enumerate-function-in-python/), artigo de Ihechikara Vincent Abba  
-
 &nbsp;
 
 <div align="center">

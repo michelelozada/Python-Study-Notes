@@ -36,7 +36,7 @@ finally:
 
 &nbsp;  
 
-↳ Imaginando o exemplo de que é utilizado o `input()` para obter uma entrada do usuário e há a entrada de um número, como `int()` ou `float()`, que não pode ser processado adequadamente devido ao valor fornecido: neste caso um `ValueError` será lançado, pois a entrada não pode ser convertida para o tipo numérico esperado.  
+↳ Considerando o exemplo abaixo em que é solicitada uma entrada do usuário: se esta for diferente de um número (como `int` ou `float`), um `ValueError` será lançado, pois a entrada não poderá ser processada adequadamente.
 
 ```py
 
@@ -56,31 +56,15 @@ except ValueError:
 ```py 
 
 while True:
-	try:
-	  n = int(input("Digite um número: "))
-		if (n>= 1 and n<=50):
-		  print(f'> Resposta aceita: você informou um número dentro do intevalo.\n')
-			break
-		else:
-			print('> Houve um erro: você informou um número fora do intervalo entre 1 e 50. Por favor, tente novamente.\n')
-			continue
-	except ValueError:
-		print('> Houve um erro: o valor digitado não é um número. Por gentileza, comece novamente.\n')
-		continue
-
-
-'''
-Outputs possíveis:
-Digite um número: -55
-> Houve um erro: você informou um número fora do intervalo entre 1 e 50. Por favor, tente novamente.
-
-Digite um número: dez
-> Houve um erro: o valor digitado não é um número. Por gentileza, comece novamente.
-
-Digite um número: 25
-> Resposta aceita: você informou um número dentro do intevalo.
-
-'''
+  try:
+    numero = int(input("Por favor, digite um número de 1 a 50: "))
+    if(1 <= numero <= 50):
+      print("Resposta aceita!")
+      break
+    else:
+      print("Este número está fora do intervalor proposto.\n")
+  except ValueError:
+    print("Por gentileza, digite apenas números.\n")
 ```
 
 &nbsp;  
@@ -89,32 +73,38 @@ Digite um número: 25
 durante o procesamento das divisões:  
 
 ```py 
-cont = 1
+
 dividendo = 2
-divisores = ['DIV',0,1,1.5]
+divisores = ['DIV', 0, 1, 1.5]
 
-for d in divisores:
-	try:
-		quociente = dividendo / d
-		print(f'{cont}º resultado: O resultado da divisão de {dividendo} com {d} é {quociente:.2f}')
-		cont += 1
+for divisor in divisores:
+    try:
+        quociente = dividendo / divisor
+        print(f"O resultado da divisão de {dividendo} por {divisor} é {quociente:.2f}")
+        print("")
 
-	except TypeError:
-		print(f'{cont}º resultado: O valor {d} é inválido para esta operação (motivo: não é possível realizar divisão com '
-					f'valores não-numéricos).')
-		cont += 1
+    except TypeError:
+        print(f'O valor {divisor} é inválido para esta operação')
+        print("Motivo: Não é possível realizar divisão com valores não-numéricos")
+        print("")
 
-	except ZeroDivisionError:
-		print(f'{cont}º resultado: O valor 0 é inválido para esta operação (motivo: não é possível dividir um '
-					f'número por zero).')
-		cont += 1
+    except ZeroDivisionError:
+        print(f'O valor {divisor} é inválido para esta operação')
+        print("Motivo: Não é possível dividir um número por zero/n")
+        print("")
 
 '''
-Output: 
-1º resultado: O valor DIV é inválido para esta operação (motivo: não é possível realizar divisão com valores não-numéricos).
-2º resultado: O valor 0 é inválido para esta operação (motivo: não é possível dividir um número por zero).
-3º resultado: O resultado da divisão de 2 com 1 é 2.00
-4º resultado: O resultado da divisão de 2 com 1.5 é 1.33
+Saída: 
+
+O valor DIV é inválido para esta operação
+Motivo: Não é possível realizar divisão com valores não-numéricos
+
+O valor 0 é inválido para esta operação
+Motivo: Não é possível dividir um número por zero/n
+
+O resultado da divisão de 2 por 1 é 2.00
+
+O resultado da divisão de 2 por 1.5 é 1.33
 '''
 ```
 

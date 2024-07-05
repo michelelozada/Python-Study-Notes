@@ -195,11 +195,26 @@ print(s1)
 
 ```py
 
-frase = ('Vamos sentir saudades. Volte logo' + '!' * 3)
+print('se essa rua\n' * 2 + '  fosse minha')
+print('eu mandava\n' * 2 + '  ladrilhar')
+print('com pedrinhas\n' * 2 + '  de brilhantes')
+print('para o meu\n' * 2 + '  amor passar.')
 
-print(frase) 
-
-# Saída: Vamos sentir saudades. Volte logo!!!
+'''
+Saída: 
+se essa rua
+se essa rua
+  fosse minha
+eu mandava
+eu mandava
+  ladrilhar
+com pedrinhas
+com pedrinhas
+  de brilhantes
+para o meu
+para o meu
+  amor passar.
+'''
 ```
 
 &nbsp;
