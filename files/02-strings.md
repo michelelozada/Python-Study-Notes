@@ -169,10 +169,8 @@ print('dia' == 'dia') # Saída: True
 
 ```py
 
-nome = 'Denzel' + ' ' + 'Washington'
+nome = 'Denzel Washington'
 profissao = 'ator e produtor'
-
-print(nome)  # Saída: Denzel Washington
 print(nome + ', ' + profissao) 
 
 # Saída: Denzel Washington, ator e produtor

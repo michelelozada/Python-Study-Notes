@@ -37,9 +37,9 @@ Link  | Assunto
 &nbsp;   
 
 [Como Pensar Como um Cientista da Computação](https://panda.ime.usp.br/panda/static/pensepy/index.html)  
+[Documentação do Python](https://docs.python.org/pt-br/dev/contents.html)  
 [Introdução à Computação com Python](https://panda.ime.usp.br/panda/static/cc110/index.html)  
 [Pense em Python](https://penseallen.github.io/PensePython2e/)  
-[Python’s standard documentation](https://www.python.org/)  
 [The Best of the Best Practices Guide for Python](https://gist.github.com/sloria/7001839)  
 </details>
 

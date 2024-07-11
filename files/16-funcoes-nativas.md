@@ -65,8 +65,17 @@ Função | Finalidade
 ---    | :--
 enumerate() | Retorna uma sequência de tuplas contendo os índices e valores correspondentes do iterável
 len() | Retorna o número de elementos de um objeto (lista, tupla, string, etc.)
-sorted() | Retorna uma nova lista ordenada, partindo dos elementos de um iterável
-zip() | Combina elementos de múltiplos iteráveis (listas, tuplas, etc), retornados em tuplas
+sorted() | Retorna uma nova lista ordenada, partindo dos elementos de um iterável (listas, tuplas, etc.)
+zip() | Combina elementos de múltiplos iteráveis (listas, tuplas, etc.), retornados em tuplas
+
+&nbsp;  
+
+#### • Funções de agregação ou redução em Python
+
+Função | Finalidade 
+---    | :--
+all() | Verifica se todos os elementos de um iterável são avaliados como verdadeiros
+any() | Verifica se pelo menos um elemento em um iterável é avaliado como verdadeiro
 
 &nbsp;  
 
@@ -93,12 +102,45 @@ type() | Retorna o tipo de um objeto em Python
 
 ## Exemplos de aplicações das funções nativas
 
-#### • Função enumerate()
-◦ Na sintaxe da função, o primeiro argumento é o iterável  
-◦ Um segundo argumento, referente ao valor inicial do índice, pode estar implícito ou explícito  
-◦ Retorna uma sequência de tuplas com os valores dos índices + os próprios elementos de uma sequência iterada  
-◦ Nos permite acessar o índice e valor de um item da lista   
+#### • Função all()
+*Verifica se todos os elementos de um iterável são avaliados como verdadeiros. Iteráveis vazios retornam True.*
 
+```py
+
+lista1 = [True, True, True]
+print(all(lista1))  
+# Retorna: True
+
+lista2 = [True, False, True]
+print(all(lista2))  
+# Retorna: False
+
+lista_vazia = []
+print(all(lista_vazia))  
+# Retorna: True
+```
+
+&nbsp;
+
+#### • Função any()
+*Verifica se algum elemento de um iterável é avaliado como verdadeiro.*
+
+```py
+
+lista1 = [True, False, False]
+print(any(lista1))
+# Retorna: True
+
+lista2 = [False, False, False]
+print(any(lista2))  
+# Retorna: False
+```
+
+&nbsp;
+
+#### • Função enumerate()
+*Retorna uma sequência de tuplas contendo os índices e valores correspondentes do iterável. Na sintaxe da função, o primeiro argumento é o iterável; um segundo argumento, referente ao valor inicial do índice, pode estar implícito ou explícito.*  
+  
 ```py
 
 estacoes = ['primavera', 'verao', 'outono', 'inverno']
@@ -109,7 +151,6 @@ print(list(enumEstacoes))
 Retorna:
 [(0, 'primavera'), (1, 'verao'), (2, 'outono'), (3, 'inverno')]
 ```
-
 ```py
 
 estacoes = ['primavera', 'verão', 'outono', 'inverno']
@@ -125,7 +166,6 @@ Retorna:
 índice: 2 - item: outono
 índice: 3 - item: inverno
 ```	
-
 ```py
 
 estacoes = ['primavera', 'verão', 'outono', 'inverno']
@@ -146,6 +186,8 @@ Retorna:
 &nbsp;
 
 #### • Função len()
+*Retorna o número de elementos de um objeto (lista, tupla, string, etc.)*
+
 ```py
 
 string = "Python"
@@ -155,8 +197,11 @@ print(tamanho)
 # Retorna: 6
 ```
 
+&nbsp;  
 
 #### • Função range()
+*Retorna uma sequência de números*  
+
 ```py
 
 for i in range(4):
@@ -169,9 +214,46 @@ for i in range(4):
 3
 ```
 
+&nbsp;  
+
+#### • Função sorted() 
+*Retorna uma nova lista ordenada, partindo dos elementos de um iterável*
+
+```py
+
+frutas = ('limão', 'laranja', 'mamão', 'amora')
+frutas_ordenadas = sorted(frutas)
+print(frutas_ordenadas)
+
+# Retorna: ['amora', 'laranja', 'limão', 'mamão']
+```
+
+↳ Utilização do parâmetro `key` fazendo referência à função `len`: ordena a lista de strings por comprimento
+```py
+
+frutas = ('limão', 'laranja', 'maçã', 'uva', 'abacaxi')
+frutas_ordenadas = sorted(frutas, key = len)
+print(frutas_ordenadas)
+
+
+# Retorna: ['uva', 'maçã', 'limão', 'laranja', 'abacaxi']
+```
+
+↳   Utilização do  `invert` definido como True: ordena a lista em ordem decrescente.  
+```py
+
+frutas = ('limão', 'laranja', 'mamão', 'amora')
+frutas_reversa = sorted(frutas, reverse = True)
+print(frutas_reversa)
+
+# Retorna: ['mamão', 'limão', 'laranja', 'amora']
+```
+
 &nbsp;
 
 #### • Função zip()
+*Combina elementos de múltiplos iteráveis (listas, tuplas, etc), retornados em tuplas* 
+
 ```py
 
 nomes = ["Ana", "Bela", "Cida"]

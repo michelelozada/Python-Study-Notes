@@ -194,6 +194,20 @@ print(letras)
 
 &nbsp;
 
+#### • Método sort()
+*Ordena os itens da lista de forma crescente, modificando a lista original. (Para o caso de desejar retornar uma nova lista com itens ordenados, use a função nativa sorted())*
+
+```py
+
+frutas = ['limão', 'laranja', 'mamão', 'amora']
+frutas.sort()
+print(frutas)
+
+# Saída: ['amora', 'laranja', 'limão', 'mamão']
+```
+
+&nbsp;
+
 #### • Método zip()
 *Gera objeto do tipo zip que permite combinar iteráveis (listas, tuplas, etc) em pares de tuplas* 
 

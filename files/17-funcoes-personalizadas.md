@@ -56,7 +56,6 @@ def solicitarNotas():
                                     ' exame final: '))
     return nota_obtida_pratica, nota_obtida_exame
 
-
 def calcularNotas(nota_obtida_pratica, nota_obtida_exame,
                   pesoPratica = 0.4, pesoExame = 0.6):
    nota_efetiva_pratica = nota_obtida_pratica * pesoPratica

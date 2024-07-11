@@ -74,7 +74,7 @@ print(a // b)
 &nbsp; 
 
 #### • Módulo (%)
-*Retorna o resto da divisão*
+*Retorna o resto de uma divisão*
 ```py
 
 a = 4

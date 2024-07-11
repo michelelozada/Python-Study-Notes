@@ -141,6 +141,22 @@ Saída:
 '''
 ```
 
+&nbsp; 
+
+↳ Exercício: Escreva um algoritmo em que o usuário deve informar dois números, sendo que serão impressos na tela somente os números pares compreendidos no intervalo dos números fornecidos:
+
+```py
+
+numero_inicial = int(input('Digite o número inicial do intervalo: '))
+numero_final = int(input('Digite o número final do intervalo: '))
+
+numero_em_vigor = numero_inicial
+while(numero_em_vigor <= numero_final):
+  if(numero_em_vigor % 2 == 0):
+    print(numero_em_vigor)
+  numero_em_vigor += 1
+```
+
 &nbsp;
 
 ### • Variável acumuladora: 
@@ -163,6 +179,29 @@ for numero in numeros:
 print("A soma dos números da lista é:", soma)
 
 # Saída: A soma dos números da lista é: 15
+```
+
+&nbsp;
+
+↳ Exercício: Escreva um algoritmo que receba 4 notas de um aluno, calcule a média delas e informe se este aluno foi aprovado (a média da escola é 7.0) ou se ficou para recuperação.
+
+```py
+
+provas = [1, 2, 3, 4]
+
+notas = [float(input(f'Por favor informe a {prova}ª nota do aluno: ')) for prova in provas]
+
+soma_notas = 0
+
+for nota in notas:
+    soma_notas += nota
+
+media = soma_notas/len(provas)
+
+if(media >= 7.0):
+    print("Status: O aluno foi aprovado.")
+else:
+    print('Status: O aluno ficou para recuperação.')
 ```
 
 &nbsp;
