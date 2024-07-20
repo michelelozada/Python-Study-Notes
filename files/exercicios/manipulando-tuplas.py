@@ -14,7 +14,7 @@ livro = (
     'HarperCollins',
     '5a.edição',
      2019,
-    '336 p.',
+    '336 p.'
 )
 
 

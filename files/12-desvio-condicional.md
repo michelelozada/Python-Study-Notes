@@ -124,6 +124,7 @@ Esta estrutura é ideal para a implementação de um percurso para o usuário - 
 ↳ Exemplo da sua estrutura básica:
 
 ```py
+
 opcao = 2
 
 if opcao == 1:

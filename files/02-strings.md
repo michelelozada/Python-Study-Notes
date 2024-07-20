@@ -25,9 +25,9 @@
   . concatenação (realizadas com o operador +)
   . repetição (realizada com o operador *)
   
-- Além da utilização do operador +, as strings podem tambpem ser concatenadas através dos métodos str() e join()
+- Além da utilização do operador +, as strings podem também ser concatenadas através dos métodos str() e join()
 
-- Strings podem ser formatadas através do método format() ou da sintaxe f-string
+- A interpolação de strings pode ser feita através do operador %, do método format() ou das f-strings
 ````
 
 &nbsp;  
@@ -61,6 +61,7 @@ split() | Divide a string em uma lista de substrings usando o separador informad
 strip() | Remove espaços em branco (ou outros caracteres especificados) do início e do fim da string 
 title() | Retorna uma cópia da string com o 1º caractere de cada palavra da seuência em maiúscula
 upper() | Retorna uma cópia da string em maiúsculas
+zerofill() | Preenche uma string com zeros à esquerda até que ela atinja um comprimento especificado
 
 &nbsp;  
 
@@ -217,15 +218,20 @@ para o meu
 
 &nbsp;
 
-## Concatenando strings 
+## Concatenação de strings 
+Refere-se à junção direta de duas ou mais strings para formar uma única string. Além da utilização do operador `+`, explicado acima, também é possível fazer isso das formas abaixo.
+
+&nbsp;
 
 #### • 1 - Através do método str() 
 
 ```py
 
-print('No ' + str(6) + 'º dia do evento, apenas ' + str(25) + '% dos convidados participaram.) 
+dias = 6
+participacao = 25
 
-# Saída: No 6º dia do evento, apenas 25% dos convidados participaram.
+
+print('No ' + str(dias) + 'º dia do evento, apenas ' + str(participacao) + '% dos convidados participaram.')
 ```
 
 &nbsp; 
@@ -234,43 +240,82 @@ print('No ' + str(6) + 'º dia do evento, apenas ' + str(25) + '% dos convidados
 #### • 2 - Através do método join()
 ```py
 
-bandasAnos80 = ['The Cure', 'The Smiths', 'New Order', 'Joy Division']
-s = ' - '.join(bandasAnos80)
-print(s)
+lista_bandas = [
+    'The Cure', 'The Smiths', 'New Order', 'Joy Division'
+]
+bandas_anos80 = ' - '.join(lista_bandas)
+print(bandas_anos80)
 
 # Saída: The Cure - The Smiths - New Order - Joy Division
 ```
 
 &nbsp;
 
-## Formatando strings 
+## Interpolação de strings 
+É uma forma de incorporar valores de variáveis em strings, podendo ser feita das maneiras abaixo.
 
-#### • 1 - Através do método format()
+&nbsp;
+
+#### • 1 - Através do operador %
+É o método mais antigo de formatar uma string, sendo necessário especificar também o tipo de dado que será inserido na string.
+
 ```py
 
-name = 'Luísa Dias'
-age = 18
-grade = 9.5
-	
-print('Aluno(a): {}. Idade: {}. Nota: {}'.format(name,age,grade))
+nome = "Enzo"
+meses = 4
+peso = 6.400
 
-# Saída: Aluno(a): Luísa Dias. Idade: 18. Nota: 9.5
+frase = "%s é um lindo bebê de %i meses, que pesa %.1f quilos!" % (nome, meses, peso)
+print(frase)
+
+Saída: Enzo é um lindo bebê de 4 meses, que pesa 6.4 quilos!
+```
+
+&nbsp;
+
+#### • 2 - Através do método format()
+```py
+
+nome = 'Luis'
+idade = 35
+score = 9.545
+
+print('Cliente: {}. Idade: {} anos. Score: {:.2f}'.format(nome, idade, score))
+
+# Saída: Cliente: Luis. Idade: 35 anos. Score: 9.54
 ```
 
 &nbsp; 
 
-#### • 2 - Através da sintaxe f-string
-Disponível a partir do Python 3.6, esta sintaxe facilita a interpolação de variáveis e expressões diretamente nas strings. Uma f-string deve começar com o prefixo `f` seguido por uma string que deve conter as expressões/variáveis sempre entre chaves. 
+#### • 3 - Através da sintaxe format-string (f-strings)
+Disponível a partir do Python 3.6, esta sintaxe facilita a interpolação de variáveis e expressões diretamente nas strings. Uma f-string deve começar com o prefixo `f` seguido por uma string que deve conter as variáveis sempre entre chaves. 
+
 ```py
 
-estado = "Paraná"
-cidade = "Curitiba"
-print(f"{cidade} é a capital do {estado}.")
+nome = 'Antônio'
+idade = 55
+score = 9.987
 
-# Saída: Curitiba é a capital do Paraná.
+print(f'Cliente: {nome}. Idade: {idade} anos. Score: {score:.2f}')
+
+# Saída: Cliente: Antônio. Idade: 55 anos. Score: 9.99
 ```
 
 &nbsp; 
+
+↳  Para casos em que é necessário preencher zeros à esquerda
+```py
+
+nome = 'James Bond'
+codigo = 7
+
+# código deve ocupar 3 espaços
+print(f'{nome}, agente {codigo:03}') 
+
+# Saída: James Bond, agente 007
+```
+
+&nbsp;
 
 ## Exemplos de aplicações dos métodos para manipular strings em Python
 
@@ -298,6 +343,21 @@ palavra_espanhol = palavra_portugues.replace('d', 'b') \
 print(palavra_espanhol)
 
 # Saída: bailar
+```
+
+&nbsp; 
+
+#### • 2 - Método zerofill() 
+*Preenche uma string com zeros à esquerda até que ela atinja um comprimento especificado*
+
+```py
+
+nome = 'James Bond'
+codigo = 7
+
+print('{}, agente {}'.format(nome, str(codigo).zfill(3)))
+
+# Saída: James Bond, agente 007
 ```
 
 &nbsp; 

@@ -26,9 +26,9 @@
 range(start, stop, step)
 ```
 Sendo:  
-&nbsp;&nbsp;**. start**: O valor inicial do intervalo (inclusive)  
-&nbsp;&nbsp;**. stop**: O valor final do intervalo (exclusive)  
-&nbsp;&nbsp;**. step**: O intervalo entre os números/passo (quando implícito, o padrão é 1)  
+&nbsp;&nbsp;**. start**: O valor inicial do intervalo (inclusive). Se for omitido este argumento, começará em zero.    
+&nbsp;&nbsp;**. stop**: O valor final do intervalo (exclusive).  
+&nbsp;&nbsp;**. step**: O intervalo entre os números/passo. Quando omitido este argumento, o padrão é 1.  
 
 ```py
 

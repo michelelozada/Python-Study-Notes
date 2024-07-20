@@ -61,14 +61,26 @@ print(a / b)
 &nbsp; 
 
 #### • Divisão de piso (//)
-*Retorna valor inteiro. Quando for o caso, arrendonda o valor para o inteiro mais próximo (mais baixo)*
+*Realiza a divisão inteira, retornando o quociente da divisão, ignorando qaulqer parte fracionária*
 ```py
 
-a = 4
+a = 5
 b = 2
-print(a // b)  
+print(a // b)
 
 # Saída: 2
+```
+
+&nbsp; 
+
+*Observação: Retornará float, se ao menos um dos operandos for float. Ou seja, não haverá o arredondamento para um inteiro*
+```py
+
+a = 5.0
+b = 2
+print(a // b)
+
+# Saída: 2.0
 ```
 
 &nbsp; 

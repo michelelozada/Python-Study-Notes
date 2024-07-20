@@ -74,6 +74,7 @@ for i in range(5):
 	
 '''
 Saída:
+0
 1
 2
 3
@@ -81,10 +82,26 @@ Saída:
 '''
 ```
 
+&nbsp; 
+
+↳ Exercício: Uma brincadeira antiga consistia em contar números em voz alta, substituindo os números múltiplos de 4 pela
+palavra 'pi'. Escreva um programa que simule esta brincadeira, imprimindo os números e as ocorrência desta palavra, até o intervalo que o usuário tiver definido:
+
+```py
+
+limite = int(input('Até que número você deseja contar? '))
+
+for numero in range(1, limite + 1):
+  if numero % 4 == 0:
+    print('pi')
+  else:
+    print(numero)
+```
+
 &nbsp;  
 
 ### •  Variável contadora
-Também chamada de _variável de iteração_ ou  _variável de loop_,  a variável contadora assume valores diferentes (= atualiza seu valor) a cada iteração de um loop. Conveciona-se usar nomes como i, j, k para essas variáveis. 
+Também chamada de _variável de iteração_ ou _variável de loop_,  a variável contadora assume valores diferentes (= atualiza seu valor) a cada iteração de um loop. Para isso, conveciona-se usar o nome de variável `i`.
 
 &nbsp;  
 
@@ -129,7 +146,7 @@ limite = 5
 # Loop while executa enquanto o contador é menor ou igual ao limite (que é 5)
 while contador <= limite:
   print(contador)
-  contador += 1  # Incrementa a cada iteração
+  contador += 1  # Incrementa o contador a cada iteração do loop
 	
 '''
 Saída:
@@ -228,12 +245,14 @@ Saída:
 6
 ```	
 
+&nbsp; 
+
 ### • Instrução `continue`: 
-Esta palavra-chave é usada para **interromper a iteração atual de um loop e avançar para a próxima iteração**. Ou seja, quando o Python encontra a instrução `continue` dentro de um loop, ele pula o restante do código dentro da iteração atual de um loop  e pula para a iteração seguinte.
+Esta palavra-chave é usada para **interromper a iteração atual de um loop e avançar para a próxima iteração**. Ou seja, quando o Python encontra a instrução `continue` dentro de um loop, ele pula o restante do código dentro da iteração atual de um loop e pula para a iteração seguinte.
 
 &nbsp; 
 
-↳ Sobre o exemplo abaixo: quando i for igual a 3, a instrução `continue` será acionada e o código dentro deste loop será interrompido para essa iteração específica. Repare na saída que o número 3 não será impresso e o loop continuará com a próxima iteração.
+↳ Sobre o exemplo abaixo: quando i for igual a 3, a instrução `continue` será acionada e o código dentro deste loop será interrompido "no meio" dessa iteração específica. Repare na saída que o número 3 não será impresso e o loop continuará com a próxima iteração.
 ```py
 
 for i in range(1, 6):
@@ -257,7 +276,7 @@ Esta palavra-chave é usada para **sair completamente de um loop, interrompendo 
 
 &nbsp; 
 
-↳ Sobre o exemplo abaixo: Quando i for igual a 4, a instrução `break` será acionada, e o loop será interrompido completamente. Repare na saída que só os números de 1 a 3 foram impressos, antes da execução do programa
+↳ Sobre o exemplo abaixo: Quando i for igual a 4, a instrução `break` será acionada, e o loop será interrompido completamente. Repare na saída que só os números de 1 a 3 foram impressos.
 
 ```py
 

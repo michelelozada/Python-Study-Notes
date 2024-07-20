@@ -15,6 +15,11 @@ entre eles
 #### • Igualdade (==)
 *Verifica se dois valores são iguais*
 
+&nbsp; 
+
+↳ No exemplo abaixo, o inteiro 4 e o float 4.0, representam o mesmo valor numérico, pois há uma conversão implícita de um tipo de dado para outro antes ser realizada a comparação, para que depois haja a comparação 
+
+
 ```py
 
 print(4 == 4.0)  
