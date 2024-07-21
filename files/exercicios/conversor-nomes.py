@@ -29,6 +29,7 @@ nome_modificado = nome_original.upper() \
                                .replace('U','*')
 print(f'\n>> Seu nome com as vogais convertidas:\n{nome_modificado}')
 
+
 '''
 - CONVERSOR DE PALAVRAS - 
 

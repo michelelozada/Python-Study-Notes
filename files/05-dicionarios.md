@@ -14,14 +14,14 @@ chave-valor podem ser modificados, adicionados ou removidos
 - Na versões mais recentes do Python, os dicionários são ordenados, baseados na ordem de inserção 
 dos valores 
 
-- Os elementos de um dicionário são acessados por meio de suas chaves e podem ser iterados
+- Os itens de um dicionário são acessados por meio de suas chaves e podem ser iterados
 
-- Exemplo da sintaxe básica: {'nome': 'James', 'sobrenome': 'Bond'}, {'a': 10, 'b': 20}
+- Exemplo da sintaxe básica: {'id': 007, 'nome': 'James', 'sobrenome': 'Bond'}
 ```
 
 &nbsp;  
 
-## Métodos da classe `dict` *(referência rápida)* 
+## Métodos da classe dict *(referência rápida)* 
 
 Método | Função
 ---    | :--
@@ -29,8 +29,8 @@ clear() | Remove todos os itens do dicionário
 copy() | Retorna uma cópia superficial do dicionário
 get() | Retorna o valor de chave especificada ou o valor padrão se a chave não for encontrada
 items() | Retorna uma visão dinâmica dos pares chave-valor no dicionário
-keys() | Retorna uma nova lista das chaves do dicionário
-pop() |  Remove e retorna o valor para a chave especificada. Se a chave não estiver no dicionário, retorna o valor padrão
+keys() | Retorna uma visão das chaves atuais no dicionário  
+pop() | Remove um item de um dicionário de acordo com a chave especificada e retorna o valor associado a essa chave
 popitem() | Remove e retorna um par chave-valor do dicionário. Se o dicionário estiver vazio, lança um KeyError
 setdefault() | Retorna o valor para a chave especificada; se a chave não estiver no dicionário, adiciona a chave com o valor padrão
 update() | Atualiza o dicionário com os pares chave-valor de outro dicionário, sobrescrevendo as chaves existentes
@@ -64,7 +64,7 @@ else:
 
 &nbsp;
 
-# Verificando se uma determinada chave está presente em um dicionário 
+## Verificando se uma determinada chave está presente em um dicionário 
 Feito através do operador `in`, que verifica se a chave (key) está em um dicionário e retorna um valor booleano a respeito dela ter sido encontrada (ou não).
 
 ```py
@@ -81,7 +81,7 @@ print('c' in dici_nomes)
 
 &nbsp;
 
-# Verificando se um determinado valor está presente em um dicionário 
+## Verificando se um determinado valor está presente em um dicionário 
 Feito através do operador `in` em conjunto com o método `values()`, que verifica se um valor está associado a alguma chave do dicionário, retornando um valor booleano.
 
 ```py
@@ -99,14 +99,32 @@ print('Dani' in dici_nomes.values())
 
 ## Exemplos de aplicações dos métodos para manipular dicionários
 
+#### Método get()
+*Retorna o valor de chave especificada ou o valor padrão se a chave não for encontrada*  
+
+```py
+
+frutas = {
+  'maçã': 1,
+  'banana': 2,
+  'laranja': 3,
+  'morango': 4
+}
+
+print(frutas.get('laranja'))
+# Saída: 3
+```
+
+&nbsp;
+
 #### Método items()
-*Este método retorna um objeto do tipo dict_items, que é uma visão dinâmica e iterável dos pares chave-valor do dicionário original, permitindo acessar e iterar sobre eles.*
+*Este método retorna um objeto do tipo dict_items, que é uma visão dinâmica e iterável dos pares chave-valor do dicionário original, permitindo acessar e iterar sobre eles.*  
 
 ```py
 tarefas = {
-    '1': 'Lavar a louça',
-    '2': 'Varrer a casa',
-    '3': 'Fazer o almoço'
+  '1': 'Lavar a louça',
+  '2': 'Varrer a casa',
+  '3': 'Fazer o almoço'
 }
 
 items_de_tarefas = tarefas.items()
@@ -124,6 +142,47 @@ Retorna:
 2ª tarefa: Varrer a casa
 3ª tarefa: Fazer o almoço
 '''
+```
+
+&nbsp;
+
+#### Método keys()
+*Retorna uma visão das chaves atuais no dicionário. Esta visão pode ser iterada diretamente ou convertida em uma lista usando a função list(), se a necessidade for uma lista estática das chaves.*
+
+```py
+
+frutas = {
+  'maçã': 1,
+  'banana': 2,
+  'laranja': 3,
+  'morango': 4
+}
+
+print(list(frutas.keys()))
+
+# Saída: ['maçã', 'banana', 'laranja', 'morango']
+```
+
+&nbsp;
+
+#### Método pop()
+*Remove um item de um dicionário de acordo com a chave especificada e retorna o valor associado a essa chave*  
+
+```py
+
+frutas = {
+    'maçã': 1,
+    'banana': 2,
+    'laranja': 3,
+    'morango': 4
+}
+
+fruta_excluida = frutas.pop('banana')
+print(fruta_excluida)  
+# Saída: 2
+
+print(frutas)
+# Saída: {'maçã': 1, 'laranja': 3, 'morango': 4}
 ```
 
 &nbsp;

@@ -7,7 +7,7 @@
 ## Estruturas de Repetição em Python *(mini-revisão)*
  
 ```
-- Existem duas estruturas principais de repetição em Python: o loop for e o loop while. 
+- Existem duas estruturas principais de repetição em Python: o loop for e o loop while
 
 - Estas duas estruturas de repetição são úteis em diferentes situações e a escolha entre elas dependerá 
 do contexto específico do problema que está se tentando resolver
@@ -18,14 +18,18 @@ do contexto específico do problema que está se tentando resolver
 	iteração, até alcançar um limite pré-definido.
 	. Variável acumuladora, que é usada para armazenar o resultado de operações realizadas ao longo das 
 	iterações do loop for ou while
-  . continue e break, que são palavras-chave utilizadas para, respectivamente, controlar e interromper 
+  . Palavras-chave continue e break, que são utilizadas para, respectivamente, controlar e interromper 
 	o fluxo de execução dentro de loops for e while	
 ```
 
 &nbsp;  
 
 ## O Loop for
-Usado para iterar sobre uma sequência (como uma lista, tupla, dicionário ou string) ou em um intervalo específico, executando o bloco de código associado a cada elemento desta sequência.
+É usado para iterar sobre sequências de dados (como listas, tuplas, dicionários, strings, etc.) ou em um intervalo específico, executando o bloco de código associado para cada item desta sequência, até que todos os itens sejam processados. 
+
+&nbsp;  
+
+Bastante útil para quando se deseja percorrer cada item de uma sequência, um por um.
 
 &nbsp;  
 
@@ -33,7 +37,7 @@ Usado para iterar sobre uma sequência (como uma lista, tupla, dicionário ou st
 ```py
 
 for item in sequencia:
-  # item assume o valor de cada elemento na sequência, a cada iteração do loop.
+  # A cada iteração, este bloco de código é executado com o item atual da sequência
 ```	
 
 &nbsp;  
@@ -116,11 +120,11 @@ for i in range(5):
 &nbsp;  
 
 ## Loop while: 
-Executa um bloco de código repetidamente enquanto uma condição especificada for verdadeira. Portanto, até que o contador alcance um limite definido, o loop continua em vigor.
+Executa um bloco de código repetidamente enquanto uma condição especificada for verdadeira. Ele continua a executar até que a condição não seja mais atendida (critério de parada). 
 
 &nbsp;  
 
-Recurso muito útil para quando se necessita garantir que um usuário permaneça em um determinado bloco até que certas entradas sejam válidas.
+Recurso útil para quando se necessita garantir que um bloco de código seja repetido até que certas condições sejam satisfeitas pelo usuário.
 
 &nbsp;  
 
@@ -140,38 +144,36 @@ while condição:
 # Inicializando a variável contadora
 contador = 1
 
-# Definindo o limite
+# Definindo o critério de parada
 limite = 5
 
-# Loop while executa enquanto o contador é menor ou igual ao limite (que é 5)
+# Loop while executa enquanto essa condição for satifeita
 while contador <= limite:
-  print(contador)
-  contador += 1  # Incrementa o contador a cada iteração do loop
-	
-'''
-Saída:
-1
-2
-3
-4
-5
-'''
+  print (contador)
+  # Incrementa o contador a cada iteração
+  contador += 1 
 ```
 
 &nbsp; 
 
-↳ Exercício: Escreva um algoritmo em que o usuário deve informar dois números, sendo que serão impressos na tela somente os números pares compreendidos no intervalo dos números fornecidos:
+↳ Exercício: Escreva um algoritmo em que o usuário deve informar dois números, sendo que serão impressos na tela somente os números pares compreendidos neste intervalo dos números fornecidos:
 
 ```py
 
-numero_inicial = int(input('Digite o número inicial do intervalo: '))
-numero_final = int(input('Digite o número final do intervalo: '))
+print('Abaixo você deve definir um intervalo de números')
+numero_inicial = int(input('Digite o número inicial: '))
+numero_final = int(input('Digite o número final: '))
 
-numero_em_vigor = numero_inicial
-while(numero_em_vigor <= numero_final):
-  if(numero_em_vigor % 2 == 0):
-    print(numero_em_vigor)
-  numero_em_vigor += 1
+while numero_final <= numero_inicial:
+    print('Digite um número final maior que o inicial.')
+    numero_final = int(input('Digite o número final: '))
+
+print('\nImpressão do(s) número(s) do intervalo: ')
+contador = numero_inicial
+while contador <= numero_final:
+    if contador % 2 == 0:
+        print(contador)
+    contador += 1
 ```
 
 &nbsp;

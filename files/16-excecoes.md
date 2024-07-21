@@ -62,7 +62,7 @@ while True:
       print("Resposta aceita!")
       break
     else:
-      print("Este número está fora do intervalor proposto.\n")
+      print("Este número está fora do intervalo proposto.\n")
   except ValueError:
     print("Por gentileza, digite apenas números.\n")
 ```
@@ -83,25 +83,27 @@ for divisor in divisores:
         print(f"O resultado da divisão de {dividendo} por {divisor} é {quociente:.2f}")
         print("")
 
-    except TypeError:
+    except TypeError as e:
         print(f'O valor {divisor} é inválido para esta operação')
         print("Motivo: Não é possível realizar divisão com valores não-numéricos")
+        print(f"Mais detalhes: {e}")
         print("")
 
-    except ZeroDivisionError:
+    except ZeroDivisionError as e:
         print(f'O valor {divisor} é inválido para esta operação')
         print("Motivo: Não é possível dividir um número por zero/n")
-        print("")
+        print(f"Mais detalhes: {e}")
 
 '''
 Saída: 
 
 O valor DIV é inválido para esta operação
 Motivo: Não é possível realizar divisão com valores não-numéricos
+Mais detalhes: unsupported operand type(s) for /: 'int' and 'str'
 
 O valor 0 é inválido para esta operação
 Motivo: Não é possível dividir um número por zero/n
-
+Mais detalhes: division by zero
 O resultado da divisão de 2 por 1 é 2.00
 
 O resultado da divisão de 2 por 1.5 é 1.33

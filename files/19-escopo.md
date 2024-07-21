@@ -27,10 +27,10 @@ meio de valores de retorno) ou usadas dentro de outras funções (por meio de ar
 
 x = 10  # Variável global
 
-def minhaFuncao():
+def minha_funcao():
   x = 20  # Variável local
 
-minhaFuncao()
+minha_funcao()
 print(x)  
 
 # Saida: 10
@@ -44,11 +44,11 @@ print(x)
 
 x = 10  # Variável global
 
-def minhaFuncao():
+def minha_funcao():
   global x  # Declarando que queremos usar a variável global x
   x = 20    # Modificando a variável global x
 
-minhaFuncao()
+minha_funcao()
 print(x)  
 
 # Saída: 20

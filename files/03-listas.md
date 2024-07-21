@@ -15,6 +15,8 @@ modificados, adicionados ou removidos dali
 
 - Listas são ordenadas, i.e., sua ordem é baseada na sequência em que os elementos foram ali inseridos 
 
+- Podem conter itens de diferentes tipos
+
 - Seus elementos são acessados pela posição/por seus índices na lista
 
 - As listas não são limitadas por tipos: podem conter itens do mesmo tipo ou de tipos diferentes 

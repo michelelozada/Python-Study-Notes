@@ -17,16 +17,18 @@ Link  | Assunto
 [08](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/08-operadores-aritmeticos.md) | Operadores aritméticos  
 [09](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/09-operadores-atribuicao.md) | Operadores de atribuição 
 [10](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/10-operadores-relacionais.md) | Operadores relacionais  
-[11](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/11-operadores-logicos.md) | Operadores logicos   
-[12](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/12-desvio-condicional.md) | Desvio condicional
-[13](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/13-estruturas-repeticao.md) | Estruturas de repetição
-[14](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/14-iteraveis.md) | Iteráveis
-[15](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/15-excecoes.md) | Gerenciamento de exceções
-[16](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/16-funcoes-nativas.md) | Funções nativas do Python
-[17](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/17-funcoes-personalizadas.md) | Funções personalizadas
-[18](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/18-escopo.md) | Escopo  
-[19](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/19-modulo-math.md) | Módulo math  
-[20](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/20-modulo-random.md) | Módulo random  
+[11](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/11-operadores-logicos.md) | Operadores logicos  
+[12](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/12-operadores-pertencimento.md) | Operadores de pertencimento 
+[13](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/13-desvio-condicional.md) | Desvio condicional
+[14](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/14-estruturas-repeticao.md) | Estruturas de repetição
+[15](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/15-iteraveis.md) | Iteráveis
+[16](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/16-excecoes.md) | Gerenciamento de exceções
+[17](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/17-funcoes-nativas.md) | Funções nativas do Python
+[18](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/18-funcoes-personalizadas.md) | Funções personalizadas
+[19](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/19-escopo.md) | Escopo  
+[20](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/20-modulo-math.md) | Módulo math  
+[21](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/21-modulo-random.md) | Módulo random  
+[22](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/22-manipulacao-arquivos.md) | Manipulação de arquivos 
 
 &nbsp;   
 

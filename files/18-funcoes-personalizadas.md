@@ -11,18 +11,33 @@
 partes do programa
 
 - Dessa forma, cada vez que uma função é chamada no programa principal, certos blocos de código são executados, 
-desempenhando alguma operação
+desempenhando alguma tarefa
 
 - São declaradas através da palavra-chave def, seguida pelo nome da função
 
 - Funções podem aceitar:
-  . parâmetros, que são variáveis usadas na definição da função
-	. argumentos, que são valores reais passados para a função quando ele é chamada 
+  . parâmetros, que são variáveis usadas na declaração da função
+	. argumentos, que são valores reais passados para a função quando ela é chamada 
 
 - O bloco de código indentado é o que define o comportamento da função 
 
-- A palavra-chave return é utilizada dentro de funções para retornar um valor específico quando a 
-função é chamada (sendo que se nada for especificado, por default, é retornado None)
+- A instrução return é utilizada dentro de funções para retornar um valor específico quando a 
+função é chamada. É opcional, caso a função não precise retornar um valor específico (sendo que se nada for especificado, é retornado None por default)
+```
+
+&nbsp
+
+↳ Sintaxe básica para a declaração e a chamada de uma função
+
+```py
+
+# Declaração da função
+def nome_da_funcao(parametro):
+  # Corpo da função
+  return valor_de_retorno 
+  
+# Chamada da função
+nome_da_funcao(argumento)  
 ```
 
 &nbsp
@@ -32,10 +47,11 @@ função é chamada (sendo que se nada for especificado, por default, é retorna
 ```py
 
 def multiplicacao(a, b):
-  return a * b
+  calculo = a * b
+  return calculo
 
-calculo = multiplicacao(4, 5)  
-print(calculo)  
+resultado = multiplicacao(4, 5)  
+print(resultado)  
 
 # Retorna: 20
 ```

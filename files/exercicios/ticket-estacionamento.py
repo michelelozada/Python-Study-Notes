@@ -28,7 +28,7 @@ valor_d = 10.00  # ref. permanencia acima de 3 horas
 
 
 # Função para solicitar o tempo de permanência do veículo
-def solicitarTempo():
+def solicitar_tempo():
     while True:
         try:
             print('Abaixo você poderá informar a(s) hora(s) e os minutos em que o veículo permaneceu estacionado.')
@@ -45,28 +45,28 @@ def solicitarTempo():
 
 
 # Formatação do valor com duas casas decimais
-def formatarValor(valor):
+def formatar_valor(valor):
     return '{:.2f}'.format(valor)
 
 
 # Função para calcular valor a pagar
-def calcularValor(tempo):
+def calcular_valor(tempo):
     if tempo <= 30:
-        valor = formatarValor(valor_a)
+        valor = formatar_valor(valor_a)
     elif 30 < tempo <= 60:
-        valor = formatarValor(valor_b)
+        valor = formatar_valor(valor_b)
     elif 60 < tempo <= 180:
-        valor = formatarValor(valor_c)
+        valor = formatar_valor(valor_c)
     else:
         quartos_de_hora = (tempo//15) - 12
-        valor = formatarValor(valor_d * quartos_de_hora)
+        valor = formatar_valor(valor_d * quartos_de_hora)
 
     return valor
 
 
 # Função para gerar o ticket com tempo e valor a ser pago
-def gerarTicket(tempo):
-    valor = calcularValor(tempo)
+def gerar_ticket(tempo):
+    valor = calcular_valor(tempo)
     valor_formatado = valor.replace('.', ',')
 
     horas = tempo // 60
@@ -83,7 +83,7 @@ def gerarTicket(tempo):
 
 
 # Solicita e valida o tempo de permanência
-tempo = solicitarTempo()
+tempo = solicitar_tempo()
 
 # Imprime na tela o ticket
-gerarTicket(tempo)
+gerar_ticket(tempo)

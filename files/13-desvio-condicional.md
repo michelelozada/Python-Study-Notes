@@ -10,8 +10,8 @@
 - É uma estrutura de decisão, utilizada para realizar testes condicionais e controlar o fluxo do 
 programa com base em condições.
 
-- Ou seja, dependendo de se uma condição é avaliada como verdadeira ou como falsa, o programa é 
-capaz de tomar decisões e executar (ou não) diferentes blocos de código 
+- Ou seja, dependendo de se uma condição é avaliada como verdadeira ou falsa, o programa é capaz de 
+tomar decisões e executar (ou não) diferentes blocos de código 
 
 - Em Python, o desvio condicional é implementado, através das seguintes palavras-chave: 
   . if, que verifica se uma condição é verdadeira
@@ -20,10 +20,10 @@ capaz de tomar decisões e executar (ou não) diferentes blocos de código
 
 - O desvio condicional pode ser classificado como simples ou composto 
 
-- Também pode ser aninhado ou encadeado (simulando aqui a estrutura switch case de outras linguagens)  
+- Também pode ser aninhado ou encadeado (simulando neste caso a estrutura switch case de outras linguagens)  
 
 - Em Python, o indentamento apropriado do código é crucial para garantir que os blocos if, elif e else 
-sejam executadas corretamente. 
+sejam executadas corretamente
 ```
 
 &nbsp; 
@@ -57,27 +57,25 @@ Isso é expresso através da cláusulas `elif`para o caso de verificações adic
 ↳ Exemplo da sua estrutura básica:
 
 ```py
+
 if condição:
   # bloco de código que será executado se esta condição for verdadeira
 elif condição:
-  # bloco de código que será executado se esta condição for verdadeira
+  # bloco de código que será executado se a condição acima for falsa e esta condição verdadeira
 else:
   # bloco de código a ser executado se nenhuma das condições acima forem verdadeiras
 ```
 
 ```py
 
-idade = 20
+idade = int(input("Por favor, digite a sua idade: "))
 
-# Condição principal
-if idade >= 18:
-  print("Você é maior de idade.")
-# Condição adicional		
-elif idade < 18:
-  print("Você é menor de idade.")
-# Se nenhuma das condições acima forem verdades	
+if 18 <= idade <= 70:
+  print("Voto obrigatório")
+elif (16 <= idade < 18) or (idade > 70):
+  print("Voto facultativo")
 else:
-  print("Idade desconhecida.")
+  print("Você ainda não vota")
 ```		
 
 &nbsp; 

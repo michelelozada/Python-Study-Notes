@@ -15,6 +15,8 @@ ser modificados, adicionados ou removidos dali
 
 - Tuplas são ordenadas, i.e., sua ordem é baseada na sequência em que os elementos foram ali inseridos
 
+- Podem conter itens de diferentes tipos
+
 - Elementos são acessados pela posição/por seu índice na tupla
 
 - Exemplo da sintaxe básica: (1, 2, 3, 4), ('a', 'e', 'i', 'o', 'u')
