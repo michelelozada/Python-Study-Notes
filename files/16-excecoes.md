@@ -6,10 +6,10 @@
 &nbsp;  
 ## Gerenciamento de exceções em Python *(mini-revisão)*
 ```
-- As instruções try, except e finally são utilizadas para lidar com exceções (erros) em Python,  
-permitindo sua captura e tratamento de forma controlada, ao longo da execução de um bloco de código
+- As instruções try, except e finally são utilizadas para lidar com exceções (erros durante a execução de um programa),  
+permitindo sua captura e tratamento de forma controlada.
 
-- Evita, portanto que um programa termine abruptamente em virtude de uma exceção que não foi prevista, 
+- Esse tratamento evita, portanto que um programa termine abruptamente em virtude de uma exceção que não foi prevista, 
 fornecendo também um feedback ao usuário, de modo que este possa corrigir sua ação com outra entrada adequada
 ```
 
@@ -19,13 +19,13 @@ fornecendo também um feedback ao usuário, de modo que este possa corrigir sua 
 ```py
 
 try:
-	# Bloco de código que pode causar um erro
+	# Bloco de código que pode vir a gerar uma exceção
 
 except:
-	# Bloco de código com o tratamento da exceção acima 
+	# Se tiver havido um erro, esse bloco de código irá lidar com tratamento da exceção
 	
 finally:
-  # Bloco de código que será executado sempre, indepentemente de erros. É opcional!
+  # Essa instrução é opcional. Se existir, o bloco de código aqui será executado sempre, indepentemente de ter havido um exceção ou não
 ```
 
 &nbsp;  
@@ -86,29 +86,41 @@ for divisor in divisores:
     except TypeError as e:
         print(f'O valor {divisor} é inválido para esta operação')
         print("Motivo: Não é possível realizar divisão com valores não-numéricos")
-        print(f"Mais detalhes: {e}")
         print("")
 
     except ZeroDivisionError as e:
         print(f'O valor {divisor} é inválido para esta operação')
         print("Motivo: Não é possível dividir um número por zero/n")
-        print(f"Mais detalhes: {e}")
-
 '''
 Saída: 
 
 O valor DIV é inválido para esta operação
 Motivo: Não é possível realizar divisão com valores não-numéricos
-Mais detalhes: unsupported operand type(s) for /: 'int' and 'str'
 
 O valor 0 é inválido para esta operação
 Motivo: Não é possível dividir um número por zero/n
-Mais detalhes: division by zero
 O resultado da divisão de 2 por 1 é 2.00
 
 O resultado da divisão de 2 por 1.5 é 1.33
 '''
 ```
+
+&nbsp;
+
+## Usando o `as error` dentro de uma cláusula bloco except
+
+Este recurso permite acessar informações adicionais sobre o erro. Útil para quando é necessário não apenas identificar o tipo de exceção que ocorreu, mas também acessar informações adicionais sobre a exceção. 
+
+```py
+
+try:
+  resultado = 10 / 0
+# Captura da exceção ZeroDivisionError e atribuição à variável 'error'  
+except ZeroDivisionError as error:
+  print(f'Ocorreu um erro: {error}')
+    
+# Saída: Ocorreu um erro: division by zero    
+```    
 
 &nbsp;
 

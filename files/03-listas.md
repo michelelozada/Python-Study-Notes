@@ -44,7 +44,24 @@ sort() | Ordena os itens da lista de forma crescente
 
 &nbsp;
 
-## Aplicação de slicing em listas 
+## Acessando elementos específicos em uma lista 
+*Indexação é o processo de acessar elementos específicos em uma estrutura de dados sequencial, como listas, tuplas, strings, etc., utilizando um índice numérico*
+
+```py 
+
+frutas = ['abacaxi', 'uva', 'amora']
+
+print(frutas[0])  # abacaxi
+print(frutas[-1]) # amora
+```
+
+&nbsp;
+
+
+## Acessando sequências de elementos dentro de um intervalo em uma lista 
+*Slicing é o processo de acessar partes específicas de uma estrutura de dados sequencial, como listas, tuplas, strings, etc., através do uso de índices e da notação de slicing.*
+
+&nbsp;
 
 ↳ Criação de sublistas a partir de uma lista
 ```py

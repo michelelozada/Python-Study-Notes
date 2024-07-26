@@ -14,9 +14,20 @@ chave-valor podem ser modificados, adicionados ou removidos
 - Na versões mais recentes do Python, os dicionários são ordenados, baseados na ordem de inserção 
 dos valores 
 
-- Os itens de um dicionário são acessados por meio de suas chaves e podem ser iterados
+- Item em um dicionário é a combinação de uma chave com o seu valor correspondente. 
+  Chave: É o identificador único associado a um valor dentro do dicionário. Cada chave em um dicionário
+  deve ser única
+  Valor: É o dado armazenado no dicionário que está associado a uma chave específica
 
-- Exemplo da sintaxe básica: {'id': 007, 'nome': 'James', 'sobrenome': 'Bond'}
+- Itens de um dicionário são acessados por meio de suas chaves e podem ser iterados
+
+- Exemplo da sintaxe básica: 
+
+  dicionario = {
+    'chave1': 'valor1',  # item 1
+    'chave2': 'valor2',  # item 2
+    'chave3': 'valor3'   # item 3
+  }
 ```
 
 &nbsp;  

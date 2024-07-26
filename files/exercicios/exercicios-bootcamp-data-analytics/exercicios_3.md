@@ -1,6 +1,6 @@
-## Exercícios do Bootcamp Back-End Python e Django
+## Exercícios de nivelamento em Python - Bootcamp Data Analytics (WoMakersCode - 2024)
 
-### Parte 3: Tuplas, Listas e Dicionários
+### Parte 3: Listas, Tuplas e Dicionários
 
 &nbsp; 
 

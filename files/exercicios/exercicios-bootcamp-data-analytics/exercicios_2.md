@@ -1,6 +1,6 @@
-## Exercícios do Bootcamp Back-End Python e Django
+## Exercícios de nivelamento em Python - Bootcamp Data Analytics (WoMakersCode - 2024)
 
-### Parte 2: Tomada de decisão
+### Parte 2: Tomada de decisão e Estruturas de Repetição
 
 &nbsp; 
 

@@ -24,7 +24,7 @@
 
 Função | Finalidade 
 ---    | :--
-input() | Permite a entrada de um usuário durante a execução do programa, a ser tratada como string
+input() | Captura entrada do usuário através do teclado, a ser tratada como string
 print() | Exibe mensagens na saída padrão 
 
 &nbsp;  
