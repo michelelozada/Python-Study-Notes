@@ -28,7 +28,9 @@ Link  | Assunto
 [19](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/19-escopo.md) | Escopo  
 [20](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/20-modulo-math.md) | Módulo math  
 [21](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/21-modulo-random.md) | Módulo random  
-[22](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/22-manipulacao-arquivos.md) | Manipulação de arquivos 
+[22](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/22-modulo-datetime.md) | Módulo datetime
+[23](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/23-manipulacao-arquivos.md) | Manipulação de arquivos 
+[24](https://github.com/michelelozada/Python-Study-Notes/blob/main/files/24-oo-modulos.md) | Python OO: Módulos
 
 &nbsp;   
 

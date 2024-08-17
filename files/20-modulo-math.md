@@ -14,7 +14,7 @@
 math. Ex: math.ceil(), math.floor(), etc.
 
 - Também é posível utilizar importar apenas partes específicas de um módulo. Por ex: from math import ceil. Com 
-isso apenas esta função é importada, permitndo usar a função ceil(), sem a necessidade de prefixá-la com math.
+isso apenas esta função é importada, permitindo usar a função ceil(), sem a necessidade de prefixá-la com math.
 ```
 
 &nbsp;  

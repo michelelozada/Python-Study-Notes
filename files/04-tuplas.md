@@ -44,6 +44,17 @@ print(c)  # Saída: 10
 
 &nbsp;
 
+```py
+
+tupla = (20,)
+
+elemento, = tupla
+
+print(elemento)  # Saída: 20
+```
+
+&nbsp;
+
 ↳ Desempacotamento com o operador asterisco (*)
 Disponível a partir do Python 3, sendo que este operado captura os demais itens de uma tupla  
 
@@ -99,7 +110,7 @@ else:
 
 &nbsp;
 
-# Verificando se um elemento está presente em uma tupla
+## Verificando se um elemento está presente em uma tupla
 É feito através do operador `in`, que verifica se um determinado valor está em uma sequência (como lista, tupla, string, set ou dicionário), retornando um valor booleano a respeito do elemento ter sido encontrado (ou não).
 
 ```py

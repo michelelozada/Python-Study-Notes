@@ -44,6 +44,14 @@ sort() | Ordena os itens da lista de forma crescente
 
 &nbsp;
 
+## Criando uma lista vazia *(forma literal)*  
+```py 
+
+lista = []
+```
+
+&nbsp;
+
 ## Acessando elementos específicos em uma lista 
 *Indexação é o processo de acessar elementos específicos em uma estrutura de dados sequencial, como listas, tuplas, strings, etc., utilizando um índice numérico*
 
@@ -77,9 +85,28 @@ print(numeros_impares) # Saída: [1, 3, 5, 7, 9]
 
 &nbsp;
 
-↳ Inversão da ordem de elementos da lista 
+## Slicing (ou fatiamento) 
+
+↳ Slicing a partir de um índice negativo
+Para acessar elementos no final de uma lista. Retorna uma cópia com esta sequência.
+
 ```py
 
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(numeros[-5:]) # a partir do 5º elemento (inclusive, a contar do final) em diante
+print(numeros)
+
+# Saída: [6, 7, 8, 9, 10]
+```
+
+&nbsp;
+
+↳ Slicing reverso 
+O passo negativo inverte a ordem dos elementos da lista. Retorna uma cópia inversa da lista original.
+
+```py
+
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(numeros[::-1])
 
 # Saída: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]

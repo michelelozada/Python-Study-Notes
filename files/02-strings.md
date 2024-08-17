@@ -119,7 +119,8 @@ print(palavra[2:5])
 ```py
 
 palavra = "Python"
-print(palavra[-3:])
+print(palavra[-3:]) 
+# a partir do 3º elemento (inclusive, a contar do final)
 
 # Extraiu: hon
 ```
@@ -268,7 +269,7 @@ peso = 6.400
 frase = "%s é um lindo bebê de %i meses, que pesa %.1f quilos!" % (nome, meses, peso)
 print(frase)
 
-Saída: Enzo é um lindo bebê de 4 meses, que pesa 6.4 quilos!
+# Saída: Enzo é um lindo bebê de 4 meses, que pesa 6.4 quilos!
 ```
 
 &nbsp;
@@ -314,6 +315,80 @@ print(f'{nome}, agente {codigo:03}')
 
 # Saída: James Bond, agente 007
 ```
+
+&nbsp;
+
+## Formatando números com casas decimais 
+
+&nbsp;
+
+#### • 1 -  Através do método format()
+
+```py
+
+numero = 3.14159
+formatado = "{:.2f}".format(numero)
+print(formatado)  # Saída: 3.14 (string)
+```
+
+&nbsp;
+
+#### • 2 - Usando a sintaxe format-string (f-strings)
+
+```py
+
+numero = 3.14159
+formatado = f"{numero:.2f}"
+print(formatado)   # Saída: 3.14 (string)
+```
+
+&nbsp;
+
+#### • 3 - Usando o método round()
+*O método round() não altera a forma como um número é exibido, porém arredonda um número para um número específico de casas decimais*  
+
+```py
+
+numero = 3.14159
+formatado = round(numero, 2)
+print(formatado)   # Saída: 3.14 (float)
+```
+```py
+
+numero = 3.0
+formatado = round(numero, 2)
+print(formatado)   # Saída: 3.0 (float)
+# Repare acima que não houve formatação com duas casas decimais, apenas arredondamento
+```
+
+&nbsp;
+
+# Formatação de números com separadores de milhar
+
+&nbsp;
+
+#### • 1 - Usando a função format()
+
+```py
+
+numero = 1234567.891
+formatado = "{:,.2f}".format(numero)
+print(formatado)  # Saída: 1,234,567.89
+```
+
+&nbsp;
+
+#### • 2 - Usando f-strings
+
+```py
+
+numero = 1234567.891
+formatado = f"{numero:,.2f}"
+```
+
+&nbsp;
+
+**Observação:** O método format() não tem suporte para formatação com separadores de milhar.
 
 &nbsp;
 

@@ -4,7 +4,7 @@
 
 &nbsp; 
 
-1. Escreva um programa que solicite dois números e realize as operações de soma, subtração, multiplicação e divisão.  
+1 - Escreva um programa que solicite dois números e realize as operações de soma, subtração, multiplicação e divisão.  
 ```py
 
 def solicitar_numeros():
@@ -54,7 +54,7 @@ imprimir_resultados(resultados)
 
 &nbsp; 
 
-2. Solicite ao usuário que informe o seu ano de nascimento. Em seguida, o programa deve calcular e imprimir a idade atual do usuário
+2 - Solicite ao usuário que informe o seu ano de nascimento. Em seguida, o programa deve calcular e imprimir a idade atual do usuário
 
 ```py
 
@@ -72,7 +72,7 @@ print(f'> Resposta: O(a) usuário(a) possui/fará {idade} anos em {ano_corrente}
 &nbsp; 
 
 
-3. Escreva um programa que peça a quantidade de quilômetros e a transforme em metros, centímetros e milímetros.  
+3 - Escreva um programa que peça a quantidade de quilômetros e a transforme em metros, centímetros e milímetros.  
 
 ```py
 
@@ -107,7 +107,7 @@ except ValueError:
 
 &nbsp; 
 
-4. Escreva um programa que receba do usuário a quantidade de litros de combustível consumidos e a distância percorrida. O programa deve calcular e imprimir o consumo médio em km/l.  
+4 - Escreva um programa que receba do usuário a quantidade de litros de combustível consumidos e a distância percorrida. O programa deve calcular e imprimir o consumo médio em km/l.  
 
 ```py
 
@@ -140,19 +140,22 @@ print(f'\n> O consumo médio do veículo foi {consumo_medio:.2f} km/l.')
 &nbsp; 
 
 
-5. Escreva um programa que calcule o tempo de uma viagem. Faça um comparativo do mesmo percurso de avião, carro e ônibus, levando em consideração os seguintes dados de velocidade média do:  
+5 - Escreva um programa que calcule o tempo de uma viagem. Faça um comparativo do mesmo percurso de avião, carro e ônibus, levando em consideração os dados abaixo sobre as velocidades médias:  
+
+```py
+
+'''
 +--------+----------+
 | avião  | 600 km/h |
 | carro  | 100 km/h |
 | ônibus | 80 km/h  |
 +--------+----------+
-
-```py
+'''
 
 # Velocidades médias
-velocidade_onibus = 80
-velocidade_carro = 100
 velocidade_aviao = 600
+velocidade_carro = 100
+velocidade_onibus = 80
 
 def solicitar_distancia():
   while True:
@@ -199,8 +202,117 @@ exibir_comparativo(distancia)
 
 &nbsp; 
 
-6. Solicite ao usuário o peso em kg e a altura em metros. Calcule e imprima o Índice de Massa Corporal (IMC) usando a fórmula: 
-IMC = peso / (altura x altura).  
+6 - Escreva um programa que solicite ao usuário o peso (em kg) e a altura (em metros) e que calcule e imprima o Índice de Massa Corporal (IMC) usando a fórmula: IMC = peso / (altura x altura).  
+
+```py
+
+def converter_entrada(entrada):
+  if ',' in entrada:
+    entrada = entrada.replace(',', '.')
+  try:
+    return float(entrada)
+  except ValueError:
+    raise ValueError("A entrada deve ser um número válido.")
+
+def solicitar_dados():
+  while True:
+    try:
+      peso_entrada = input('Por favor, digite o seu peso (em kg): ')
+      peso = converter_entrada(peso_entrada)
+      if peso <= 0:
+        raise ValueError('oO peso deve ser um número positivo.')
+        altura_entrada = input('Agora digite sua altura (em m): ')
+        altura = converter_entrada(altura_entrada)
+      if altura <= 0 or altura >= 2.30:
+        raise ValueError('A altura deve ser válida.')
+        return peso, altura
+    except ValueError as e:
+      print(f'Houve um erro: {e}\n')
+
+def calcular_imc(peso, altura):
+  return peso / (altura * altura)
+
+def interpretar_imc(resultado_imc):
+  if resultado_imc < 18.5:
+    status = "abaixo do peso"
+  elif 18.5 <= resultado_imc <= 24.9:
+    status = "peso normal"
+  elif 25.0 <= resultado_imc <= 29.9:
+    status = "sobrepeso"
+  elif 30.0 <= resultado_imc <= 34.9:
+    status = "obesidade grau 1"
+  elif 35.0 <= resultado_imc <= 39.9:
+    status = "obesidade grau 2"
+  else:
+    status = "obesidade grau 3"
+
+  resultado_formatado = f'{resultado_imc:.1f}'
+
+  print(f'\n> Seu indice de massa corporal IMC é {resultado_formatado}.')
+  print(f'> Portanto, sua classificação de peso em termos de IMC é: {status}.')
+
+# Recebe dados do usuário
+peso, altura = solicitar_dados()
+
+# Recebe resultado do cálculo do IMC
+resultado_imc = calcular_imc(peso, altura)
+
+# Interpreta IMC e exibe o resultado
+interpretar_imc(resultado_imc)
+```
+
+&nbsp; 
+
+7 - Escreva um programa que pergunte quanto o usuário ganha por hora e o número de horas trabalhadas no mêse que calcule e exiba o total do seu salário no referido mês.   
+
+```py
+
+def converter_entrada(rendimento_hora_entrada):
+  '''Retira eventuais vírgulas e converte para float'''
+  if ',' in rendimento_hora_entrada:
+    rendimento_hora_entrada = rendimento_hora_entrada.replace(',', '.')
+  try:
+    return float(rendimento_hora_entrada)
+  except ValueError:
+    raise ValueError('O valor informado não é um número válido')
+
+def solicitar_dados():
+  '''Recebe e valida os dados de entrada'''
+  while True:
+    try:
+      rendimento_hora_entrada = input('Por favor, informe quanto você ganha por hora (em R$): ')
+      rendimento_hora = converter_entrada(rendimento_hora_entrada)
+      if rendimento_hora < 0:
+        raise ValueError('Este valor não pode ser negativo')
+      break
+    except ValueError as e:
+      print(f'Erro: {e}. Por favor, tente novamente.\n')
+  while True:
+    try:
+      horas_trabalhadas = float(input('Agora informe quantas foram as horas trabalhadas durante este mês: '))
+      if horas_trabalhadas < 0:
+        raise ValueError('Este valor não pode ser negativo.')
+      break
+    except ValueError as e:
+      print(f'{e} Por favor, tente novamente.\n')
+
+  return rendimento_hora, horas_trabalhadas
+
+def calcular_salario(rendimento_hora, horas_trabalhadas):
+  '''Calcula e exibe o salário mensal'''
+  salario = rendimento_hora * horas_trabalhadas
+  print(f'\n> O seu salário neste mês foi de R$ {salario:.2f}')
+
+# Recebe dados do usuário
+rendimento_hora, horas_trabalhadas = solicitar_dados()
+
+# Processa valor do salário
+calcular_salario(rendimento_hora, horas_trabalhadas)
+```
+
+&nbsp; 
+
+8 - Crie um programa que solicite ao usuário o número de horas de exercício físico realizados por semana e calcule o total de calorias queimadas em um mês, considerando uma média de 5 calorias queimadas por minuto de exercício.  
 
 ```py
 
@@ -208,23 +320,7 @@ IMC = peso / (altura x altura).
 
 &nbsp; 
 
-7. Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês.Calcule e mostre o total do seu salário no referido mês.   
-
-```py
-
-```
-
-&nbsp; 
-
-8. Solicite ao usuário o número de horas de exercício físico por semana. Calcule o total de calorias queimadas em um mês, considerando uma média de 5 calorias por minuto de exercício.  
-
-```py
-
-```
-
-&nbsp; 
-
-9. Faça um Programa que utilize 4 variáveis como preferir e no final print uma mensagem amigável utilizando as variáveis criadas.   
+9 - Faça um Programa que utilize 4 variáveis como preferir e no final print uma mensagem amigável utilizando as variáveis criadas.   
 Exemplos de variáveis: nome, idade, lugar, profissão ....   
 Exemplo de retorno: Olá Maria, prazer te conhecer. Sou de São Paulo também e estou migrando de área.   
 Lembrando que para o retorno vamos usar print com as variáveis criadas e este texto é somente um exemplo, utilizem a criatividade.  

@@ -6,13 +6,13 @@
 &nbsp;  
 ## Funções nativas do Python *(mini-revisão)*
 ```
-- Também conhecidas por funções embutidas ou built-in functions  
+- Também conhecidas por funções embutidas ou built-in functions, fornecem funcionalidades básicas e 
+essenciais para diferentes necessidades de programação
 
-- São funções pré-definidas, integrantes da linguagem  
+- O código que implementa essas funções geralmente não é escrito em Python, mas em C. Fazem parte da 
+implementação interna do Python/são definidas diretamente no código-fonte do interpretador Python 
 
-- Fornecem funcionalidades básicas e essenciais para diferentes necessidades de programação
-
-- Estão sempre disponíveis, i.e., não requerem a importação de módulos externos
+- Portanto, estão sempre disponíveis e não requerem a importação de módulos externos  
 ```
 
 &nbsp;  

@@ -70,6 +70,10 @@ O `range()` é uma função incorporada em Python que gera uma sequência de nú
 
 &nbsp; 
 
+:bulb: A variável `i` que normalmente aparece junto com o laço for é uma convenção histórica que representa a palavra** index**, pois se refere ao índíce atual da sequência (lista, range, etc). que está sendo iterada. 
+
+&nbsp; 
+
 ↳ No exemplo abaixo: range(5) gera uma sequência de números de 0 a 4 (não incluindo o número 5) sobre a qual o loop for vai iterar, imprimindo cada um desses números
 ```py
 
@@ -235,32 +239,8 @@ Esta palavra-chave é usada para **interromper a iteração atual de um loop e a
 
 for i in range(1, 6):
   if i == 3:
-    continue
-		print(i)
-	
-'''
-Saída:
-1
-2
-4
-5
-6
-```	
-
-&nbsp; 
-
-### • Instrução `continue`: 
-Esta palavra-chave é usada para **interromper a iteração atual de um loop e avançar para a próxima iteração**. Ou seja, quando o Python encontra a instrução `continue` dentro de um loop, ele pula o restante do código dentro da iteração atual de um loop e pula para a iteração seguinte.
-
-&nbsp; 
-
-↳ Sobre o exemplo abaixo: quando i for igual a 3, a instrução `continue` será acionada e o código dentro deste loop será interrompido "no meio" dessa iteração específica. Repare na saída que o número 3 não será impresso e o loop continuará com a próxima iteração.
-```py
-
-for i in range(1, 6):
-  if i == 3:
-    continue
-		print(i)
+  continue
+  print(i)
 	
 '''
 Saída:

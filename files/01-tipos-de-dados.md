@@ -176,6 +176,25 @@ print(bool(2)) # Saída: True
 
 &nbsp;
 
+### • Conversão de uma tupla para lista:
+
+```py
+
+tupla = (10, 20, 30)
+lista = list(tupla) # Resultado: [10, 20, 30]
+```
+
+&nbsp;
+
+### • Conversão de uma string para lista de carateres:
+```py
+
+string = "hola"
+lista = list(string)  # Saída: ['h', 'o', 'l', 'a']
+```
+
+&nbsp;
+
 <div align="center">
 <a href="https://github.com/michelelozada/Python-Study-Notes">[Voltar à tela inicial do repositório]</a>
 </div>

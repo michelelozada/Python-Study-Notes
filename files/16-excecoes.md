@@ -25,7 +25,7 @@ except:
 	# Se tiver havido um erro, esse bloco de código irá lidar com tratamento da exceção
 	
 finally:
-  # Essa instrução é opcional. Se existir, o bloco de código aqui será executado sempre, indepentemente de ter havido um exceção ou não
+# Essa instrução é opcional. Se existir, o bloco de código aqui será executado sempre, indepentemente de ter havido um exceção ou não
 ```
 
 &nbsp;  
@@ -121,6 +121,30 @@ except ZeroDivisionError as error:
     
 # Saída: Ocorreu um erro: division by zero    
 ```    
+
+&nbsp;
+
+## Customizando exceções com raise
+
+A palavra chave `raise` é usada para gerar exceções em Python.
+Ela permite sinalizar que um erro ocorreu e precisa ser tratado.
+Pode ser usada para lançar exceções personalizadas.
+
+
+```py
+
+def efetuar_divisao(x, y):
+  if y == 0:
+    raise ValueError("Não é possível dividir por zero.")
+  return x / y
+
+try:
+  resultado = efetuar_divisao(20, 0)
+except ValueError as e:
+  print(f"Erro: {e}")
+    
+# Erro: Não é possível dividir por zero.
+```
 
 &nbsp;
 
