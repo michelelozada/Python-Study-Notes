@@ -8,7 +8,7 @@
 ```
 - Classe associada: set
 
-- É uma estrutura de dados de sequência em que *apenas itens únicos são armazenados*
+- É uma estrutura de dados de sequência em que *apenas itens únicos* são armazenados
 
 - Isso quer dizer que ao tentar adicionar um item que já presente no set, este será ignorado
 
@@ -92,6 +92,7 @@ print(c)  # Nesta saída: 12
 *Em Python, um set vazio é considerado um valor falso (False) num contexto booleano. Portanto, quando se usa um set em uma condição if, é verificado se o set está vazio ou não, sendo que um set com elementos é considerado True e um set vazio é considerado False. 
 
 ```py
+
 set_numeros = {1, 2, 3, 4, 5}
 
 if set_numeros:
@@ -102,6 +103,7 @@ else:
 # Saída: O set de números não está vazio.  
 ```
 ```py
+
 set_letras = {}
 
 if set_letras:
@@ -111,6 +113,31 @@ else:
   
 # Saída: O set de letras está vazio.  
 ```  
+
+&nbsp;
+
+
+## Exemplos de aplicações dos métodos para sets em Python
+
+#### • Método add()
+*Adiciona um item ao set; se o elemento já estiver ali, o set não será modificado*
+
+```py
+
+# Criando um set
+set = {1, 2, 2, 3, 3, 1, 4}
+
+# Adicionando um elemento ao set
+set.add(0)
+
+# Tentando adicionar um elemento que já existe
+set.add(2)
+
+# Imprimindo o set
+print(set)
+
+# Saída: {0, 1, 2, 3, 4}
+```
 
 &nbsp;
 

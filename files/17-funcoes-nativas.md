@@ -100,6 +100,15 @@ type() | Retorna o tipo de um objeto em Python
 
 &nbsp;  
 
+#### • Funções anônimas
+*São funções simples criadas para uma tarefa pequena e específica - diferente das funções completas com def.*
+
+Função | Finalidade 
+---    | :--
+lambda | Permitem criar funções anônimas de maneira concisa
+
+&nbsp;  
+
 ## Exemplos de aplicações das funções nativas
 
 #### • Função all()
@@ -185,6 +194,46 @@ Retorna:
 
 &nbsp;
 
+#### • Função filter 
+
+```py
+
+lista = [1, 2, 3, 4, 5]
+funcao = lambda x: x % 2 == 0
+numeros_filtrados = list(filter(funcao, lista))
+numeros_filtrados 
+
+# Retorna: [2, 4]
+```
+
+&nbsp;
+
+#### • Funções lambda 
+As funções lambda permitem a criação de funções anônimas de maneira concisa/inline. São úteis para tarefas específicas, sem a necessidade de um nome explícito. A sintaxe básica para uma função lambda é `lambda argumentos: expressão`
+
+```py
+
+# Definindo uma função lambda que adiciona 2 a um número
+soma = lambda x: x + 2
+
+# Usando a função lambda
+resultado = soma(7)  
+print(resultado)  
+
+# Retorna: 9
+```
+```py
+
+lista = [1, 2, 3, 4, 5]
+funcao =  lambda x: 'par' if x % 2 == 0 else 'impar'
+verificacao = list(map(funcao,lista))
+print(verificacao)
+
+# Retorna: ['impar', 'par', 'impar', 'par', 'impar']
+```
+
+&nbsp;
+
 #### • Função len()
 *Retorna o número de elementos de um objeto (lista, tupla, string, etc.)*
 
@@ -195,6 +244,21 @@ tamanho = len(string)
 print(tamanho)  
 
 # Retorna: 6
+```
+
+&nbsp;  
+
+#### • Função map()
+*Aplica uma função a todos os itens de um iterável e retorna uma lista dos resultados*  
+
+```py
+
+lista = [1, 3, 5, 7]
+funcao = lambda x: x ** 2
+quadrados = list(map(funcao, lista))
+print(quadrados)
+
+# Retorna: [1, 9, 25, 49]
 ```
 
 &nbsp;  
@@ -235,11 +299,18 @@ frutas = ('limão', 'laranja', 'maçã', 'uva', 'abacaxi')
 frutas_ordenadas = sorted(frutas, key = len)
 print(frutas_ordenadas)
 
-
 # Retorna: ['uva', 'maçã', 'limão', 'laranja', 'abacaxi']
 ```
+```py
 
-↳   Utilização do  `invert` definido como True: ordena a lista em ordem decrescente.  
+pares = [(3, 'três'), (1, 'um'), (2, 'dois')]
+pares_ordenados = sorted(pares, key=lambda x: x[1])
+print(pares_ordenados)  
+
+# Retorna: [(2, 'dois'), (3, 'três'), (1, 'um')]
+```
+
+↳ Utilização do  `invert` definido como True: ordena a lista em ordem decrescente.  
 ```py
 
 frutas = ('limão', 'laranja', 'mamão', 'amora')
@@ -250,6 +321,7 @@ print(frutas_reversa)
 ```
 
 &nbsp;
+
 
 #### • Função zip()
 *Combina elementos de múltiplos iteráveis (listas, tuplas, etc), retornados em tuplas* 

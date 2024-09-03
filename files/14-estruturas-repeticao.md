@@ -78,16 +78,9 @@ O `range()` é uma função incorporada em Python que gera uma sequência de nú
 ```py
 
 for i in range(5):
-  print(i)
+  print(i, end =" ")
 	
-'''
-Saída:
-0
-1
-2
-3
-4
-'''
+# Saída: 0 1 2 3 4 
 ```
 
 &nbsp; 
@@ -103,7 +96,16 @@ for numero in range(1, limite + 1):
   if numero % 4 == 0:
     print('pi')
   else:
-    print(numero)
+    print(numero, end = " ")
+    
+'''
+Até que número você deseja contar? 20
+1 2 3 pi
+5 6 7 pi
+9 10 11 pi
+13 14 15 pi
+17 18 19 pi
+'''
 ```
 
 &nbsp;  
@@ -118,7 +120,9 @@ Também chamada de _variável de iteração_ ou _variável de loop_,  a variáve
 ```py
 
 for i in range(5):
-  print(i)
+  print(i, end = " ")
+  
+# Saída: 0 1 2 3 4   
 ```
 
 &nbsp;  
@@ -153,9 +157,11 @@ limite = 5
 
 # Loop while executa enquanto essa condição for satifeita
 while contador <= limite:
-  print (contador)
+  print (contador, end = " ")
   # Incrementa o contador a cada iteração
-  contador += 1 
+  contador += 1
+  
+# Saída: 1 2 3 4 5   
 ```
 
 &nbsp; 
@@ -169,15 +175,24 @@ numero_inicial = int(input('Digite o número inicial: '))
 numero_final = int(input('Digite o número final: '))
 
 while numero_final <= numero_inicial:
-    print('Digite um número final maior que o inicial.')
-    numero_final = int(input('Digite o número final: '))
+  print('Digite um número final maior que o inicial.')
+  numero_final = int(input('Digite o número final: '))
 
 print('\nImpressão do(s) número(s) do intervalo: ')
 contador = numero_inicial
 while contador <= numero_final:
-    if contador % 2 == 0:
-        print(contador)
+  if contador % 2 == 0:
+    print(contador, end=" ")
     contador += 1
+
+'''
+Abaixo você deve definir um intervalo de números
+Digite o número inicial: 1
+Digite o número final: 10
+
+Impressão do(s) número(s) do intervalo: 
+2 4 6 8 10 
+'''       
 ```
 
 &nbsp;
@@ -225,6 +240,14 @@ if(media >= 7.0):
     print("Status: O aluno foi aprovado.")
 else:
     print('Status: O aluno ficou para recuperação.')
+    
+'''
+Por favor informe a 1ª nota do aluno: 8
+Por favor informe a 2ª nota do aluno: 9
+Por favor informe a 3ª nota do aluno: 6.5
+Por favor informe a 4ª nota do aluno: 5.5
+Status: O aluno foi aprovado.
+'''
 ```
 
 &nbsp;
@@ -239,16 +262,10 @@ Esta palavra-chave é usada para **interromper a iteração atual de um loop e a
 
 for i in range(1, 6):
   if i == 3:
-  continue
-  print(i)
+    continue
+  print(i, end = " ")
 	
-'''
-Saída:
-1
-2
-4
-5
-6
+# Saída: 1 2 4 5 
 ```	
 
 &nbsp; 
@@ -265,14 +282,9 @@ Esta palavra-chave é usada para **sair completamente de um loop, interrompendo 
 for i in range(1, 6):
   if i == 4:
     break
-    print(i)
+  print(i, end = " ")
 	 
-'''
-Saída:
-1
-2
-3
-'''
+# Saída: 1 2 3 
 ```	 
 
 &nbsp; 

@@ -38,7 +38,7 @@ Método | Função
 ---    | :--
 clear() | Remove todos os itens do dicionário
 copy() | Retorna uma cópia superficial do dicionário
-get() | Retorna o valor de chave especificada ou o valor padrão se a chave não for encontrada
+get() | Retorna o valor da chave especificada ou um valor padrão se a chave não for encontrada
 items() | Retorna uma visão dinâmica dos pares chave-valor no dicionário
 keys() | Retorna uma visão das chaves atuais no dicionário  
 pop() | Remove um item de um dicionário de acordo com a chave especificada e retorna o valor associado a essa chave
@@ -111,19 +111,25 @@ print('Dani' in dici_nomes.values())
 ## Exemplos de aplicações dos métodos para manipular dicionários
 
 #### Método get()
-*Retorna o valor de chave especificada ou o valor padrão se a chave não for encontrada*  
+*Usado para acessar o valor associado a uma chave específica. Se a chave não existir, o método retorna um valor padrão definido no código (ou None se não for especificado).*  
 
 ```py
 
 frutas = {
-  'maçã': 1,
-  'banana': 2,
-  'laranja': 3,
-  'morango': 4
+  'a': 'maçã',
+  'b': 'banana',
+  'c': 'laranja',
+  'd': 'morango'
 }
 
-print(frutas.get('laranja'))
-# Saída: 3
+print(frutas.get('c', 0))
+# Saída: laranja
+
+print(frutas.get('e', 0))
+# Saída: 0
+
+print(frutas.get('f'))
+# Saída: None
 ```
 
 &nbsp;
